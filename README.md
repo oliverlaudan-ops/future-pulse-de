@@ -1,41 +1,70 @@
 # Future Pulse Tech 🚀
 
-**Official Website & Blog for Future Pulse Tech**  
-Built with Hugo & GitHub Pages
+**Dein Guide für KI-Kompetenz, Future Skills und digitale Transformation**
+
+Built with Hugo + GitHub Pages | Live seit Dezember 2025
+
+---
 
 ## 🎯 Live Site
 
-👉 **Coming soon:** https://future-pulse.tech (Custom domain setup pending)
+👉 **Production:** [https://future-pulse.tech](https://future-pulse.tech)
 
-👉 **GitHub Pages:** https://oliverlaudan-ops.github.io/future-pulse-tech/
+👉 **GitHub Pages Fallback:** [https://oliverlaudan-ops.github.io/future-pulse-tech/](https://oliverlaudan-ops.github.io/future-pulse-tech/)
 
 ---
 
 ## 🛠️ Tech Stack
 
-- **Static Site Generator:** [Hugo](https://gohugo.io/) (Extended v0.134.2)
-- **Theme:** [PaperMod](https://github.com/adityatelange/hugo-PaperMod)
+- **Static Site Generator:** [Hugo](https://gohugo.io/) Extended v0.134.2+
+- **Theme:** [PaperMod](https://github.com/adityatelange/hugo-PaperMod) (aktiv maintained 2026)
 - **Hosting:** GitHub Pages
-- **CI/CD:** GitHub Actions (Auto-deployment on push)
+- **CI/CD:** GitHub Actions (Auto-Deployment bei Push auf `main`)
+- **Custom Domain:** future-pulse.tech (DNS via Cloudflare)
+- **SSL:** Let's Encrypt (automatisch via GitHub Pages)
 
 ---
 
-## 📁 Project Structure
+## 📊 Repository Status (Stand März 2026)
+
+| Metric | Status |
+|--------|--------|
+| **Live seit** | Dezember 2025 |
+| **Blog-Artikel** | 10+ (aktiv wachsend) |
+| **Letzte Updates** | März 2026 |
+| **Sprache** | Deutsch |
+| **Theme-Version** | PaperMod (latest stable) |
+| **Custom Domain** | ✅ Live (future-pulse.tech) |
+| **HTTPS** | ✅ Aktiv |
+| **Auto-Deployment** | ✅ GitHub Actions |
+
+**Neueste Artikel:**
+- OpenClaw auf Contabo VPS: Setup-Guide 2026 (02.03.2026)
+- Agentic AI im Arbeitsalltag: 7 Praxis-Beispiele (23.02.2026)
+- Agentic AI: Revolution oder Risiko 2026 (16.02.2026)
+
+---
+
+## 📏 Project Structure
 
 ```
 future-pulse-tech/
 ├── .github/
 │   └── workflows/
-│       └── hugo.yml          # Auto-deployment workflow
+│       └── hugo.yml          # Auto-Deployment Workflow
 ├── content/
 │   ├── _index.md          # Homepage
-│   ├── about.md           # About page
+│   ├── about.md           # Über-Seite
+│   ├── impressum.md       # Impressum (TMG-konform)
 │   └── blog/
-│       ├── _index.md       # Blog index
-│       └── *.md            # Blog articles
+│       ├── _index.md       # Blog-Index
+│       └── *.md            # Blog-Artikel (10+ aktiv)
+├── static/
+│   ├── images/          # Bilder & Assets
+│   └── CNAME            # Custom Domain Config
 ├── themes/
-│   └── PaperMod/          # Hugo theme (submodule)
-├── hugo.toml              # Main config
+│   └── PaperMod/          # Hugo Theme (Submodule)
+├── hugo.toml              # Main Config (SEO, Navigation, etc.)
 ├── .gitignore
 ├── .gitmodules
 └── README.md
@@ -43,51 +72,57 @@ future-pulse-tech/
 
 ---
 
-## ✏️ How to Add a New Blog Article
+## ✏️ Neuen Blog-Artikel erstellen
 
-### Option 1: Via GitHub Web Interface (Easy)
+### Option 1: Via GitHub Web Interface (Einfach)
 
-1. Go to `content/blog/`
-2. Click **"Add file" → "Create new file"**
-3. Name it: `your-article-title.md`
-4. Paste this template:
+1. Gehe zu `content/blog/`
+2. Klicke **"Add file" → "Create new file"**
+3. Dateiname: `dein-artikel-titel.md`
+4. Füge Hugo Front Matter hinzu:
 
 ```markdown
 ---
-title: "Your Article Title"
-date: 2026-01-16
+title: "Dein Artikel-Titel: Benefit/Hook"
+date: 2026-03-02
 draft: false
 author: "Oliver Laudan"
-tags: ["Tag1", "Tag2"]
-categories: ["Category"]
-description: "Short description for SEO"
+tags: ["KI-Kompetenz", "Future Skills"]
+keywords: ["Hauptkeyword", "SEO-Begriff"]
+description: "SEO-Description 150-160 Zeichen mit CTA"
+ShowToc: true
+TocOpen: true
 ---
 
-## Introduction
+## Einleitung
 
-Your content here...
+Dein Content hier...
 ```
 
-5. **Commit changes** → GitHub Actions builds the site automatically! ✅
+5. **Commit changes** → GitHub Actions baut & deployt automatisch!
 
-### Option 2: Via Local Hugo (Advanced)
+### Option 2: Lokal mit Hugo (Fortgeschritten)
 
 ```bash
-# Clone the repo
+# Repo klonen (mit Theme-Submodule)
 git clone --recurse-submodules https://github.com/oliverlaudan-ops/future-pulse-tech.git
 cd future-pulse-tech
 
-# Create new article
-hugo new blog/your-article-title.md
+# Neuen Artikel erstellen
+hugo new blog/dein-artikel-titel.md
 
-# Edit the file in content/blog/
+# Datei bearbeiten in content/blog/
 
-# Preview locally
+# Lokal testen (mit Drafts)
 hugo server -D
+# http://localhost:1313
 
-# Commit and push
+# Production-Build prüfen
+hugo
+
+# Committen & Pushen
 git add .
-git commit -m "Add new blog article"
+git commit -m "Add: [Artikel-Titel]"
 git push origin main
 ```
 
@@ -95,55 +130,129 @@ git push origin main
 
 ## 🚀 Deployment
 
-**Automatic deployment** happens via GitHub Actions on every push to `main`.
+**Automatisches Deployment** via GitHub Actions bei jedem Push auf `main`:
 
-### Workflow:
-1. You push changes to `main` branch
-2. GitHub Actions builds Hugo site
-3. Deploys to GitHub Pages
-4. Site live at: `https://oliverlaudan-ops.github.io/future-pulse-tech/`
+1. Du pushst Änderungen auf `main` Branch
+2. GitHub Actions triggert `.github/workflows/hugo.yml`
+3. Hugo baut statische Site (`hugo --minify`)
+4. Deploy auf GitHub Pages (`gh-pages` Branch)
+5. **Live in 2-3 Minuten** auf future-pulse.tech
+
+**Build-Status prüfen:**
+- [Actions Tab](https://github.com/oliverlaudan-ops/future-pulse-tech/actions)
+- Fehler? Check Workflow-Logs
 
 ---
 
 ## 🌐 Custom Domain Setup
 
-To connect `future-pulse.tech`:
+**Aktueller Status:** `future-pulse.tech` ist live und HTTPS-gesichert.
 
-1. Go to **Settings → Pages**
-2. Add custom domain: `future-pulse.tech`
-3. Update DNS at your domain provider:
+### Falls du eine neue Domain hinzufügen willst:
+
+1. **GitHub Repository Settings:**
+   - Gehe zu **Settings → Pages**
+   - Custom Domain: `deine-domain.de`
+   - **Enforce HTTPS** aktivieren
+
+2. **DNS-Einträge bei Domain-Provider:**
+   ```dns
+   # A Records (für Apex Domain)
+   A    @    185.199.108.153
+   A    @    185.199.109.153
+   A    @    185.199.110.153
+   A    @    185.199.111.153
+   
+   # CNAME (für www-Subdomain)
+   CNAME www  oliverlaudan-ops.github.io.
    ```
-   A Record: 185.199.108.153
-   A Record: 185.199.109.153
-   A Record: 185.199.110.153
-   A Record: 185.199.111.153
-   CNAME: oliverlaudan-ops.github.io
-   ```
-4. Wait for DNS propagation (~24h)
-5. Enable **"Enforce HTTPS"**
+
+3. **CNAME-Datei in Repo:**
+   - Erstelle `static/CNAME` mit Inhalt: `future-pulse.tech`
+   - Commit & Push
+
+4. **DNS-Propagation warten:** 10 Minuten - 24 Stunden
 
 ---
 
 ## 📝 Content Guidelines
 
-- **Blog articles**: Write in Markdown in `content/blog/`
-- **SEO**: Use descriptive titles, meta descriptions, and tags
-- **Images**: Store in `static/images/` (reference as `/images/file.png`)
-- **Drafts**: Set `draft: true` in frontmatter to hide from production
+**Artikel-Struktur:**
+- **800-1500 Wörter** (Sweet Spot für SEO)
+- **3+ H2-Überschriften** mit Keywords
+- **Du-Form & zugränglich** (kein Akademiker-Jargon)
+- **Code-Blöcke** für Terminal-Befehle
+- **Tabellen** für Vergleiche
+
+**SEO-Checkliste:**
+- Hauptkeyword in Titel (Position 1-3)
+- Meta-Description 150-160 Zeichen
+- Alt-Texte für Bilder
+- 2-3 interne Links zu anderen Artikeln
+- `ShowToc: true` für Inhaltsverzeichnis
+
+**Bilder:**
+- Speichere in `static/images/` oder nutze externe CDN-URLs
+- Referenz im Markdown: `![Alt-Text](/images/datei.png)`
+- **WebP bevorzugt** (<200 KB pro Bild)
+
+**Drafts:**
+- `draft: true` im Front Matter macht Artikel unsichtbar
+- Lokal testen mit `hugo server -D`
 
 ---
 
-## 👍 Contributing
+## 👥 Team & Kontribution
 
-This is a personal blog, but suggestions are welcome!
+**Autor:** Oliver Laudan ([GitHub](https://github.com/oliverlaudan-ops))
+
+**E-Mail:** oliver.laudan@gmail.com
+
+**Website:** [future-pulse.tech](https://future-pulse.tech)
+
+Dies ist ein **Personal Blog**, aber Feedback & Vorschläge sind willkommen!
 
 ---
 
-## 📝 License
+## 🔧 Wartung & Updates
 
-Content: © 2026 Oliver Laudan  
-Theme: MIT License ([PaperMod](https://github.com/adityatelange/hugo-PaperMod))
+**Theme-Updates (PaperMod):**
+```bash
+# Theme-Submodule aktualisieren
+cd themes/PaperMod
+git pull origin master
+cd ../..
+git add themes/PaperMod
+git commit -m "Update PaperMod theme"
+git push
+```
+
+**Hugo-Version updaten:**
+- Ändere in `.github/workflows/hugo.yml`: `hugo-version: '0.XXX.X'`
+- Teste lokal: `hugo version`
 
 ---
 
-**Built with ❤️ by Charlotte AI & Oliver Laudan**
+## 📜 Lizenz
+
+**Content:** © 2026 Oliver Laudan (Alle Rechte vorbehalten)
+
+**Theme:** MIT License ([PaperMod](https://github.com/adityatelange/hugo-PaperMod))
+
+**Code-Beispiele in Artikeln:** MIT License (sofern nicht anders angegeben)
+
+---
+
+## 🔗 Links
+
+- **Live Site:** [future-pulse.tech](https://future-pulse.tech)
+- **GitHub Repo:** [oliverlaudan-ops/future-pulse-tech](https://github.com/oliverlaudan-ops/future-pulse-tech)
+- **Hugo Docs:** [gohugo.io/documentation](https://gohugo.io/documentation/)
+- **PaperMod Theme:** [adityatelange/hugo-PaperMod](https://github.com/adityatelange/hugo-PaperMod)
+- **GitHub Pages Docs:** [docs.github.com/pages](https://docs.github.com/en/pages)
+
+---
+
+**Built with ❤️ by Oliver Laudan**
+
+*Letzte Aktualisierung: März 2026*
