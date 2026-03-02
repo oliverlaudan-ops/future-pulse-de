@@ -9,6 +9,10 @@ keywords: ["OpenClaw VPS Setup", "Contabo AI Agent", "MiniMax Cloud", "Ollama VP
 author: "Oliver Laudan"
 ShowToc: true
 TocOpen: true
+cover:
+    image: "https://user-gen-media-assets.s3.amazonaws.com/seedream_images/3e0324ac-a549-4bdd-8ec8-b6ca39740321.png"
+    alt: "OpenClaw AI Agent Deployment on VPS - Terminal and Server Infrastructure"
+    caption: "OpenClaw auf Contabo VPS: Von Docker-Cleanup bis Production-Ready"
 ---
 
 Heute richte ich **OpenClaw** – den mächtigsten Open-Source AI-Agenten – auf meinem Contabo VPS ein. Von RAM-Krisen bis Tool-Calling: Der komplette Weg mit kopierbaren Terminal-Befehlen[cite:9].
