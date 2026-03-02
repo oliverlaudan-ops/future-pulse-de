@@ -14,9 +14,9 @@
 5. "KI-Ethik: Was du als Nutzer wissen musst"
 
 ### Prompting & Praxis
-6. "10 ChatGPT-Prompts, die dein Leben leichter machen"
+6. ~~"10 ChatGPT-Prompts, die dein Leben leichter machen"~~ ✅ (02.03.2026)
 7. "Prompt Engineering: Von AnfÃ¤nger zu Profi in 30 Tagen"
-8. "Die Anatomie eines perfekten Prompts"
+8. ~~"Die Anatomie eines perfekten Prompts"~~ ✅ (02.03.2026)
 9. "Chain-of-Thought Prompting: So denkst du mit KI"
 10. "5 Prompting-Fehler, die alle machen (und wie du sie vermeidest)"
 
