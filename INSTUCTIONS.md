@@ -1,0 +1,3 @@
+- Erstelle einen Artikel
+- Suche dir ein Passendes Thema
+- Berücksichtige alle informationen im Ordner styleguide in diesem Repositotry
