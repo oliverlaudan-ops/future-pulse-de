@@ -8,7 +8,7 @@ tags: ["KI", "Spielentwicklung", "Reinforcement Learning", "Webentwicklung", "Op
 keywords: ["Idle Spiel mit KI bauen", "Reinforcement Learning im Browser", "ML-Modell trainieren Spiel", "Open Source Spiel entwickeln"]
 author: "Oliver Laudan"
 cover:
-  image: "https://raw.githubusercontent.com/oliverlaudan-ops/AI-Idle/main/screenshots/ai-idle-screenshot.png"
+  image: "https://raw.githubusercontent.com/oliverlaudan-ops/AI-Idle/main/screenshots/gameplay.png"
   alt: "AI-Idle Spielbildschirm mit Training-Interface"
   caption: "Das Training-Interface in AI-Idle – 50 Achievements, 18 Buildings, 25 Modelle"
   relative: false
