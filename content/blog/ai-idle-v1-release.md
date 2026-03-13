@@ -16,8 +16,6 @@ ShowToc: true
 TocOpen: true
 ---
 
-![AI-Idle Spielinterface mit Training, Buildings und 50 Achievements](https://raw.githubusercontent.com/oliverlaudan-ops/AI-Idle/main/screenshots/gameplay.png)
-
 ## Einleitung: Kann ein Bot mein eigenes Spiel spielen?
 
 Die Frage kam mir vor einem Jahr: *Kann ein KI-Bot lernen, mein eigenes Spiel zu spielen?*
