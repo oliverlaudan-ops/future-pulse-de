@@ -127,6 +127,27 @@ Nach einem Jahr ist AI-Idle ein vollständiges Spiel:
 
 ⭐ Stars sind willkommen!
 
+## Meta Description
+
+Entdecke, wie ein RL-Bot lernt, ein KI-Idle-Spiel mit 25 ML-Modellen zu spielen. Open Source, DQN-Algorithmus, 50 Achievements – die vollständige Geschichte.
+
+## FAQ
+
+**Was ist AI-Idle?**
+AI-Idle ist ein Open-Source-Idle-Spiel, in dem du ML-Modelle trainierst, deployst und erforschst – während ein Reinforcement-Learning-Bot gleichzeitig lernt, das Spiel optimal zu spielen.
+
+**Wie lernt der Bot, das Spiel zu spielen?**
+Der Bot nutzt Deep Q-Learning (DQN) mit etwa 47 möglichen Aktionen. Er erhält Belohnungen für Spielfortschritt und lernt durch Versuch und Irrtum, bessere Strategien zu entwickeln.
+
+**Welche ML-Modelle sind im Spiel verfügbar?**
+Es gibt über 25 Modelle in sechs Kategorien – von einfacher Digits Recognition (Basic) bis zu Code Generation und Face Recognition (Expert).
+
+**Ist das Spiel Open Source?**
+Ja, AI-Idle ist vollständig Open Source auf GitHub. Stars und Contributions sind willkommen!
+
+**Kann ich ohne Programmierkenntnisse spielen?**
+Ja! AI-Idle ist ein browserbasiertes Spiel, das keine Installation erfordert. Du kannst direkt loslegen und die Grundkonzepte von ML spielerisch lernen.
+
 ---
 
 **💬 Deine Meinung?**
