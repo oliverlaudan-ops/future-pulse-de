@@ -143,6 +143,28 @@ Mit diesen Prompts wird ChatGPT vom Spielzeug zum echten Assistenten. Probier si
 - [Prompt Engineering Guide](https://promptingguide.ai) – Für Fortgeschrittene
 - [Mein Artikel: Die Anatomie eines perfekten Prompts](/blog/) – Tiefergehendes Wissen
 
+## Meta Description
+Entdecke 10 Power-Prompts für ChatGPT, die Zeit sparen und deinen Alltag erleichtern – von E-Mails bis Brainstorming.
+
+## FAQ
+
+**Welche ChatGPT-Prompts sparen am meisten Zeit?**  
+E-Mails schreiben, Meeting-Notizen zusammenfassen und To-Do-Listen erstellen sparen laut Nutzern jeweils 15–30 Minuten pro Tag.
+
+**Muss ich Prompts anpassen oder funktionieren sie sofort?**  
+Die Vorlagen sind Copy-Paste-bereit. Passe einfach die Variablen in eckigen Klammern an deine Situation an.
+
+**Sind diese Prompts auch für andere KI-Chatbots geeignet?**  
+Ja! Die Struktur (Kontext + Ziel + Ton) funktioniert bei Claude, Gemini und anderen gängigen Chatbots identisch.
+
+**Wie viele Prompts sollte ich täglich nutzen?**  
+Beginne mit 2–3 Prompts, die zu deinem häufigsten Aufgaben passen. Mehr kommen mit der Zeit von allein.
+
+**Kann ich eigene Prompts erstellen, wenn ich die Vorlagen verstehe?**  
+Absolut. Sobald du das Prinzip (klares Ziel + Kontext + gewünschter Ton) verinnerlichst, schreibst du eigene Prompts deutlich schneller.
+
+---
+
 **💬 Deine Meinung?**
 
 Welcher Prompt hat dir am meisten geholfen? Oder hast du eigene Favoriten? Schreib mir!
