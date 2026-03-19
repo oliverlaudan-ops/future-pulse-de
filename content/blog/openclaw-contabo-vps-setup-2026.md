@@ -227,6 +227,23 @@ nginx -t && systemctl reload nginx
 
 Welches Modell nutzt du – MiniMax Cloud oder Ollama lokal? Teile deine Erfahrungen in den Kommentaren[cite:9]!
 
+## Meta Description
+Richte OpenClaw auf deinem Contabo VPS ein – mit MiniMax Cloud (kostenlos) oder Ollama. Der komplette Setup-Guide mit Terminal-Befehlen.
+
+## FAQ
+
+**Brauche ich zwingend einen VPS oder reicht ein lokaler Rechner?**
+Ein lokaler Rechner reicht für Experimente, aber ein VPS bietet 24/7-Verfügbarkeit, Remote-Zugriff und kein Laptop, das in den Ruhezustand geht.
+
+**Was kostet MiniMax Cloud – gibt es ein kostenloses Kontingent?**
+Ja, das Free Tier umfasst 1–5 Millionen Tokens pro Monat – ausreichend für 50–100 komplexe Aufgaben. Danach fallen ca. €0,30–1,20 pro Million Tokens an.
+
+**Welche VPS-Konfiguration empfiehlst du?**
+Für die meisten Anwender reicht Contabo VPS S (8 vCPU, 16 GB RAM). Wer mit lokalen Ollama-Modellen wie Llama3.1:8b oder Mixtral arbeiten will, sollte VPS M (24 GB RAM) wählen.
+
+**Ich habe bereits Docker-Container laufen – kann ich OpenClaw trotzdem installieren?**
+Ja, OpenClaw nutzt Docker nicht zwingend. Stelle aber sicher, dass genügend RAM verfügbar ist und der Port 3000 nicht von anderen Diensten belegt wird.
+
 **📌 Weiterführende Ressourcen:**
 - [OpenClaw GitHub Repo](https://github.com/openclaw/openclaw)
 - [MiniMax Cloud API Docs](https://www.minimaxi.com/document/guides/chat-v2)
