@@ -78,4 +78,26 @@ Die Zukunft gehört nicht den KI-Systemen – sie gehört den Menschen, die wiss
 
 ---
 
+## Meta Description
+Entdecke die 4 Säulen der KI-Kompetenz für 2026: Technisches Verständnis, Prompt Engineering, kritisches Denken und praktische Anwendung im Alltag.
+
+## FAQ
+
+**Was bedeutet AI Literacy (KI-Kompetenz)?**
+AI Literacy umfasst die Fähigkeit, KI-Systeme zu verstehen, effektiv zu bedienen und deren Ergebnisse kritisch zu hinterfragen – essentiell im Jahr 2026.
+
+**Welche 4 Säulen der KI-Kompetenz gibt es?**
+Die vier Säulen sind: technisches Grundverständnis, Prompt Engineering, kritisches Denken und praktische Anwendung im Berufs- und Privatleben.
+
+**Warum ist Prompt Engineering so wichtig?**
+Gezielt formulierte Prompts liefern deutlich bessere Ergebnisse. Spezifische Anfragen mit Kontext schlagen vage Fragen klar.
+
+**Wie kann ich KI-Ergebnisse kritisch hinterfragen?**
+Prüfe Fakten, erkenne Verzerrungen in Trainingsdaten und beachte ethische Aspekte wie Datenschutz und Urheberrecht.
+
+**Welche KI-Tools eignen sich für den Einstieg?**
+ChatGPT, Claude und Perplexity sind ideal für den Start. Am besten lernt man durch tägliches Experimentieren über 30 Tage.
+
+---
+
 **Welche KI-Tools nutzt du bereits? Teile deine Erfahrungen in den Kommentaren!**
