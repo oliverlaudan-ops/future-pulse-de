@@ -172,3 +172,25 @@ Gute Prompts sind kein Hexenwerk – sie folgen einer klaren Struktur. Mit der Z
 **💬 Deine Meinung?**
 
 Welcher Baustein fehlt dir meistens? Oder hast du eigene Tipps? Schreib mir!
+
+## Meta Description
+
+Lerne die 6 Bausteine eines perfekten ChatGPT-Prompts: Rolle, Aufgabe, Kontext, Ziel, Format und Einschränkungen – mit Praxis-Beispielen und der ultimativen Prompt-Formel.
+
+## FAQ
+
+**Was sind die 6 Bausteine eines guten Prompts?**
+Rolle, Aufgabe, Kontext, Ziel, Format und Einschränkungen – zusammengenommen ergeben sie eine vollständige Anweisung, die der KI genau sagt, was du brauchst.
+
+**Warum liefert die KI trotz gutem Prompt schlechte Ergebnisse?**
+Oft fehlt es an Konkretion: Vage Prompts wie „Schreib was über KI" liefern generische Antworten. Präzise Angaben zu Zielgruppe, Ton und Format machen den Unterschied.
+
+**Wie viele Wörter sollte ein guter Prompt haben?**
+Es gibt keine feste Regel – aber ein guter Prompt enthält alle sechs Bausteine. Das sind oft 2–4 Sätze. Qualität vor Quantität: Je klarer die Anweisung, desto besser das Ergebnis.
+
+**Sollte ich immer alle 6 Bausteine verwenden?**
+Die Rolle ist optional, aber wirkungsvoll. Bei einfachen Fragen wie „Was ist 2+2?" brauchst du keinen vollständigen Prompt. Für komplexere Aufgaben empfehlen sich alle Bausteine.
+
+**Welches Format liefert die besten Ergebnisse bei ChatGPT?**
+Das hängt von deinem Ziel ab: Tabellen für Vergleiche, nummerierte Listen für Schritt-für-Schritt-Anleitungen, Markdown für strukturierte Texte. Gib das Format immer explizit an.
+---
