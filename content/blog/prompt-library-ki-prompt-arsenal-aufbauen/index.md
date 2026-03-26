@@ -8,7 +8,7 @@ tags: ["Prompt Engineering", "KI-Tools", "Productivity", "ChatGPT"]
 keywords: ["Prompt Library erstellen", "KI-Prompts speichern", "Prompt Management", "ChatGPT Prompt Organisieren"]
 author: "Oliver Laudan"
 cover:
-  image: ""
+  image: "https://cdn.leonardo.ai/users/94266353-8c5f-4f36-9f86-c0a7ad35cf95/generations/c610b6bc-f978-45c7-a426-fa7f1ee99938/Default_organized_prompt_library_on_laptop_digital_notes_futur_0.jpg"
   alt: "Organisierte Prompt Library auf dem Laptop"
   caption: "Gut organisiert = Zeit gespart"
   relative: false
