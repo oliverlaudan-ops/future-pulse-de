@@ -8,7 +8,7 @@ tags: ["KI", "Mythen", "Künstliche Intelligenz", "ChatGPT", "AI Literacy"]
 keywords: ["KI Mythen", "ChatGPT Mythen", "Künstliche Intelligenz Missverständnisse", "KI Irrtümer"]
 author: "Oliver Laudan"
 cover:
-  image: ""
+  image: "https://cdn.leonardo.ai/users/94266353-8c5f-4f36-9f86-c0a7ad35cf95/generations/6c914ea7-c72d-4449-8e33-ae7f5eaad0e2/Default_myths_misconceptions_about_AI_artificial_intelligence_0.jpg"
   alt: "5 KI-Mythen, die du 2026 abhaken solltest"
   caption: "Mythos oder Wahrheit? Wir klären auf."
   relative: false
