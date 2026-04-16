@@ -22,4 +22,4 @@ Wir glauben daran, dass Technologie Menschen stärken sollte – nicht steuern. 
 
 ---
 
-**Kontakt**: [LinkedIn](https://linkedin.com/in/oliver-laudan) | [GitHub](https://github.com/oliverlaudan-ops)
+**Kontakt**: [LinkedIn](https://www.linkedin.com/in/oliver-laudan-8835b53b8) | [GitHub](https://github.com/oliverlaudan-ops)
