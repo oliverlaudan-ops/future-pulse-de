@@ -12,6 +12,9 @@ googleAnalytics = 'G-X7488X4WB4'
   keywords = ['Future Skills', 'KI', 'Digitalisierung', 'AI Literacy', 'Künstliche Intelligenz', 'ChatGPT', 'Digitale Transformation', 'Prompt Engineering']
   images = ['/images/og-image.png']
   
+  # Redirect von .tech auf .de (SEO)
+  redirectFrom = 'https://future-pulse.tech'
+  
   # Theme Settings
   defaultTheme = 'auto' # auto, light, dark
   disableThemeToggle = false
