@@ -258,7 +258,7 @@ Die entscheidende Frage ist nicht, ob Agentic AI kommt – sie ist bereits da. D
 
 **💬 Deine Perspektive zählt**
 
-Siehst du Agentic AI als Chance oder Bedrohung für deine Branche? Welche Herausforderungen siehst du als kritischsten Punkt? Teile deine Gedanken in den Kommentaren oder schreib mir: kontakt@future-pulse.tech
+Siehst du Agentic AI als Chance oder Bedrohung für deine Branche? Welche Herausforderungen siehst du als kritischsten Punkt? Teile deine Gedanken in den Kommentaren oder schreib mir: kontakt@future-pulse.de
 
 **Die Zukunft wartet nicht. Sie wird jetzt gestaltet. Bist du bereit?**
 
@@ -281,6 +281,6 @@ Unternehmen müssen Transparenz über KI-Einsatz gewährleisten, Entscheidungen 
 
 **Wie sollten Unternehmen jetzt mit Agentic AI starten?**
 Mit kontrollierten Pilotprojekten in nicht-kritischen Bereichen beginnen, AI Literacy aufbauen, robuste Governance-Strukturen etablieren und schrittweise auf kritischere Prozesse skalieren.
-- [KI-Trends 2026: Die wichtigsten Entwicklungen](https://future-pulse.tech/blog/ki-trends-2026-entwicklung/)
+- [KI-Trends 2026: Die wichtigsten Entwicklungen](https://future-pulse.de/blog/ki-trends-2026-entwicklung/)
 - [Google Cloud: Multi-Agent Systems](https://cloud.google.com/discover/what-is-a-multi-agent-system)
 - [Anthropic: 2026 Agentic Coding Trends Report](https://resources.anthropic.com/hubfs/2026%20Agentic%20Coding%20Trends%20Report.pdf)

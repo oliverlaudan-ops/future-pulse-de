@@ -1,4 +1,4 @@
-baseURL = 'https://future-pulse.tech/'
+baseURL = 'https://future-pulse.de/'
 languageCode = 'de-DE'
 title = 'Future Pulse Tech - KI-Kompetenz & Future Skills'
 theme = 'PaperMod'
@@ -47,7 +47,7 @@ googleAnalytics = 'G-X7488X4WB4'
   [params.social]
     linkedin = 'https://linkedin.com/in/oliver-laudan'
     github = 'https://github.com/oliverlaudan-ops'
-    email = 'mailto:kontakt@future-pulse.tech'
+    email = 'mailto:kontakt@future-pulse.de'
     rss = '/index.xml'
   
   # Homepage Settings

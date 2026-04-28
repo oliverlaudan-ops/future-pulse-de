@@ -82,4 +82,4 @@ TocOpen: true
 
 [Offene Frage - lade zur Diskussion ein]
 
-Teile deine Meinung in den Kommentaren oder schreib mir: kontakt@future-pulse.tech
+Teile deine Meinung in den Kommentaren oder schreib mir: kontakt@future-pulse.de

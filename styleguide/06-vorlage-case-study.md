@@ -117,4 +117,4 @@ TocOpen: true
 
 **ðŸ’¬ Ã„hnliche Herausforderungen?**
 
-Teile deine Erfahrung oder frag nach: kontakt@future-pulse.tech
+Teile deine Erfahrung oder frag nach: kontakt@future-pulse.de

@@ -159,4 +159,4 @@
 
 ---
 
-**ðŸ“ž Kontakt:** kontakt@future-pulse.tech
+**ðŸ“ž Kontakt:** kontakt@future-pulse.de

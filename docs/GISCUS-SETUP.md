@@ -167,7 +167,7 @@ data-emit-metadata="0"                    ✅ Korrigiert
 
 ## 📞 Kontakt
 
-Bei Problemen: kontakt@future-pulse.tech
+Bei Problemen: kontakt@future-pulse.de
 
 ---
 

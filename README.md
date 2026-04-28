@@ -8,7 +8,7 @@ Built with Hugo + GitHub Pages | Live seit Dezember 2025
 
 ## 🎯 Live Site
 
-👉 **Production:** [https://future-pulse.tech](https://future-pulse.tech)
+👉 **Production:** [https://future-pulse.de](https://future-pulse.de)
 
 👉 **GitHub Pages Fallback:** [https://oliverlaudan-ops.github.io/future-pulse-tech/](https://oliverlaudan-ops.github.io/future-pulse-tech/)
 
@@ -20,7 +20,7 @@ Built with Hugo + GitHub Pages | Live seit Dezember 2025
 - **Theme:** [PaperMod](https://github.com/adityatelange/hugo-PaperMod) (aktiv maintained 2026)
 - **Hosting:** GitHub Pages
 - **CI/CD:** GitHub Actions (Auto-Deployment bei Push auf `main`)
-- **Custom Domain:** future-pulse.tech (DNS via Cloudflare)
+- **Custom Domain:** future-pulse.de (DNS via Cloudflare)
 - **SSL:** Let's Encrypt (automatisch via GitHub Pages)
 
 ---
@@ -34,7 +34,7 @@ Built with Hugo + GitHub Pages | Live seit Dezember 2025
 | **Letzte Updates** | März 2026 |
 | **Sprache** | Deutsch |
 | **Theme-Version** | PaperMod (latest stable) |
-| **Custom Domain** | ✅ Live (future-pulse.tech) |
+| **Custom Domain** | ✅ Live (future-pulse.de) |
 | **HTTPS** | ✅ Aktiv |
 | **Auto-Deployment** | ✅ GitHub Actions |
 
@@ -136,7 +136,7 @@ git push origin main
 2. GitHub Actions triggert `.github/workflows/hugo.yml`
 3. Hugo baut statische Site (`hugo --minify`)
 4. Deploy auf GitHub Pages (`gh-pages` Branch)
-5. **Live in 2-3 Minuten** auf future-pulse.tech
+5. **Live in 2-3 Minuten** auf future-pulse.de
 
 **Build-Status prüfen:**
 - [Actions Tab](https://github.com/oliverlaudan-ops/future-pulse-tech/actions)
@@ -146,7 +146,7 @@ git push origin main
 
 ## 🌐 Custom Domain Setup
 
-**Aktueller Status:** `future-pulse.tech` ist live und HTTPS-gesichert.
+**Aktueller Status:** `future-pulse.de` ist live und HTTPS-gesichert.
 
 ### Falls du eine neue Domain hinzufügen willst:
 
@@ -168,7 +168,7 @@ git push origin main
    ```
 
 3. **CNAME-Datei in Repo:**
-   - Erstelle `static/CNAME` mit Inhalt: `future-pulse.tech`
+   - Erstelle `static/CNAME` mit Inhalt: `future-pulse.de`
    - Commit & Push
 
 4. **DNS-Propagation warten:** 10 Minuten - 24 Stunden
@@ -208,7 +208,7 @@ git push origin main
 
 **E-Mail:** oliver.laudan@gmail.com
 
-**Website:** [future-pulse.tech](https://future-pulse.tech)
+**Website:** [future-pulse.de](https://future-pulse.de)
 
 Dies ist ein **Personal Blog**, aber Feedback & Vorschläge sind willkommen!
 
@@ -245,7 +245,7 @@ git push
 
 ## 🔗 Links
 
-- **Live Site:** [future-pulse.tech](https://future-pulse.tech)
+- **Live Site:** [future-pulse.de](https://future-pulse.de)
 - **GitHub Repo:** [oliverlaudan-ops/future-pulse-tech](https://github.com/oliverlaudan-ops/future-pulse-tech)
 - **Hugo Docs:** [gohugo.io/documentation](https://gohugo.io/documentation/)
 - **PaperMod Theme:** [adityatelange/hugo-PaperMod](https://github.com/adityatelange/hugo-PaperMod)

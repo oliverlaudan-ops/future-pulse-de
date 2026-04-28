@@ -205,7 +205,7 @@ Beispiel:
 
 ## ðŸ“ž Kontakt
 
-**Fragen?** kontakt@future-pulse.tech
+**Fragen?** kontakt@future-pulse.de
 
 ---
 

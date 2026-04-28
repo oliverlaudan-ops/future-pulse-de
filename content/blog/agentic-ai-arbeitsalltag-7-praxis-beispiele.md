@@ -269,11 +269,11 @@ Nutzt du bereits KI-Agenten in deinem Arbeitsalltag? Welches der sieben Beispiel
 
 **📌 Weiterführende Artikel auf Future Pulse Tech:**
 
-- [KI-Trends 2026: Die wichtigsten Entwicklungen im Überblick](https://future-pulse.tech/blog/ki-trends-2026-entwicklung/)
+- [KI-Trends 2026: Die wichtigsten Entwicklungen im Überblick](https://future-pulse.de/blog/ki-trends-2026-entwicklung/)
 - [KI-Kompetenz aufbauen: Der praktische Guide für AI Literacy](#)
 - [ChatGPT Prompts: 10 Vorlagen für bessere Ergebnisse](#)
 
 **🎯 Willst du regelmäßig Updates zu KI-Kompetenz & Future Skills?**  
 Abonniere den **Future Pulse Newsletter** – wöchentlich praxisnahe Insights, keine Marketing-Floskeln.
 
-[→ Zum Newsletter](https://future-pulse.tech/newsletter/)
+[→ Zum Newsletter](https://future-pulse.de/newsletter/)

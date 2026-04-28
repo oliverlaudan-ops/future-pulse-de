@@ -45,7 +45,7 @@ In diesem Tutorial zeige ich dir:
 
 - **24/7 Verfügbarkeit** für autonome Tasks
 - **Skalierbare Ressourcen** (RAM-Upgrade ohne Neuinstall)
-- **Öffentlicher Zugriff** via Domain (z.B. `agent.future-pulse.tech`)
+- **Öffentlicher Zugriff** via Domain (z.B. `agent.future-pulse.de`)
 - **Kosteneffizienz** (Contabo VPS S: ~€6/Monat)
 
 **Beispiel:**
@@ -135,7 +135,7 @@ openclaw restart
 ## Schritt 4: Nginx + SSL einrichten
 
 ### Was du tuts:
-Reverse Proxy mit SSL, damit OpenClaw über `https://agent.future-pulse.tech` erreichbar ist[cite:9].
+Reverse Proxy mit SSL, damit OpenClaw über `https://agent.future-pulse.de` erreichbar ist[cite:9].
 
 ### So geht's:
 
@@ -144,22 +144,22 @@ Reverse Proxy mit SSL, damit OpenClaw über `https://agent.future-pulse.tech` er
 apt update && apt install nginx certbot python3-certbot-nginx -y
 
 # SSL-Zertifikat generieren (ersetze Domain)
-certbot --nginx -d agent.future-pulse.tech
+certbot --nginx -d agent.future-pulse.de
 
 # Nginx Config für OpenClaw
 cat > /etc/nginx/sites-available/openclaw <<EOF
 server {
     listen 80;
-    server_name agent.future-pulse.tech;
+    server_name agent.future-pulse.de;
     return 301 https://\$host\$request_uri;
 }
 
 server {
     listen 443 ssl;
-    server_name agent.future-pulse.tech;
+    server_name agent.future-pulse.de;
 
-    ssl_certificate /etc/letsencrypt/live/agent.future-pulse.tech/fullchain.pem;
-    ssl_certificate_key /etc/letsencrypt/live/agent.future-pulse.tech/privkey.pem;
+    ssl_certificate /etc/letsencrypt/live/agent.future-pulse.de/fullchain.pem;
+    ssl_certificate_key /etc/letsencrypt/live/agent.future-pulse.de/privkey.pem;
 
     location / {
         proxy_pass http://localhost:3000;
@@ -218,7 +218,7 @@ nginx -t && systemctl reload nginx
 
 **Wie geht's weiter?**
 - **Contabo RAM-Upgrade** (Live Migration ohne Downtime)[cite:9]
-- **Pterodactyl Game Panel** für `dungeon.future-pulse.tech` deployen[cite:9]
+- **Pterodactyl Game Panel** für `dungeon.future-pulse.de` deployen[cite:9]
 - **Grafana Monitoring** für OpenClaw-Metrics aufsetzen[cite:9]
 
 ---

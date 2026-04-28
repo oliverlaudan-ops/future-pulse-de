@@ -1,11 +1,11 @@
-# robots.txt für future-pulse.tech
+# robots.txt für future-pulse.de
 # Erstellt am 2026-01-16
 
 User-agent: *
 Allow: /
 
 # Sitemap
-Sitemap: https://future-pulse.tech/sitemap.xml
+Sitemap: https://future-pulse.de/sitemap.xml
 
 # Crawl-Delay für aggressive Bots
 User-agent: Baiduspider

@@ -117,7 +117,7 @@ Mein Tipp: Such dir eine konkrete Aufgabe aus, die dich nervt. Teste einen KI-Ag
 
 Die Zukunft gehört nicht denen, die am meisten über KI wissen – sondern denen, die sie am besten für ihre Ziele einsetzen können. Agenten sind dein Hebel dafür.
 
-**Welche Aufgabe würdest du als erstes an einen KI-Agenten abgeben?** Schreib mir deine Ideen an kontakt@future-pulse.tech – ich bin gespannt auf deine Perspektive.
+**Welche Aufgabe würdest du als erstes an einen KI-Agenten abgeben?** Schreib mir deine Ideen an kontakt@future-pulse.de – ich bin gespannt auf deine Perspektive.
 
 ## Meta Description
 Entdecke Agentic AI: Wie autonome KI-Agenten 2026 eigenständig handeln, Aufgaben erledigen und deine Arbeit revolutionieren.

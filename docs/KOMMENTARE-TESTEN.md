@@ -19,7 +19,7 @@ Die Konfiguration ist **komplett** und **korrekt**:
 
 ### **Schritt 1: Öffne deine Live-Seite**
 
-1. Gehe zu: [https://future-pulse.tech](https://future-pulse.tech)
+1. Gehe zu: [https://future-pulse.de](https://future-pulse.de)
 
 2. **Wähle einen Blog-Artikel:**
    - z.B. "KI-Kompetenz 2026"

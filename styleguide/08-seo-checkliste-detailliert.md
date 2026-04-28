@@ -327,7 +327,7 @@ AnwendungsfÃ¤higkeiten.
 
 ---
 
-**ðŸ“ž Fragen zu SEO?** kontakt@future-pulse.tech
+**ðŸ“ž Fragen zu SEO?** kontakt@future-pulse.de
 
 ---
 
