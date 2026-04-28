@@ -189,4 +189,3 @@ Ja, ein Stück weit schon. Transparenz und Nachvollziehbarkeit sinken, weil du n
 **💬 Deine Meinung?**
 
 Findest du unsichtbare KI spannend oder eher beunruhigend? Schreib mir!
-

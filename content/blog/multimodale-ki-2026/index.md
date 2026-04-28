@@ -138,13 +138,13 @@ In meinem Alltag hat multimodale KI zwei Dinge verändert:
 | Recherche + Aktuelles | Perplexity |
 | Dokumente + PDFs | Claude, ChatGPT |
 | Brainstorming + Voice | ChatGPT Voice |
-| Google生态system | Gemini |
+| Google 生态 system | Gemini |
 
 ### Schritt 2: Starte klein
 
 Du musst nicht alles auf einmal nutzen. Hier drei einfache Startpunkte:
 
-** Für Entwickler:**
+**Für Entwickler:**
 > "Schau auf diesen Screenshot. Der Code zeigt einen Fehler. Was ist das Problem und wie löse ich es?"
 
 **Für Büroarbeit:**
