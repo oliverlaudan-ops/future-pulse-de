@@ -6,15 +6,6 @@ enableRobotsTXT = true
 enableGitInfo = true
 googleAnalytics = 'G-X7488X4WB4'
 env = "production"
-
-[params]
-  author = 'Oliver Laudan'
-  description = 'Future Pulse Tech: Dein Guide für KI-Kompetenz, Future Skills und digitale Transformation. Lerne, wie du KI souverän im Alltag einsetzt.'
-  keywords = ['Future Skills', 'KI', 'Digitalisierung', 'AI Literacy', 'Künstliche Intelligenz', 'ChatGPT', 'Digitale Transformation', 'Prompt Engineering']
-  images = ['/images/og-image.png']
-  
-  # Redirect von .tech auf .de (SEO)
-  redirectFrom = 'https://future-pulse.tech'
   
   # Theme Settings
   defaultTheme = 'auto' # auto, light, dark
