@@ -1,10 +1,10 @@
 ---
-title: "Future Pulse Tech"
+title: "Future Pulse"
 date: 2026-01-16
 draft: false
 ---
 
-# Willkommen bei Future Pulse Tech 🚀
+# Willkommen bei Future Pulse 🚀
 
 **Dein Guide für Future Skills, KI-Kompetenz und digitale Transformation.**
 

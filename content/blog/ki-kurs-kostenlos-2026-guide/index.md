@@ -479,7 +479,7 @@ Theorie ist gut, Anwendung ist besser.
 KI entwickelt sich rasant. Was heute gilt, kann morgen veraltet sein.
 - Folge KI-Newslettern
 - Abonniere relevante YouTube-Kanäle
-- Lies Blogs wie Future Pulse Tech 😉
+- Lies Blogs wie Future Pulse 😉
 - Wiederhole Kurse nach 6-12 Monaten
 
 ---

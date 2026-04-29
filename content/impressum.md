@@ -5,7 +5,7 @@ date: 2026-01-17
 
 ## Angaben gemäß § 5 TMG
 
-**Future Pulse Tech**  
+**Future Pulse**  
 Oliver Laudan  
 Annenstr. 76  
 58453 Witten  

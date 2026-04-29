@@ -1,12 +1,12 @@
 ---
-title: "Über Future Pulse Tech"
+title: "Über Future Pulse"
 date: 2026-01-16
 draft: false
 ---
 
-# Über Future Pulse Tech
+# Über Future Pulse
 
-**Future Pulse Tech** ist deine Anlaufstelle für zukunftsorientiertes Wissen über KI, Future Skills und digitale Transformation.
+**Future Pulse** ist deine Anlaufstelle für zukunftsorientiertes Wissen über KI, Future Skills und digitale Transformation.
 
 ## Mission
 

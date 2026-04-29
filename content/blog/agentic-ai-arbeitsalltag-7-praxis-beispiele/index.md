@@ -267,7 +267,7 @@ Nein. Die wichtigsten Tools sind Low-Code/No-Code-Plattformen wie Zapier, Make.c
 
 Nutzt du bereits KI-Agenten in deinem Arbeitsalltag? Welches der sieben Beispiele findest du am spannendsten – oder fehlt dir ein wichtiger Use Case? Teile deine Gedanken in den Kommentaren!
 
-**📌 Weiterführende Artikel auf Future Pulse Tech:**
+**📌 Weiterführende Artikel auf Future Pulse:**
 
 - [KI-Trends 2026: Die wichtigsten Entwicklungen im Überblick](https://future-pulse.de/blog/ki-trends-2026-entwicklung/)
 - [KI-Kompetenz aufbauen: Der praktische Guide für AI Literacy](#)
