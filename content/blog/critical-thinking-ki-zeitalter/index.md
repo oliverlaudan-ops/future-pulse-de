@@ -1,5 +1,5 @@
 ---
-title: "Critical Thinking im KI-Zeitalter: Wie du Fehlinformationen erkennst"
+title: "Critical Thinking im KI-Zeitalter: So erkennst du Fehler"
 date: 2026-04-16
 draft: false
 description: "KI macht Falschinformationen einfacher denn je. Lerne die 7 wichtigsten Critical-Thinking-Strategien, um KI-Fehlinformationen zu erkennen und zu vermeiden."
@@ -255,3 +255,11 @@ Für wichtige Informationen: 5-15 Minuten. Für alltägliche Social-Media-Posts:
 ---
 
 *Dieser Beitrag wurde mit KI-Unterstützung erstellt und vor der Veröffentlichung redaktionell geprüft.*
+
+---
+
+## Weiterführende Artikel
+
+- [KI im Beruf und Bewerbung](/blog/ki-im-beruf-bewerbung-2026/)
+- [KI-Kompetenz im Alltag](/blog/ki-kompetenz-im-alltag-2026/)
+- [kostenlose KI-Kurse](/blog/ki-kurs-kostenlos-2026-guide/)

@@ -1,5 +1,5 @@
 ---
-title: "Agentic AI: Wenn KI-Systeme selbstständig handeln – Revolution oder Risiko?"
+title: "Agentic AI: Wenn KI-Systeme selbstständig handeln"
 date: 2026-02-16
 draft: false
 description: "Agentic AI revolutioniert 2026 die Tech-Welt: KI-Systeme, die selbstständig handeln. Chancen, Risiken und was Unternehmen jetzt wissen müssen."
@@ -284,3 +284,11 @@ Mit kontrollierten Pilotprojekten in nicht-kritischen Bereichen beginnen, AI Lit
 - [KI-Trends 2026: Die wichtigsten Entwicklungen](https://future-pulse.de/blog/ki-trends-2026-entwicklung/)
 - [Google Cloud: Multi-Agent Systems](https://cloud.google.com/discover/what-is-a-multi-agent-system)
 - [Anthropic: 2026 Agentic Coding Trends Report](https://resources.anthropic.com/hubfs/2026%20Agentic%20Coding%20Trends%20Report.pdf)
+
+---
+
+## Weiterführende Artikel
+
+- [Agentic AI im Arbeitsalltag](/blog/agentic-ai-arbeitsalltag-7-praxis-beispiele/)
+- [Agentic AI und eigenständig handelnde KI](/blog/agentic-ai-wenn-ki-eigenstaendig-handelt/)
+- [No-Code-Plattformen für AI Agents](/blog/ai-agents-no-code-plattformen/)

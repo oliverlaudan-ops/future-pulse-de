@@ -2,7 +2,7 @@
 title: "Prompt Engineering Deutsch: Der komplette Guide für 2026"
 date: 2026-05-04
 draft: false
-description: "Lerne Prompt Engineering auf Deutsch. Mit praktischen Beispielen, Vorlagen und Tipps für ChatGPT, Claude & Co."
+description: "Lerne Prompt Engineering auf Deutsch: Praktische Beispiele, bewährte Vorlagen und Profi-Tipps für bessere Ergebnisse mit ChatGPT, Claude und Co."
 summary: "Der ultimative Guide für Prompt Engineering auf Deutsch. So formulierst du Prompts, die genau das liefern, was du brauchst."
 tags: ["Prompt Engineering", "ChatGPT", "KI-Tools", "Productivity", "Deutsch"]
 keywords: ["Prompt Engineering Deutsch", "KI Prompts schreiben", "ChatGPT deutsche Prompts", "Prompt Vorlagen", "KI prompten lernen"]
@@ -292,3 +292,11 @@ Prompt Engineering ist kein Talent – es ist eine Fähigkeit, die du trainieren
 ---
 
 *Dieser Beitrag wurde mit KI-Unterstützung erstellt und vor der Veröffentlichung redaktionell geprüft.*
+
+---
+
+## Weiterführende Artikel
+
+- [die Anatomie eines perfekten Prompts](/blog/anatomie-perfekter-prompt/)
+- [10 ChatGPT-Prompts für deinen Alltag](/blog/chatgpt-prompts-lebensqualitaet/)
+- [die Erstellung eines Custom GPTs](/blog/erstes-custom-gpt-15-minuten/)

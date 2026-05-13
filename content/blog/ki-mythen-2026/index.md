@@ -157,3 +157,11 @@ Immer kritisch lesen! Fakten unabhängig prüfen, besonders bei Zahlen und Daten
 ---
 
 *Dieser Beitrag wurde mit KI-Unterstützung erstellt und vor der Veröffentlichung redaktionell geprüft.*
+
+---
+
+## Weiterführende Artikel
+
+- [Critical Thinking im KI-Zeitalter](/blog/critical-thinking-ki-zeitalter/)
+- [KI im Beruf und Bewerbung](/blog/ki-im-beruf-bewerbung-2026/)
+- [KI-Kompetenz im Alltag](/blog/ki-kompetenz-im-alltag-2026/)

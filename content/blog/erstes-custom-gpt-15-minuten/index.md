@@ -2,7 +2,7 @@
 title: "So erstellst du dein erstes Custom GPT in 15 Minuten"
 date: 2026-04-09
 draft: false
-description: "Custom GPTs machen ChatGPT zu deinem persönlichen Assistenten. Lerne in 15 Minuten, wie du dein erstes Custom GPT erstellst – ohne Code."
+description: "Custom GPTs machen ChatGPT zu deinem persönlichen Assistenten. Erstelle dein erstes Custom GPT in 15 Minuten – Schritt für Schritt, ohne Code."
 summary: "Custom GPTs sind个性化 KI-Assistenten. Wir zeigen dir Schritt für Schritt, wie du dein erstes Custom GPT in 15 Minuten erstellst."
 tags: ["Custom GPT", "ChatGPT", "Tutorial", "KI-Assistent", "No-Code"]
 keywords: ["Custom GPT erstellen", "ChatGPT Builder", "GPT erstellen ohne Code", "Personalierter KI-Assistent"]
@@ -190,3 +190,11 @@ Custom GPT erstellen: In 15 Minuten zum eigenen KI-Assistenten. Tutorial mit Anl
 ---
 
 *Dieser Beitrag wurde mit KI-Unterstützung erstellt und vor der Veröffentlichung redaktionell geprüft.*
+
+---
+
+## Weiterführende Artikel
+
+- [die Anatomie eines perfekten Prompts](/blog/anatomie-perfekter-prompt/)
+- [10 ChatGPT-Prompts für deinen Alltag](/blog/chatgpt-prompts-lebensqualitaet/)
+- [effiziente KI-Textarbeit](/blog/ki-textarbeit-2026/)

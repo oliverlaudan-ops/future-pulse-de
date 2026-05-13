@@ -185,3 +185,11 @@ Achte darauf, keine sensiblen Daten in öffentliche KI-Tools einzugeben. Nutze E
 ---
 
 *Dieser Beitrag wurde mit KI-Unterstützung erstellt und vor der Veröffentlichung redaktionell geprüft.*
+
+---
+
+## Weiterführende Artikel
+
+- [die Erstellung eines Custom GPTs](/blog/erstes-custom-gpt-15-minuten/)
+- [effiziente KI-Textarbeit](/blog/ki-textarbeit-2026/)
+- [RAG und eigene Dokumente in ChatGPT](/blog/rag-erklaert-chatgpt-eigene-dokumente/)

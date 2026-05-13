@@ -1,5 +1,5 @@
 ---
-title: "OpenClaw auf Contabo VPS: Vollständiger Setup-Guide 2026 (MiniMax + Ollama)"
+title: "OpenClaw auf Contabo VPS: Setup-Guide 2026"
 date: 2026-03-02
 draft: false
 description: "Schritt-für-Schritt: OpenClaw AI-Agent auf Contabo VPS deployen. Von der Installation über MiniMax Cloud bis Nginx SSL. Für Game Devs & Web Devs."
@@ -379,3 +379,10 @@ OpenClaw kann mit Docker betrieben werden, läuft aber auch nativ als systemd-Se
 - [MiniMax Cloud API Docs](https://www.minimaxi.com/document/guides/chat-v2)
 - [Contabo VPS Preise](https://contabo.com/en/vps/)
 - [Ollama Modell-Bibliothek](https://ollama.com/library)
+
+---
+
+## Weiterführende Artikel
+
+- [das AI-Idle Spielprojekt](/blog/ai-idle-v1-release/)
+- [die besten KI-Tools für Programmierer](/blog/die-7-besten-ki-tools-programmierer-2026/)

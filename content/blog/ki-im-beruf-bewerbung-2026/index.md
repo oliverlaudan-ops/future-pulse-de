@@ -1,12 +1,14 @@
 ---
 title: "KI im Beruf & Bewerbung: Der komplette Guide 2026"
 date: 2026-05-07T10:00:00+02:00
-description: "Wie du Künstliche Intelligenz nutzt, um deine Bewerbung zu optimieren, im Beruf produktiver zu werden und deine Karriere voranzubringen – mit konkreten Prompts und Tools."
+description: "Nutze KI für Bewerbung und Karriere: Lebenslauf optimieren, produktiver arbeiten und beruflich vorankommen – mit konkreten Prompts und Tools."
 summary: "KI ist 2026 aus dem Berufsleben nicht mehr wegzudenken. Dieser Guide zeigt dir, wie du AI-Tools gewinnbringend für Bewerbung, Lebenslauf, Anschreiben und deinen Arbeitsalltag einsetzt – ohne dass es nach KI aussieht."
 tags: ["KI", "Bewerbung", "Karriere", "Produktivität", "KI-Tools", "Beruf"]
 keywords: ["KI im Beruf", "KI Bewerbung", "Künstliche Intelligenz Karriere", "Bewerbung optimieren", "Lebenslauf KI", "Anschreiben KI", "AI Tools Beruf", "Produktivität KI 2026"]
 author: "DrBoskonovic"
 draft: false
+ShowToc: true
+TocOpen: true
 ---
 
 ## Warum dieser Guide?
