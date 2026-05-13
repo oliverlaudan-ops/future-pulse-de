@@ -17,7 +17,7 @@ Die Datenverarbeitung auf dieser Website erfolgt durch den Websitebetreiber. Des
 
 #### Wie erfassen wir Ihre Daten?
 
-Ihre Daten werden zum einen dadurch erhoben, dass Sie uns diese mitteilen. Hierbei kann es sich z.B. um Daten handeln, die Sie in ein Kontaktformular eingeben.
+Ihre Daten werden zum einen dadurch erhoben, dass Sie uns diese mitteilen. Hierbei kann es sich z.B. um Daten handeln, die Sie uns per E-Mail senden.
 
 Andere Daten werden automatisch oder nach Ihrer Einwilligung beim Besuch der Website durch unsere IT-Systeme erfasst. Das sind vor allem technische Daten (z.B. Internetbrowser, Betriebssystem oder Uhrzeit des Seitenaufrufs). Die Erfassung dieser Daten erfolgt automatisch, sobald Sie diese Website betreten.
 
@@ -33,7 +33,7 @@ Hierzu sowie zu weiteren Fragen zum Thema Datenschutz können Sie sich jederzeit
 
 ## 2. Hosting
 
-Diese Website wird auf GitHub Pages gehostet. Der Anbieter ist die GitHub Inc., 88 Colin P. Kelly Jr. Street, San Francisco, CA 94107, USA.
+Diese Website wird auf GitHub Pages gehostet. Der Anbieter ist die GitHub Inc., 88 Colin P. Kelly Jr. Street, San Francisco, CA 94107, USA (nachfolgend „GitHub").
 
 GitHub erfasst in sogenannten Server-Log-Dateien Informationen, die Ihr Browser automatisch an uns übermittelt. Dies sind:
 
@@ -45,6 +45,8 @@ GitHub erfasst in sogenannten Server-Log-Dateien Informationen, die Ihr Browser 
 - IP-Adresse
 
 Eine Zusammenführung dieser Daten mit anderen Datenquellen wird nicht vorgenommen. Die Erfassung dieser Daten erfolgt auf Grundlage von Art. 6 Abs. 1 lit. f DSGVO. Der Websitebetreiber hat ein berechtigtes Interesse an der technisch fehlerfreien Darstellung und der Optimierung seiner Website – hierzu müssen die Server-Log-Files erfasst werden.
+
+GitHub ist unter dem EU-US Data Privacy Framework (DPF) zertifiziert. Das DPF ist ein Übereinkommen zwischen der Europäischen Union und den USA, das sicherstellen soll, dass europäische Datenschutzstandards auch bei der Datenverarbeitung in den USA eingehalten werden. Weitere Informationen hierzu finden Sie unter: [https://www.dataprivacyframework.gov](https://www.dataprivacyframework.gov)
 
 Weitere Informationen zum Umgang mit Nutzerdaten finden Sie in der Datenschutzerklärung von GitHub unter: [https://docs.github.com/de/site-policy/privacy-policies/github-privacy-statement](https://docs.github.com/de/site-policy/privacy-policies/github-privacy-statement)
 
@@ -84,7 +86,14 @@ Wenn die Datenverarbeitung auf Grundlage von Art. 6 Abs. 1 lit. e oder f DSGVO e
 
 ### Beschwerderecht bei der zuständigen Aufsichtsbehörde
 
-Im Falle von Verstößen gegen die DSGVO steht den Betroffenen ein Beschwerderecht bei einer Aufsichtsbehörde, insbesondere in dem Mitgliedstaat ihres gewöhnlichen Aufenthalts, ihres Arbeitsplatzes oder des Orts des mutmaßlichen Verstoßes zu. Das Beschwerderecht besteht unbeschadet anderweitiger verwaltungsrechtlicher oder gerichtlicher Rechtsbehelfe.
+Im Falle von Verstößen gegen die DSGVO steht den Betroffenen ein Beschwerderecht bei einer Aufsichtsbehörde zu. Die für uns zuständige Aufsichtsbehörde ist:
+
+Landesbeauftragte für Datenschutz und Informationsfreiheit Nordrhein-Westfalen  
+Postfach 20 04 44  
+40102 Düsseldorf  
+Website: [https://www.ldi.nrw.de](https://www.ldi.nrw.de)
+
+Das Beschwerderecht besteht unbeschadet anderweitiger verwaltungsrechtlicher oder gerichtlicher Rechtsbehelfe.
 
 ### Recht auf Datenübertragbarkeit
 
@@ -107,6 +116,14 @@ Wenn Sie die Verarbeitung Ihrer personenbezogenen Daten eingeschränkt haben, d�
 
 ## 4. Datenerfassung auf dieser Website
 
+### Cookies
+
+Diese Website verwendet Cookies. Bei Cookies handelt es sich um kleine Textdateien, die auf Ihrem Endgerät gespeichert werden. Einige Cookies sind technisch notwendig (z.B. für die Darstellung der Website), andere dienen der statistischen Auswertung Ihres Nutzungsverhaltens (Analyse-Cookies).
+
+Technisch notwendige Cookies werden auf Grundlage von Art. 6 Abs. 1 lit. f DSGVO gespeichert. Analyse-Cookies (z.B. von Google Analytics) werden nur mit Ihrer Einwilligung gesetzt (Art. 6 Abs. 1 lit. a DSGVO i.V.m. § 25 Abs. 1 TDDDG).
+
+Sie können Ihren Browser so einstellen, dass Sie über das Setzen von Cookies informiert werden und Cookies nur im Einzelfall erlauben, die Annahme von Cookies für bestimmte Fälle oder generell ausschließen sowie das automatische Löschen der Cookies beim Schließen des Browsers aktivieren.
+
 ### Server-Log-Dateien
 
 Der Provider der Seiten erhebt und speichert automatisch Informationen in so genannten Server-Log-Dateien, die Ihr Browser automatisch an uns übermittelt. Dies sind:
@@ -122,11 +139,35 @@ Eine Zusammenführung dieser Daten mit anderen Datenquellen wird nicht vorgenomm
 
 Die Erfassung dieser Daten erfolgt auf Grundlage von Art. 6 Abs. 1 lit. f DSGVO. Der Websitebetreiber hat ein berechtigtes Interesse an der technisch fehlerfreien Darstellung und der Optimierung seiner Website – hierzu müssen die Server-Log-Files erfasst werden.
 
-## 5. Nutzung von KI-generierten Inhalten
+## 5. Analyse-Tools
+
+### Google Analytics
+
+Diese Website nutzt Google Analytics, einen Webanalysedienst der Google Ireland Limited („Google"), Gordon House, Barrow Street, Dublin 4, Irland.
+
+Google Analytics verwendet Cookies, die eine Analyse Ihrer Benutzung der Website ermöglichen. Die durch das Cookie erzeugten Informationen über Ihre Benutzung dieser Website werden in der Regel an einen Server von Google in den USA übertragen und dort gespeichert.
+
+**IP-Anonymisierung:** Wir haben auf dieser Website die IP-Anonymisierung aktiviert. Dadurch wird Ihre IP-Adresse von Google innerhalb von Mitgliedstaaten der Europäischen Union oder in anderen Vertragsstaaten des Abkommens über den Europäischen Wirtschaftsraum vor der Übermittlung in die USA gekürzt.
+
+**Rechtsgrundlage:** Die Nutzung von Google Analytics erfolgt auf Grundlage Ihrer Einwilligung gemäß Art. 6 Abs. 1 lit. a DSGVO i.V.m. § 25 Abs. 1 TDDDG (Telekommunikation-Digitale-Dienste-Datenschutz-Gesetz).
+
+**Datenübermittlung in die USA:** Google LLC ist unter dem EU-US Data Privacy Framework (DPF) zertifiziert. Das DPF ist ein Übereinkommen zwischen der Europäischen Union und den USA, das sicherstellen soll, dass europäische Datenschutzstandards auch bei der Datenverarbeitung in den USA eingehalten werden. Weitere Informationen: [https://www.dataprivacyframework.gov](https://www.dataprivacyframework.gov)
+
+**Auftragsverarbeitung:** Wir haben mit Google einen Vertrag zur Auftragsverarbeitung abgeschlossen.
+
+**Browser Plugin:** Sie können die Erfassung und Verarbeitung Ihrer Daten durch Google verhindern, indem Sie das unter folgendem Link verfügbare Browser-Plugin herunterladen und installieren: [https://tools.google.com/dlpage/gaoptout?hl=de](https://tools.google.com/dlpage/gaoptout?hl=de)
+
+**Widerspruch gegen Datenerfassung:** Sie können die Erfassung Ihrer Daten durch Google Analytics verhindern, indem Sie auf folgenden Link klicken. Es wird ein Opt-Out-Cookie gesetzt, das die Erfassung Ihrer Daten bei zukünftigen Besuchen dieser Website verhindert: <a href="javascript:gaOptout();">Google Analytics deaktivieren</a>
+
+**Do Not Track:** Zusätzlich ist auf dieser Website die Funktion „Do Not Track" aktiviert. Wenn Ihr Browser ein „Do Not Track"-Signal sendet, werden keine Daten an Google Analytics übermittelt.
+
+Weitere Informationen zum Umgang mit Nutzerdaten bei Google Analytics finden Sie in der Datenschutzerklärung von Google: [https://policies.google.com/privacy](https://policies.google.com/privacy)
+
+## 6. Nutzung von KI-generierten Inhalten
 
 Wesentliche Teile der Inhalte auf dieser Website wurden mithilfe von künstlicher Intelligenz erstellt. Dabei werden keine personenbezogenen Daten verarbeitet. Alle Inhalte werden vor Veröffentlichung redaktionell geprüft und kuratiert.
 
-## 6. Ihre Rechte
+## 7. Ihre Rechte
 
 Sie haben folgende Rechte:
 
@@ -141,4 +182,4 @@ Zur Ausübung Ihrer Rechte wenden Sie sich bitte an die im Impressum angegebene 
 
 ---
 
-*Stand: Januar 2026*
+*Stand: Mai 2026*
