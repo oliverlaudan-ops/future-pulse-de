@@ -259,3 +259,11 @@ TLDR, STEP-BY-STEP, ELI5, CHECKLIST und SWOT sind die beliebtesten Shortcuts. Ko
 - [OpenAI Official Blog](https://openai.com/blog/)
 - [ChatGPT Release Notes](https://help.openai.com/en/articles/6825453-chatgpt-release-notes)
 - [Prompt Engineering Guide 2026](https://www.promptingguide.ai/)
+
+---
+
+## Weiterführende Artikel
+
+- [den Vergleich Gemini vs ChatGPT](/blog/gemini-vs-chatgpt-2026/)
+- [den Vergleich Claude vs GPT-5](/blog/claude-opus-46-vs-gpt-53-der-ki-showdown-februar-2026/)
+- [die 5 wichtigsten KI-Trends 2026](/blog/ki-trends-2026-die-5-wichtigsten-entwicklungen/)

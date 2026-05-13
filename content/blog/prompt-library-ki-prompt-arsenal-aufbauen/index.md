@@ -1,5 +1,5 @@
 ---
-title: "Prompt Library: So baust du dein persönliches KI-Prompt-Arsenal auf"
+title: "Prompt Library: Dein KI-Prompt-Arsenal aufbauen"
 date: 2026-03-26
 draft: false
 description: "Warum du deine KI-Prompts systematisch speichern solltest – und wie du in 4 Schritten deine eigene Prompt Library aufbaust. Inklusive Vorlagen und Tools."
@@ -227,3 +227,11 @@ Prompt Chains sind aufeinanderfolgende Prompts für einen kompletten Workflow. T
 ## External Resources
 - [Obsidian – Deine zweite Gehirn-Software](https://obsidian.md)
 - [Notion – All-in-One-Workspace](https://notion.so)
+
+---
+
+## Weiterführende Artikel
+
+- [die Anatomie eines perfekten Prompts](/blog/anatomie-perfekter-prompt/)
+- [10 ChatGPT-Prompts für deinen Alltag](/blog/chatgpt-prompts-lebensqualitaet/)
+- [die Erstellung eines Custom GPTs](/blog/erstes-custom-gpt-15-minuten/)

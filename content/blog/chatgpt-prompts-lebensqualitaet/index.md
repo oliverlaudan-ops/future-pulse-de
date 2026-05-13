@@ -2,7 +2,7 @@
 title: "10 ChatGPT-Prompts, die dein Leben leichter machen"
 date: 2026-03-02
 draft: false
-description: "Entdecke 10 Power-Prompts für ChatGPT, die Zeit sparen und deinen Alltag erleichtern. Von E-Mails bis Brainstorming – jetzt ausprobieren!"
+description: "Entdecke 10 ChatGPT Power-Prompts, die dir im Alltag wirklich Stunden sparen. Von E-Mails über Brainstorming bis Planung – jetzt ausprobieren!"
 summary: "10 praktische ChatGPT-Prompts, die ich täglich nutze. Sie sparen Zeit, nerven und machen KI wirklich nützlich für dich."
 tags: ["ChatGPT", "Prompting", "KI-Tools", "Productivity", "KI im Alltag"]
 keywords: ["ChatGPT Prompts", "Prompt Engineering", "KI Produktivität", "ChatGPT Tipps", "AI Prompts Deutsch"]
@@ -168,3 +168,11 @@ Absolut. Sobald du das Prinzip (klares Ziel + Kontext + gewünschter Ton) verinn
 **💬 Deine Meinung?**
 
 Welcher Prompt hat dir am meisten geholfen? Oder hast du eigene Favoriten? Schreib mir!
+
+---
+
+## Weiterführende Artikel
+
+- [die Anatomie eines perfekten Prompts](/blog/anatomie-perfekter-prompt/)
+- [unserem Prompt Engineering Guide](/blog/prompt-engineering-deutsch-guide/)
+- [den Aufbau einer Prompt Library](/blog/prompt-library-ki-prompt-arsenal-aufbauen/)

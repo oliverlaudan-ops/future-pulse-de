@@ -2,7 +2,7 @@
 title: "Agentic AI im Arbeitsalltag: 7 konkrete Praxis-Beispiele für 2026"
 date: 2026-02-23
 draft: false
-description: "Agentic AI verändert die Wissensarbeit 2026 fundamental. Erfahre, wie autonome KI-Agenten konkret im Alltag helfen – mit 7 Praxis-Beispielen, Future Skills & Risiken."
+description: "Agentic AI verändert die Wissensarbeit 2026 fundamental. 7 konkrete Praxis-Beispiele, wie autonome KI-Agenten deinen Arbeitsalltag verbessern."
 summary: "Entdecke 7 konkrete Beispiele, wie Agentic AI deinen Arbeitsalltag 2026 verändert: von autonomen Vertriebsagenten bis zum persönlichen Work OS. Mit Future Skills & kritischem Blick."
 tags: ["Agentic AI", "KI-Agenten", "Wissensarbeit", "Future Skills", "Produktivität"]
 keywords: ["Agentic AI", "autonome KI-Agenten", "AI Agents Beispiele", "Wissensarbeit Automatisierung", "KI-Kompetenz 2026"]
@@ -269,9 +269,9 @@ Nutzt du bereits KI-Agenten in deinem Arbeitsalltag? Welches der sieben Beispiel
 
 **📌 Weiterführende Artikel auf Future Pulse:**
 
-- [KI-Trends 2026: Die wichtigsten Entwicklungen im Überblick](https://future-pulse.de/blog/ki-trends-2026-entwicklung/)
-- [KI-Kompetenz aufbauen: Der praktische Guide für AI Literacy](#)
-- [ChatGPT Prompts: 10 Vorlagen für bessere Ergebnisse](#)
+- [die wichtigsten KI-Entwicklungen 2026](/blog/ki-trends-2026-entwicklung/)
+- [KI-Kompetenz im Alltag](/blog/ki-kompetenz-im-alltag-2026/)
+- [Agentic AI und eigenständig handelnde KI](/blog/agentic-ai-wenn-ki-eigenstaendig-handelt/)
 
 **🎯 Willst du regelmäßig Updates zu KI-Kompetenz & Future Skills?**  
 Abonniere den **Future Pulse Newsletter** – wöchentlich praxisnahe Insights, keine Marketing-Floskeln.

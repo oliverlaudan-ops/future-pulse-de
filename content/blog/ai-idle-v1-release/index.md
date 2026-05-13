@@ -1,8 +1,8 @@
 ---
-title: "Ich habe ein Idle-Spiel mit einem KI-Bot gebaut – und er lernt immer besser"
+title: "KI-Bot lernt Idle-Game spielen – die ganze Story"
 date: 2026-03-13
 draft: false
-description: "Nach einem Jahr Entwicklung ist AI-Idle bei Version 1.0. Ein RL-Bot lernt selbst, wie er das Spiel spielt. Hier ist die Geschichte."
+description: "Nach einem Jahr Entwicklung ist AI-Idle bei Version 1.0. Ein Reinforcement-Learning-Bot lernt selbst, das Spiel zu meistern. Die Geschichte."
 summary: "Ein Idle-Spiel mit Machine Learning, einem RL-Bot und 50 Achievements – die Reise von 0.1.0 zu 1.0.0"
 tags: ["KI", "Spielentwicklung", "Reinforcement Learning", "Webentwicklung", "Open Source"]
 keywords: ["Idle Spiel mit KI bauen", "Reinforcement Learning im Browser", "ML-Modell trainieren Spiel", "Open Source Spiel entwickeln"]
@@ -157,3 +157,10 @@ Hast du schon mal ein Spiel mit KI gebaut? Welche Ansätze hast du genutzt?
 **📌 Weiterführende Ressourcen:**
 - [GitHub Repository](https://github.com/oliverlaudan-ops/AI-Idle)
 - [Release v1.0.0](https://github.com/oliverlaudan-ops/AI-Idle/releases/tag/v1.0.0)
+
+---
+
+## Weiterführende Artikel
+
+- [die besten KI-Tools für Programmierer](/blog/die-7-besten-ki-tools-programmierer-2026/)
+- [den OpenClaw VPS Setup Guide](/blog/openclaw-contabo-vps-setup-2026/)

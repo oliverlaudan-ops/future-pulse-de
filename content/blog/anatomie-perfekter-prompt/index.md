@@ -2,7 +2,7 @@
 title: "Die Anatomie eines perfekten ChatGPT-Prompts"
 date: 2026-03-02
 draft: false
-description: "Lerne die 6 Bausteine eines wirkungsvollen Prompts. Mit Formel, Beispielen und Tipps für bereffende KI-Kommunikation."
+description: "Lerne die 6 Bausteine eines wirkungsvollen ChatGPT-Prompts kennen. Mit praktischer Formel, Beispielen und Tipps für bessere KI-Kommunikation."
 summary: "Die perfekte Prompt-Formel in 6 Schritten. So schreibst du Prompts, die genau das liefern, was du brauchst."
 tags: ["ChatGPT", "Prompt Engineering", "KI-Tools", "Productivity", "Prompting"]
 keywords: ["Prompt Formel", "Wie schreibt man gute Prompts", "ChatGPT Tipps", "KI prompten lernen", "Prompt Struktur"]
@@ -194,3 +194,10 @@ Die Rolle ist optional, aber wirkungsvoll. Bei einfachen Fragen wie „Was ist 2
 **Welches Format liefert die besten Ergebnisse bei ChatGPT?**
 Das hängt von deinem Ziel ab: Tabellen für Vergleiche, nummerierte Listen für Schritt-für-Schritt-Anleitungen, Markdown für strukturierte Texte. Gib das Format immer explizit an.
 ---
+
+---
+
+## Weiterführende Artikel
+
+- [unserem Prompt Engineering Guide](/blog/prompt-engineering-deutsch-guide/)
+- [10 ChatGPT-Prompts für deinen Alltag](/blog/chatgpt-prompts-lebensqualitaet/)

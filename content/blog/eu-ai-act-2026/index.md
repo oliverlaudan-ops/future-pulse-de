@@ -155,3 +155,10 @@ Ja, wenn du KI-generierte Inhalte (Texte, Bilder, Videos) öffentlich teilst und
 
 - [Europäische Kommission – KI-Regulierung](https://digital-strategy.ec.europa.eu/en/policies/eu-ai-act) – Offizielle Quelle der EU zur KI-Verordnung
 - [BSI – Künstliche Intelligenz und Cybersecurity](https://www.bsi.bund.de/DE/Themen/KI-und-Cybersicherheit/ki_node.html) – Deutsches Bundesamt für Sicherheit in der Informationstechnik zu KI
+
+---
+
+## Weiterführende Artikel
+
+- [KI und Datenschutz in Deutschland](/blog/ki-datenschutz-deutschland-2026-guide/)
+- [Agentic AI und eigenständig handelnde KI](/blog/agentic-ai-wenn-ki-eigenstaendig-handelt/)

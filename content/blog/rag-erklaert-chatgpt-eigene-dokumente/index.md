@@ -2,7 +2,7 @@
 title: "RAG erklärt: So nutzt du ChatGPT mit deinen eigenen Dokumenten"
 date: 2026-04-06
 draft: false
-description: "RAG (Retrieval-Augmented Generation) macht ChatGPT nützlicher denn je. Lerne, wie du ChatGPT mit deinen eigenen Dokumenten fütterst – für präzise, relevante Antworten."
+description: "RAG macht ChatGPT nützlicher: Lerne, wie du KI mit deinen eigenen Dokumenten fütterst – für präzisere, relevantere Antworten. Schritt für Schritt erklärt."
 summary: "Mit RAG (Retrieval-Augmented Generation) kannst du ChatGPT mit deinen eigenen Dokumenten füttern. Wir erklären, wie es funktioniert, welche Tools es gibt und wie du heute damit startest."
 tags: ["RAG", "ChatGPT", "KI-Tools", "Tutorial", "OpenAI", "Documents"]
 keywords: ["RAG Tutorial", "ChatGPT eigene Dokumente", "Retrieval Augmented Generation", "KI Dokumenten Analyse"]
@@ -192,3 +192,11 @@ Ja. RAG reduziert Halluzinationen, eliminiert sie aber nicht. Immer gegenprüfen
 ---
 
 *Dieser Beitrag wurde mit KI-Unterstützung erstellt und vor der Veröffentlichung redaktionell geprüft.*
+
+---
+
+## Weiterführende Artikel
+
+- [die Erstellung eines Custom GPTs](/blog/erstes-custom-gpt-15-minuten/)
+- [effiziente KI-Textarbeit](/blog/ki-textarbeit-2026/)
+- [10 KI-Automatisierungen für mehr Produktivität](/blog/productivity-mit-ki-10-automatisierungen/)

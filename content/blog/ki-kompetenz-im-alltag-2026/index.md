@@ -1,8 +1,8 @@
 ---
-title: "KI-Kompetenz im Alltag 2026: Dein praktischer Guide für AI Literacy"
+title: "KI-Kompetenz im Alltag: Dein Guide für AI Literacy 2026"
 date: 2026-01-16
 draft: false
-description: "Erfahre, wie du KI-Kompetenz entwickelst und künstliche Intelligenz souverän im Alltag nutzt. Praktische Tipps für AI Literacy, Prompt Engineering und den verantwortungsvollen Umgang mit ChatGPT & Co."
+description: "Entwickle KI-Kompetenz und nutze künstliche Intelligenz souverän im Alltag. Praktische Tipps für AI Literacy, Prompt Engineering und ChatGPT & Co."
 summary: "KI-Tools wie ChatGPT sind 2026 Alltag. Doch wie nutzt man sie wirklich souverän? Dieser Guide zeigt dir die 4 Säulen der KI-Kompetenz."
 tags: ["KI", "Future Skills", "AI Literacy", "Digitalisierung", "ChatGPT", "Prompt Engineering"]
 keywords: ["KI-Kompetenz", "AI Literacy", "Künstliche Intelligenz lernen", "ChatGPT Tutorial", "Prompt Engineering Deutsch", "KI im Alltag", "Future Skills 2026"]
@@ -101,3 +101,11 @@ ChatGPT, Claude und Perplexity sind ideal für den Start. Am besten lernt man du
 ---
 
 **Welche KI-Tools nutzt du bereits? Teile deine Erfahrungen in den Kommentaren!**
+
+---
+
+## Weiterführende Artikel
+
+- [Critical Thinking im KI-Zeitalter](/blog/critical-thinking-ki-zeitalter/)
+- [KI im Beruf und Bewerbung](/blog/ki-im-beruf-bewerbung-2026/)
+- [kostenlose KI-Kurse](/blog/ki-kurs-kostenlos-2026-guide/)
