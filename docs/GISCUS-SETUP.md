@@ -9,7 +9,7 @@
 
 ### Schritt 1: GitHub Discussions aktivieren
 
-1. **Gehe zu:** https://github.com/oliverlaudan-ops/future-pulse-tech/settings
+1. **Gehe zu:** https://github.com/oliverlaudan-ops/future-pulse-de/settings
 2. **Scrolle runter zu "Features"**
 3. **Aktiviere:** ☑️ **Discussions**
 4. **Fertig!**
@@ -24,7 +24,7 @@ Die aktuelle `data-category-id` in `comments.html` ist ein **Platzhalter**!
 
 1. **Gehe zu:** https://giscus.app
 2. **Fülle aus:**
-   - **Repository:** `oliverlaudan-ops/future-pulse-tech`
+   - **Repository:** `oliverlaudan-ops/future-pulse-de`
    - **Page ↔️ Discussions Mapping:** Wähle `pathname` (bereits richtig)
    - **Discussion Category:** Wähle `Announcements` (oder erstelle "Blog Comments")
    
@@ -46,7 +46,7 @@ Die aktuelle `data-category-id` in `comments.html` ist ein **Platzhalter**!
 ### Schritt 3: Datei aktualisieren
 
 **Option A: Via GitHub Web Interface**
-1. Gehe zu: https://github.com/oliverlaudan-ops/future-pulse-tech/blob/main/layouts/partials/comments.html
+1. Gehe zu: https://github.com/oliverlaudan-ops/future-pulse-de/blob/main/layouts/partials/comments.html
 2. Klicke auf "Edit" (Stift-Symbol)
 3. Ersetze die `data-category-id` Zeile
 4. Commit mit Message: "Fix: Update Giscus Category-ID"
@@ -119,7 +119,7 @@ git push origin main
 
 ### Eigene Discussion Category erstellen
 
-1. Gehe zu: https://github.com/oliverlaudan-ops/future-pulse-tech/discussions/categories
+1. Gehe zu: https://github.com/oliverlaudan-ops/future-pulse-de/discussions/categories
 2. Klicke: "New category"
 3. Name: "Blog Comments"
 4. Description: "Kommentare zu Blog-Artikeln"

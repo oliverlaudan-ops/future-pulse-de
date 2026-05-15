@@ -10,7 +10,7 @@ Built with Hugo + GitHub Pages | Live seit Dezember 2025
 
 👉 **Production:** [https://future-pulse.de](https://future-pulse.de)
 
-👉 **GitHub Pages Fallback:** [https://oliverlaudan-ops.github.io/future-pulse-tech/](https://oliverlaudan-ops.github.io/future-pulse-tech/)
+👉 **GitHub Pages Fallback:** [https://oliverlaudan-ops.github.io/future-pulse-de/](https://oliverlaudan-ops.github.io/future-pulse-de/)
 
 ---
 
@@ -48,7 +48,7 @@ Built with Hugo + GitHub Pages | Live seit Dezember 2025
 ## 📏 Project Structure
 
 ```
-future-pulse-tech/
+future-pulse-de/
 ├── .github/
 │   └── workflows/
 │       └── hugo.yml          # Auto-Deployment Workflow
@@ -105,8 +105,8 @@ Dein Content hier...
 
 ```bash
 # Repo klonen (mit Theme-Submodule)
-git clone --recurse-submodules https://github.com/oliverlaudan-ops/future-pulse-tech.git
-cd future-pulse-tech
+git clone --recurse-submodules https://github.com/oliverlaudan-ops/future-pulse-de.git
+cd future-pulse-de
 
 # Neuen Artikel erstellen
 hugo new blog/dein-artikel-titel.md
@@ -139,7 +139,7 @@ git push origin main
 5. **Live in 2-3 Minuten** auf future-pulse.de
 
 **Build-Status prüfen:**
-- [Actions Tab](https://github.com/oliverlaudan-ops/future-pulse-tech/actions)
+- [Actions Tab](https://github.com/oliverlaudan-ops/future-pulse-de/actions)
 - Fehler? Check Workflow-Logs
 
 ---
@@ -246,7 +246,7 @@ git push
 ## 🔗 Links
 
 - **Live Site:** [future-pulse.de](https://future-pulse.de)
-- **GitHub Repo:** [oliverlaudan-ops/future-pulse-tech](https://github.com/oliverlaudan-ops/future-pulse-tech)
+- **GitHub Repo:** [oliverlaudan-ops/future-pulse-de](https://github.com/oliverlaudan-ops/future-pulse-de)
 - **Hugo Docs:** [gohugo.io/documentation](https://gohugo.io/documentation/)
 - **PaperMod Theme:** [adityatelange/hugo-PaperMod](https://github.com/adityatelange/hugo-PaperMod)
 - **GitHub Pages Docs:** [docs.github.com/pages](https://docs.github.com/en/pages)

@@ -56,14 +56,14 @@ Die Konfiguration ist **komplett** und **korrekt**:
 3. **Schreibe** deinen ersten Kommentar
 4. **Kommentar erscheint:**
    - Auf der Webseite
-   - In GitHub Discussions: [Blog Comments](https://github.com/oliverlaudan-ops/future-pulse-tech/discussions/categories/blog-comments)
+   - In GitHub Discussions: [Blog Comments](https://github.com/oliverlaudan-ops/future-pulse-de/discussions/categories/blog-comments)
 
 ---
 
 ## 🔍 Wo finde ich die Kommentare in GitHub?
 
 **Alle Kommentare sind gespeichert in:**
-👉 [GitHub Discussions → Blog Comments](https://github.com/oliverlaudan-ops/future-pulse-tech/discussions/categories/blog-comments)
+👉 [GitHub Discussions → Blog Comments](https://github.com/oliverlaudan-ops/future-pulse-de/discussions/categories/blog-comments)
 
 **Pro Artikel:**
 - Jeder Artikel = Eine Discussion
@@ -79,12 +79,12 @@ Die Konfiguration ist **komplett** und **korrekt**:
 **Lösungen:**
 
 1. **Prüfe Repo-Einstellungen:**
-   - [Settings](https://github.com/oliverlaudan-ops/future-pulse-tech/settings)
+   - [Settings](https://github.com/oliverlaudan-ops/future-pulse-de/settings)
    - Features → ☑️ Discussions aktiviert?
 
 2. **Prüfe Giscus App:**
    - [Installed Apps](https://github.com/settings/installations)
-   - Giscus hat Zugriff auf `future-pulse-tech`?
+   - Giscus hat Zugriff auf `future-pulse-de`?
 
 3. **Prüfe Browser:**
    - JavaScript aktiviert?
@@ -102,7 +102,7 @@ Die Konfiguration ist **komplett** und **korrekt**:
 
 **Lösung:**
 - Category "Blog Comments" existiert?
-- Prüfe: [Discussions Categories](https://github.com/oliverlaudan-ops/future-pulse-tech/discussions/categories)
+- Prüfe: [Discussions Categories](https://github.com/oliverlaudan-ops/future-pulse-de/discussions/categories)
 - Falls nicht: Erstelle Category
 - Hole neue Category-ID von [giscus.app](https://giscus.app)
 - Update `comments.html`
@@ -127,7 +127,7 @@ Die Konfiguration ist **komplett** und **korrekt**:
 - ✅ Benachrichtigungen erhalten (GitHub Settings)
 
 **Moderieren:**
-- [Discussions Dashboard](https://github.com/oliverlaudan-ops/future-pulse-tech/discussions)
+- [Discussions Dashboard](https://github.com/oliverlaudan-ops/future-pulse-de/discussions)
 - Kommentare bearbeiten/löschen
 - Nutzer blockieren
 - Diskussionen schließen
@@ -138,7 +138,7 @@ Die Konfiguration ist **komplett** und **korrekt**:
 
 **Automatisch bei neuen Kommentaren:**
 
-1. Gehe zu: [Watch Settings](https://github.com/oliverlaudan-ops/future-pulse-tech/subscription)
+1. Gehe zu: [Watch Settings](https://github.com/oliverlaudan-ops/future-pulse-de/subscription)
 2. Wähle: 🔔 **Participating and @mentions**
 3. Du erhältst E-Mails bei:
    - Kommentaren auf deinen Artikeln

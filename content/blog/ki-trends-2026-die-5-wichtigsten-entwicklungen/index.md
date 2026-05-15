@@ -236,7 +236,7 @@ Investiere in KI-Kompetenz deines Teams, teste agentische Systeme frühzeitig un
 
 **💬 Welcher KI-Trend wird deiner Meinung nach den größten Einfluss auf deine Arbeit haben?**
 
-Teile deine Gedanken in den Kommentaren oder schreib uns auf [LinkedIn](https://linkedin.com/company/future-pulse-tech).
+Teile deine Gedanken in den Kommentaren oder schreib uns auf [LinkedIn](https://linkedin.com/company/future-pulse-de).
 
 **📌 Weiterführende Artikel:**
 - [KI-Kompetenz im Alltag 2026](/blog/ki-kompetenz-im-alltag-2026/)

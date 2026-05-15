@@ -33,7 +33,7 @@
 
 | Thema | Search Intent | Priorität | Notizen |
 |-------|--------------|-----------|---------|
-| **AI Agents selbst bauen** | "AI Agent erstellen", "eigener AI Agent" | 🔴 Hoch | Tutorial-Serie: Von Zero zum ersten Agent |
+| **AI Agents selbst bauen** | "AI Agent erstellen", "eigener AI Agent" | ✅ 2026-05-15 | Tutorial-Serie: Von Zero zum ersten Agent |
 | **Lokale KI Modelle 2026** | "Ollama Modelle", "Lokal KI laufen", "Llama 3.1" | 🔴 Hoch | Datenschutz + Kosten sparen |
 | **AI Automation für KMU** | "KI Automatisierung kleine Unternehmen" | 🔴 Hoch | Praxisbeispiele, ROI-Rechner |
 | **AI Copilot im Alltag** | "AI Copilot", "Microsoft Copilot Alternativen" | 🟠 Mittel | Vergleich + Setup-Guides |
@@ -76,7 +76,7 @@
 | Woche | Thema | Type |
 |-------|-------|------|
 | KW 20 (11.-17.05.) | ✅ AI Agents Tools 2026 | Done |
-| KW 21 (18.-24.05.) | AI Agents selbst bauen (Teil 1) | Tutorial |
+| KW 21 (18.-24.05.) | ✅ AI Agents selbst bauen (Teil 1) | Done |
 | KW 22 (25.-31.05.) | Lokale KI Modelle Guide | How-To |
 | KW 23 (01.-07.06.) | AI Automation für KMU | Business |
 | KW 24 (08.-14.06.) | AI Mid-Year Review 2026 | News |
@@ -116,5 +116,5 @@
 
 ---
 
-_Stand: 11. Mai 2026_
-_Letzte Aktualisierung: Neuer AI Agents Tools Artikel veröffentlicht_
+_Stand: 15. Mai 2026_
+_Letzte Aktualisierung: AI Agents selbst bauen Tutorial veröffentlicht_
