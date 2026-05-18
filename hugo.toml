@@ -1,6 +1,6 @@
 baseURL = 'https://future-pulse.de/'
 languageCode = 'de-DE'
-title = 'Future Pulse Tech - KI-Kompetenz & Future Skills'
+title = 'Future Pulse'
 theme = 'PaperMod'
 enableRobotsTXT = false
 enableGitInfo = true
