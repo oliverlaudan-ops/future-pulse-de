@@ -2,7 +2,7 @@
 title: "Multimodale KI 2026: Das Jahr der vielseitigen KI"
 date: 2026-03-16
 draft: false
-description: "Voice, Vision, Video – Multimodale KI-Modelle verändern, wie wir mit KI interagieren. Entdecke, was heute möglich ist und warum du davon profitierst."
+description: "KI die sieht, hört und spricht: Multimodale KI-Modelle im Überblick. GPT-4o, Gemini & Co. – was sie können, wie du sie nutzt und welche Tools sich 2026 wirklich lohnen."
 summary: "Multimodale KI kann sehen, hören und sprechen. Wir zeigen dir, was 2026 möglich ist und wie du multimodale Tools heute schon nutzt."
 tags: ["Multimodale KI", "KI-Trends", "ChatGPT", "GPT-4o", "Gemini", "KI im Alltag"]
 keywords: ["Multimodale KI", "KI die sehen kann", "Voice AI", "Vision AI", "GPT-4o Vision", "KI Sprachassistent"]

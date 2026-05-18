@@ -2,7 +2,7 @@
 title: "Die Anatomie eines perfekten ChatGPT-Prompts"
 date: 2026-03-02
 draft: false
-description: "Lerne die 6 Bausteine eines wirkungsvollen ChatGPT-Prompts kennen. Mit praktischer Formel, Beispielen und Tipps für bessere KI-Kommunikation."
+description: "Die 6-Schritte-Formel für perfekte ChatGPT-Prompts – mit konkreten Beispielen & Vorlagen zum Sofort-Anwenden. So bekommst du endlich die Antworten, die du wirklich brauchst. [2026]"
 summary: "Die perfekte Prompt-Formel in 6 Schritten. So schreibst du Prompts, die genau das liefern, was du brauchst."
 tags: ["ChatGPT", "Prompt Engineering", "KI-Tools", "Productivity", "Prompting"]
 keywords: ["Prompt Formel", "Wie schreibt man gute Prompts", "ChatGPT Tipps", "KI prompten lernen", "Prompt Struktur"]

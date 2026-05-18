@@ -2,7 +2,7 @@
 title: "Claude Opus 4.6 vs GPT-5.3: Der KI-Showdown Februar 2026"
 date: 2026-02-08
 draft: false
-description: "Anthropic und OpenAI liefern sich ein Kopf-an-Kopf-Rennen. Claude Opus 4.6 vs GPT-5.3-Codex – welches KI-Modell ist besser für deine Arbeit? Jetzt vergleichen!"
+description: "Claude Opus 4.6 vs GPT-5.3-Codex im Direktvergleich: Coding, Business-Tasks & Kreativarbeit – wir testen beide Modelle. Klarer Sieger bei 3 von 5 Kategorien."
 summary: "Claude Opus 4.6 und GPT-5.3-Codex im direkten Vergleich: Welches KI-Modell dominiert bei Coding, Business-Tasks und professioneller Arbeit?"
 tags: ["KI-Modelle", "Claude AI", "OpenAI", "GPT-5", "KI-Tools"]
 keywords: ["Claude Opus 4.6", "GPT-5.3-Codex", "KI-Modelle Vergleich", "Anthropic vs OpenAI", "beste KI 2026"]
