@@ -34,7 +34,7 @@
 | Thema | Search Intent | Priorität | Notizen |
 |-------|--------------|-----------|---------|
 | **AI Agents selbst bauen** | "AI Agent erstellen", "eigener AI Agent" | ✅ 2026-05-15 | Tutorial-Serie: Von Zero zum ersten Agent |
-| **Lokale KI Modelle 2026** | "Ollama Modelle", "Lokal KI laufen", "Llama 3.1" | 🔴 Hoch | Datenschutz + Kosten sparen |
+| Lokale KI Modelle 2026 | ✅ 2026-05-21 | /blog/lokale-ki-modelle-2026-guide/ |
 | **AI Automation für KMU** | "KI Automatisierung kleine Unternehmen" | 🔴 Hoch | Praxisbeispiele, ROI-Rechner |
 | **AI Copilot im Alltag** | "AI Copilot", "Microsoft Copilot Alternativen" | 🟠 Mittel | Vergleich + Setup-Guides |
 | **KI für Solopreneure** | "KI selbstständig", "AI One-Person-Business" | 🟠 Mittel | Produktivitäts-Hacks für Einzelkämpfer |
