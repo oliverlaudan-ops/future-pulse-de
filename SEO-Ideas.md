@@ -19,7 +19,6 @@
 | Custom GPT in 15 Minuten | ✅ 2026-04-28 | /blog/erstes-custom-gpt-15-minuten/ |
 | AI Idle Check v1 Release | ✅ 2026-04-28 | /blog/ai-idle-v1-release/ |
 | Agentic AI Revolution | ✅ 2026-04-28 | /blog/agentic-ai-revolution-2026/ |
-| Agentic AI wenn KI eigenständig handelt | ✅ 2026-04-28 | /blog/agentic-ai-wenn-ki-eigenstaendig-handelt/ |
 | ChatGPT Features 2026 | ✅ 2026-04-28 | /blog/chatgpt-features-2026/ |
 | ChatGPT Prompts Lebensqualität | ✅ 2026-04-28 | /blog/chatgpt-prompts-lebensqualitaet/ |
 | Critical Thinking KI-Zeitalter | ✅ 2026-04-28 | /blog/critical-thinking-ki-zeitalter/ |
