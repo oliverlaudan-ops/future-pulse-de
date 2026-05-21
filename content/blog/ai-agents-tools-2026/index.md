@@ -5,7 +5,7 @@ description: "AI Agents übernehmen 2026 repetitive Aufgaben eigenständig. Die 
 summary: "AI Agents sind die nächste Evolutionsstufe nach Chatbots: Sie handeln eigenständig, nicht nur auf Befehl. Dieser Guide vergleicht die 7 besten AI-Agent-Tools 2026 und zeigt, welche Automatisierungen sich wirklich lohnen."
 tags: ["AI Agents", "Automatisierung", "KI-Tools", "Produktivität", "No-Code", "Workflow"]
 keywords: ["AI Agents 2026", "KI Automatisierung", "Agent Tools", "Workflow Automatisierung", "No-Code AI", "Business Automation", "AI Agent Vergleich", "Autonome KI"]
-author: "DrBoskonovic"
+author: "Oliver Laudan"
 draft: false
 ShowToc: true
 TocOpen: true
