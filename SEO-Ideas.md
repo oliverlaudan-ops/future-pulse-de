@@ -34,7 +34,7 @@
 | Thema | Search Intent | Priorität | Notizen |
 |-------|--------------|-----------|---------|
 | **AI Agents selbst bauen** | "AI Agent erstellen", "eigener AI Agent" | ✅ 2026-05-15 | Tutorial-Serie: Von Zero zum ersten Agent |
-| **AI Automation für KMU** | "KI Automatisierung kleine Unternehmen" | 🔴 Hoch | Praxisbeispiele, ROI-Rechner |
+| **AI Automation für KMU** | "KI Automatisierung kleine Unternehmen" | ✅ 2026-05-25 | /blog/ki-automation-kmu-2026/ |
 | **AI Copilot im Alltag** | "AI Copilot", "Microsoft Copilot Alternativen" | 🟠 Mittel | Vergleich + Setup-Guides |
 | **KI für Solopreneure** | "KI selbstständig", "AI One-Person-Business" | 🟠 Mittel | Produktivitäts-Hacks für Einzelkämpfer |
 | **AI Code Generierung 2026** | "Cursor IDE", "GitHub Copilot Alternativen" | 🟠 Mittel | Tools-Vergleich, Best Practices |
