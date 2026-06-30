@@ -42,8 +42,20 @@ jobs:
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
+        with:
+          # Avoids a transient "other side closed" failure when the
+          # Pages-site GET races with the action's own enablement check
+          # (observed 2026-06-30, run 28426721641).
+          enablement: true
       
       - name: Install Node.js dependencies
+        uses: actions/setup-node@v4
+        with:
+          # Pin to Node 24 explicitly — Node 20 has been deprecated on
+          # GitHub Actions runners (2025-09-19 changelog). The default
+          # would otherwise auto-upgrade and we lose reproducibility.
+          node-version: '24'
+          cache: 'npm'
         run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
       
       - name: Build with Hugo
