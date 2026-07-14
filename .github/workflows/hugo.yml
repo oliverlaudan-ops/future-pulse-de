@@ -36,7 +36,6 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
         with:
-          submodules: recursive
           fetch-depth: 0
       
       - name: Setup Pages
@@ -48,16 +47,11 @@ jobs:
           # (observed 2026-06-30, run 28426721641).
           enablement: true
       
-      - name: Install Node.js dependencies
-        uses: actions/setup-node@v4
-        with:
-          # Pin to Node 24 explicitly — Node 20 has been deprecated on
-          # GitHub Actions runners (2025-09-19 changelog). The default
-          # would otherwise auto-upgrade and we lose reproducibility.
-          node-version: '24'
-          cache: 'npm'
-        run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
-      
+      # (No Node.js dependencies — PaperMod is a pure-template theme,
+      # Hugo site has no package.json. Removed the broken
+      # actions/setup-node@v4 + run: combo that was failing
+      # YAML validation since 2026-07-10. Tracked in run 28426721641.)
+
       - name: Build with Hugo
         env:
           HUGO_CACHEDIR: ${{ runner.temp }}/hugo_cache
