@@ -80,6 +80,11 @@ Entdecke, wie du mit intelligenten Technologien souverän umgehst und die digita
     name = 'Themen'
     url = '/tags/'
     weight = 30
+  [[menu.main]]
+    identifier = 'ki-policy'
+    name = 'KI-Policy'
+    url = '/ki-policy/'
+    weight = 40
 
 [markup]
   [markup.highlight]

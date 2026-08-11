@@ -1,0 +1,84 @@
+{{- /*
+  Custom RSS-Layout (override des PaperMod-rss.xml).
+  Zweck: Art. 50 EU AI Act — das RSS-Feed ist „making available to the public"
+  i.S.d. Art. 50 Abs. 1, daher bekommt jeder Feed-Eintrag einen kurzen KI-Disclosure-Block.
+*/ -}}
+
+{{- $authorEmail := "" }}
+{{- $authorName := "" }}
+{{- with site.Params.author }}
+  {{- if reflect.IsMap . }}
+    {{- with .email }}
+      {{- $authorEmail = . }}
+    {{- end }}
+    {{- with .name }}
+      {{- $authorName = . }}
+    {{- end }}
+  {{- else }}
+    {{- $authorName = . }}
+  {{- end }}
+{{- end }}
+
+{{- $pctx := . }}
+{{- if .IsHome }}{{ $pctx = site }}{{ end }}
+{{- $pages := slice }}
+{{- if or $.IsHome $.IsSection }}
+{{- $pages = $pctx.RegularPages }}
+{{- else }}
+{{- $pages = $pctx.Pages }}
+{{- end }}
+{{- $pages = where $pages "Params.hiddenInRss" "!=" true -}}
+{{- $limit := site.Config.Services.RSS.Limit }}
+{{- if ge $limit 1 }}
+{{- $pages = $pages | first $limit }}
+{{- end }}
+
+{{- printf "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"yes\"?>" | safeHTML }}
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>{{ if eq .Title site.Title }}{{ site.Title }}{{ else }}{{ with .Title }}{{ . }} on {{ end }}{{ site.Title }}{{ end }}</title>
+    <link>{{ .Permalink }}</link>
+    <description>Recent content {{ if ne .Title site.Title }}{{ with .Title }}in {{ . }} {{ end }}{{ end }}on {{ site.Title }}</description>
+    <language>{{ site.LanguageCode | default "en-us" }}</language>
+    {{- with $authorName }}<managingEditor>{{ with $authorEmail }}{{ . }}{{ end }}{{ if and $authorEmail }} ({{ $authorName }}){{ end }}</managingEditor>{{ end }}
+    {{- with $authorName }}<dc:creator>{{ . }}</dc:creator>{{ end }}
+    <copyright>Oliver Laudan — future-pulse.de</copyright>
+    <ttl>60</ttl>
+
+    {{/* RSS-Disclaimer (Art. 50 EU AI Act) — erscheint genau einmal pro Channel */}}
+    <item>
+      <title>KI-Kennzeichnung für diesen Feed</title>
+      <link>{{ "/ki-policy/" | absURL }}</link>
+      <description>Dieser RSS-/Atom-Feed veröffentlicht Kurzfassungen von Beiträgen auf future-pulse.de. Gemäß EU AI Act (Art. 50, gültig seit 2. August 2026) wird jeder Beitrag, der mithilfe von KI erstellt wurde, im Originalartikel gekennzeichnet. Die vollständige KI-Policy inklusive Modellangaben und Reviewer findest du unter ki-policy.de/ki-policy/.</description>
+      <pubDate>{{ now.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</pubDate>
+      <guid isPermaLink="false">future-pulse-de-ai-policy-rss</guid>
+    </item>
+
+    {{- range $pages }}
+    <item>
+      <title>{{ .Title }}</title>
+      <link>{{ .Permalink }}</link>
+      <pubDate>{{ .PublishDate.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</pubDate>
+      <guid isPermaLink="true">{{ .Permalink }}</guid>
+
+      {{- $aiGen := .Param "ai_generated" }}
+      {{- $aiModel := .Param "ai_model" }}
+      {{- $reviewer := .Param "human_reviewer" }}
+      {{- $reviewDate := .Param "review_date" }}
+
+      <description>
+      {{- if eq $aiGen true -}}
+        [KI-generierter / KI-unterstützter Inhalt · Modell: {{ $aiModel }} · Redaktionell geprüft von {{ $reviewer }} am {{ $reviewDate }} · /ki-policy] &#10;&#10;
+      {{- else if eq $aiGen false -}}
+        [Manuell erstellt · Keine KI beteiligt · /ki-policy] &#10;&#10;
+      {{- end -}}
+      {{ with .Description }}{{ . }}{{ else }}{{ .Summary | plainify }}{{ end }}
+      </description>
+
+      {{- if .Content }}
+      <content:encoded>{{ printf "<p><em>Hinweis KI-Kennzeichnung: Modell %s, geprüft von %s am %s. Volle Disclosure auf der Artikelseite.</em></p>" ($aiModel | default "n/a") ($reviewer | default "n/a") ($reviewDate | default "n/a") | safeHTML }}{{ .Content | safeHTML }}</content:encoded>
+      {{- end }}
+    </item>
+    {{- end }}
+  </channel>
+</rss>

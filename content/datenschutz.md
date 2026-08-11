@@ -1,8 +1,11 @@
 ---
 title: "Datenschutzerklärung"
 date: 2026-01-17
+ai_generated: false
+ai_model: "human-only"
+human_reviewer: "Oliver Laudan"
+review_date: 2026-08-11
 ---
-
 ## 1. Datenschutz auf einen Blick
 
 ### Allgemeine Hinweise

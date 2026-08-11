@@ -1,8 +1,11 @@
 ---
 title: "Impressum"
 date: 2026-01-17
+ai_generated: false
+ai_model: "human-only"
+human_reviewer: "Oliver Laudan"
+review_date: 2026-08-11
 ---
-
 ## Angaben gemäß § 5 DDG
 
 **Future Pulse**  

@@ -2,8 +2,11 @@
 title: "Über Future Pulse"
 date: 2026-01-16
 draft: false
+ai_generated: false
+ai_model: "human-only"
+human_reviewer: "Oliver Laudan"
+review_date: 2026-08-11
 ---
-
 # Über Future Pulse
 
 **Future Pulse** ist deine Anlaufstelle für zukunftsorientiertes Wissen über KI, Future Skills und digitale Transformation.
