@@ -9,6 +9,10 @@ keywords: ["ChatGPT 2026", "ChatGPT Features", "ChatGPT Updates", "KI-Assistent"
 author: "Oliver Laudan"
 ShowToc: true
 TocOpen: true
+ai_generated: true
+ai_model: "minimax-m3:cloud"
+human_reviewer: "Oliver Laudan"
+review_date: 2026-08-11
 ---
 
 ChatGPT hat sich 2026 grundlegend gewandelt. Was als einfacher Chatbot begann, entwickelt sich zunehmend zum proaktiven KI-Assistenten, der dich im Alltag unterstützt. Die neuesten Updates bringen Features, die weit über einfache Frage-Antwort-Spiele hinausgehen.

@@ -24,6 +24,10 @@ cover:
   relative: false
 ShowToc: true
 TocOpen: false
+ai_generated: true
+ai_model: "minimax-m3:cloud"
+human_reviewer: "Oliver Laudan"
+review_date: 2026-08-11
 ---
 
 ## Einleitung: Das Support-Dilemma 2026

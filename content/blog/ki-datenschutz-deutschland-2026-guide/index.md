@@ -9,6 +9,10 @@ keywords: ["KI Datenschutz Deutschland", "GDPR KI", "DSGVO ChatGPT", "KI rechtss
 author: "Oliver Laudan"
 ShowToc: true
 TocOpen: false
+ai_generated: true
+ai_model: "minimax-m3:cloud"
+human_reviewer: "Oliver Laudan"
+review_date: 2026-08-11
 ---
 
 Du willst KI-Tools wie ChatGPT, Claude oder Copilot nutzen – aber bist unsicher, ob das mit dem deutschen Datenschutz vereinbar ist? Du bist nicht allein. Die Frage nach **GDPR-konformer KI-Nutzung** beschäftigt 2026 Unternehmen und Privatpersonen in Deutschland gleichermaßen.

@@ -9,6 +9,10 @@ keywords: ["Agentic AI", "autonome KI-Systeme", "KI-Trends 2026", "Multi-Agent-K
 author: "Oliver Laudan"
 ShowToc: true
 TocOpen: true
+ai_generated: true
+ai_model: "minimax-m3:cloud"
+human_reviewer: "Oliver Laudan"
+review_date: 2026-08-11
 ---
 
 Stell dir vor: Ein Unternehmen beauftragt eine KI nicht nur mit der Analyse eines komplexen Projekts, sondern überlässt ihr auch die eigenständige Koordination aller Beteiligten, die Ressourcenplanung und sogar die Problemlösung bei unerwarteten Hindernissen. Die KI handelt, plant und optimiert – ohne ständige menschliche Anweisungen. Willkommen in der Ära der Agentic AI.

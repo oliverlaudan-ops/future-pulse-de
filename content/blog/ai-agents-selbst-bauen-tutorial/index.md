@@ -7,6 +7,10 @@ tags: ["AI Agents", "Tutorial", "KI Automatisierung", "No-Code"]
 keywords: ["AI Agent erstellen", "eigener AI Agent", "AI Agent bauen", "KI Automatisierung", "Agent Tutorial"]
 author: "DrBoskonovic"
 draft: false
+ai_generated: true
+ai_model: "minimax-m3:cloud"
+human_reviewer: "DrBoskonovic"
+review_date: 2026-08-11
 ---
 
 # AI Agents selbst bauen: Das komplette Tutorial für Einsteiger 2026

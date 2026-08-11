@@ -1,0 +1,124 @@
+{{/*
+  KI-Disclosure / Art. 50 EU AI Act Kennzeichnung
+  - Liest die vier Pflichtfelder aus dem Frontmatter und rendert sie sichtbar am Artikel-Footer.
+  - Wird über layouts/partials/extend_post_content.html automatisch auf jeder Einzelseite eingebunden.
+  - Doku: docs/CONTENT-METADATA.md
+*/}}
+
+{{- $aiGen := .Param "ai_generated" -}}
+{{- $aiModel := .Param "ai_model" -}}
+{{- $reviewer := .Param "human_reviewer" -}}
+{{- $reviewDate := .Param "review_date" -}}
+
+{{- if or $aiGen $aiModel $reviewer $reviewDate -}}
+<aside class="ki-disclosure" role="note" aria-label="KI-Kennzeichnung gemäß EU AI Act Art. 50">
+  <div class="ki-disclosure-header">
+    <span class="ki-disclosure-badge">🤖 KI-Kennzeichnung</span>
+    <span class="ki-disclosure-eyebrow">EU AI Act · Art. 50</span>
+  </div>
+
+  {{- if eq $aiGen true }}
+  <p class="ki-disclosure-lede">
+    Dieser Artikel enthält <strong>KI-generierte oder KI-unterstützte Inhalte</strong>.
+    Recherche, Gliederung oder Formulierungen wurden mithilfe eines Sprachmodells erstellt und anschließend redaktionell geprüft.
+  </p>
+  {{- else if eq $aiGen false }}
+  <p class="ki-disclosure-lede">
+    Dieser Artikel wurde <strong>von Hand und ohne KI-Hilfe</strong> verfasst.
+  </p>
+  {{- else }}
+  <p class="ki-disclosure-lede">
+    Für diesen Artikel liegen keine Pflichtangaben zur KI-Nutzung vor.
+  </p>
+  {{- end }}
+
+  <dl class="ki-disclosure-meta">
+    {{- if $aiModel }}
+    <dt>Modell</dt><dd>{{ $aiModel }}</dd>
+    {{- end }}
+    {{- if $reviewer }}
+    <dt>Redaktionell geprüft von</dt><dd>{{ $reviewer }}</dd>
+    {{- end }}
+    {{- if $reviewDate }}
+    <dt>Datum der Prüfung</dt><dd>{{ $reviewDate }}</dd>
+    {{- end }}
+  </dl>
+
+  <p class="ki-disclosure-footer">
+    Mehr zu unserem Umgang mit KI, Aufbewahrung und Trainingsdaten: <a href="/ki-policy/">KI-Policy</a>.
+  </p>
+</aside>
+
+<style>
+  /* KI-Disclosure — dezent, eigenständig, funktioniert in Light- & Dark-Mode */
+  .ki-disclosure {
+    margin: 2.5rem 0 1.5rem;
+    padding: 1.1rem 1.25rem 1rem;
+    border-left: 3px solid var(--secondary, #6366f1);
+    background: rgba(99, 102, 241, 0.06);
+    border-radius: 0 8px 8px 0;
+    font-size: 0.92rem;
+    line-height: 1.55;
+    color: var(--content, #333);
+  }
+  .ki-disclosure-header {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    margin-bottom: 0.6rem;
+  }
+  .ki-disclosure-badge {
+    display: inline-block;
+    background: var(--secondary, #6366f1);
+    color: #fff;
+    font-weight: 600;
+    font-size: 0.78rem;
+    padding: 0.18rem 0.55rem;
+    border-radius: 999px;
+    letter-spacing: 0.02em;
+  }
+  .ki-disclosure-eyebrow {
+    font-size: 0.72rem;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    opacity: 0.6;
+  }
+  .ki-disclosure-lede {
+    margin: 0.25rem 0 0.75rem;
+    color: inherit;
+  }
+  .ki-disclosure-meta {
+    margin: 0.5rem 0 0.6rem;
+    display: grid;
+    grid-template-columns: max-content 1fr;
+    column-gap: 0.75rem;
+    row-gap: 0.25rem;
+    font-size: 0.86rem;
+  }
+  .ki-disclosure-meta dt {
+    font-weight: 600;
+    opacity: 0.7;
+  }
+  .ki-disclosure-meta dd {
+    margin: 0;
+  }
+  .ki-disclosure-footer {
+    margin: 0.6rem 0 0;
+    font-size: 0.85rem;
+    opacity: 0.8;
+  }
+  .ki-disclosure-footer a {
+    color: var(--secondary, #6366f1);
+    text-decoration: underline;
+  }
+
+  [data-theme="dark"] .ki-disclosure {
+    background: rgba(99, 102, 241, 0.14);
+    color: #e5e7eb;
+  }
+  @media (max-width: 640px) {
+    .ki-disclosure { padding: 0.9rem 1rem; }
+    .ki-disclosure-meta { font-size: 0.82rem; }
+  }
+</style>
+{{- end -}}
