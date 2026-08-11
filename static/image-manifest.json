@@ -1,0 +1,60 @@
+{
+  "schema": "future-pulse-de/image-manifest",
+  "schema_version": "1.0.0",
+  "generated_at": "2026-08-11T08:22:54+00:00",
+  "generator": "build/build-image-manifest.py",
+  "scope": "58 blog posts scanned under content/blog/",
+  "method": "URL-origin classification heuristic, not C2PA verification",
+  "c2pa_strategy": "We do NOT embed fake C2PA signatures into images we don't own. This manifest is the honest disclosure of provenance we can attest to.",
+  "summary": {
+    "self-hosted/github-raw": 1,
+    "ai-generated/leonardo-ai": 2,
+    "ai-generated/seedream": 1
+  },
+  "items": [
+    {
+      "image_id": "d3ec73a1594970fd",
+      "post_slug": "ki-mythen-2026",
+      "post_url": "https://future-pulse.de/blog/ki-mythen-2026/",
+      "image_url": "https://cdn.leonardo.ai/users/94266353-8c5f-4f36-9f86-c0a7ad35cf95/generations/6c914ea7-c72d-4449-8e33-ae7f5eaad0e2/Default_myths_misconceptions_about_AI_artificial_intelligence_0.jpg",
+      "alt_text": "5 KI-Mythen, die du 2026 abhaken solltest",
+      "caption": "Mythos oder Wahrheit? Wir klären auf.",
+      "provenance_class": "ai-generated/leonardo-ai",
+      "c2pa_manifest": null,
+      "last_verified_at": "2026-08-11T08:22:54+00:00"
+    },
+    {
+      "image_id": "9faf2e69af514f21",
+      "post_slug": "prompt-library-ki-prompt-arsenal-aufbauen",
+      "post_url": "https://future-pulse.de/blog/prompt-library-ki-prompt-arsenal-aufbauen/",
+      "image_url": "https://cdn.leonardo.ai/users/94266353-8c5f-4f36-9f86-c0a7ad35cf95/generations/c610b6bc-f978-45c7-a426-fa7f1ee99938/Default_organized_prompt_library_on_laptop_digital_notes_futur_0.jpg",
+      "alt_text": "Organisierte Prompt Library auf dem Laptop",
+      "caption": "Gut organisiert = Zeit gespart",
+      "provenance_class": "ai-generated/leonardo-ai",
+      "c2pa_manifest": null,
+      "last_verified_at": "2026-08-11T08:22:54+00:00"
+    },
+    {
+      "image_id": "431e210af37c7ac3",
+      "post_slug": "openclaw-contabo-vps-setup-2026",
+      "post_url": "https://future-pulse.de/blog/openclaw-contabo-vps-setup-2026/",
+      "image_url": "https://user-gen-media-assets.s3.amazonaws.com/seedream_images/3e0324ac-a549-4bdd-8ec8-b6ca39740321.png",
+      "alt_text": "OpenClaw AI Agent Deployment on VPS - Terminal and Server Infrastructure",
+      "caption": "OpenClaw auf Contabo VPS: Von der Installation bis Production-Ready",
+      "provenance_class": "ai-generated/seedream",
+      "c2pa_manifest": null,
+      "last_verified_at": "2026-08-11T08:22:54+00:00"
+    },
+    {
+      "image_id": "7786497f8c28f2d2",
+      "post_slug": "ai-idle-v1-release",
+      "post_url": "https://future-pulse.de/blog/ai-idle-v1-release/",
+      "image_url": "https://raw.githubusercontent.com/oliverlaudan-ops/AI-Idle/main/screenshots/gameplay.png",
+      "alt_text": "AI-Idle Spielbildschirm mit Training-Interface",
+      "caption": "Das Training-Interface in AI-Idle – 50 Achievements, 18 Buildings, 25 Modelle",
+      "provenance_class": "self-hosted/github-raw",
+      "c2pa_manifest": null,
+      "last_verified_at": "2026-08-11T08:22:54+00:00"
+    }
+  ]
+}
