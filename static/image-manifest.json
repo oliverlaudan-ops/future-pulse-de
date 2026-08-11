@@ -1,7 +1,7 @@
 {
   "schema": "future-pulse-de/image-manifest",
   "schema_version": "1.0.0",
-  "generated_at": "2026-08-11T08:20:39+00:00",
+  "generated_at": "2026-08-11T08:22:54+00:00",
   "generator": "build/build-image-manifest.py",
   "scope": "58 blog posts scanned under content/blog/",
   "method": "URL-origin classification heuristic, not C2PA verification",
@@ -21,7 +21,7 @@
       "caption": "Mythos oder Wahrheit? Wir klären auf.",
       "provenance_class": "ai-generated/leonardo-ai",
       "c2pa_manifest": null,
-      "last_verified_at": "2026-08-11T08:20:39+00:00"
+      "last_verified_at": "2026-08-11T08:22:54+00:00"
     },
     {
       "image_id": "9faf2e69af514f21",
@@ -32,7 +32,7 @@
       "caption": "Gut organisiert = Zeit gespart",
       "provenance_class": "ai-generated/leonardo-ai",
       "c2pa_manifest": null,
-      "last_verified_at": "2026-08-11T08:20:39+00:00"
+      "last_verified_at": "2026-08-11T08:22:54+00:00"
     },
     {
       "image_id": "431e210af37c7ac3",
@@ -43,7 +43,7 @@
       "caption": "OpenClaw auf Contabo VPS: Von der Installation bis Production-Ready",
       "provenance_class": "ai-generated/seedream",
       "c2pa_manifest": null,
-      "last_verified_at": "2026-08-11T08:20:39+00:00"
+      "last_verified_at": "2026-08-11T08:22:54+00:00"
     },
     {
       "image_id": "7786497f8c28f2d2",
@@ -54,7 +54,7 @@
       "caption": "Das Training-Interface in AI-Idle – 50 Achievements, 18 Buildings, 25 Modelle",
       "provenance_class": "self-hosted/github-raw",
       "c2pa_manifest": null,
-      "last_verified_at": "2026-08-11T08:20:39+00:00"
+      "last_verified_at": "2026-08-11T08:22:54+00:00"
     }
   ]
 }

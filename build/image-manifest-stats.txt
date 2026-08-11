@@ -1,4 +1,4 @@
-Image-Manifest Summary — generated 2026-08-11T08:20:39+00:00
+Image-Manifest Summary — generated 2026-08-11T08:22:54+00:00
 Scope: 58 blog posts scanned under content/blog/
 
 count  class
