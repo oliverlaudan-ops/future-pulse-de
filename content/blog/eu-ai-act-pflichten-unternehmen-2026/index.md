@@ -14,6 +14,10 @@ cover:
   relative: false
 ShowToc: true
 TocOpen: false
+ai_generated: true
+ai_model: "minimax-m3:cloud"
+human_reviewer: "Oliver Laudan"
+review_date: 2026-08-11
 ---
 
 Der 2. August 2026 ist nicht irgendein Stichtag in einem Compliance-Kalender – er ist der Moment, an dem der EU AI Act für die große Mehrheit der Unternehmen vom Papier in die Praxis wechselt. Wer in Deutschland Chatbots einsetzt, KI-generierte Texte veröffentlicht, Bewerbungen mit KI sichtet oder ein GPAI-Modell in seine Produkte integriert, ist ab diesem Tag unmittelbar betroffen. Die erste Phase (seit Februar 2025) betraf vor allem verbotene Praktiken. Jetzt folgt die nächste Welle: **Transparenzpflichten nach Art. 50, die Durchsetzungsphase für GPAI-Modelle und die Aktivierung der Bußgeldkompetenz der EU-Kommission**.

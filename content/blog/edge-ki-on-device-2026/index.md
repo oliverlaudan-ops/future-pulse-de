@@ -14,6 +14,10 @@ cover:
   relative: false
 ShowToc: true
 TocOpen: false
+ai_generated: true
+ai_model: "minimax-m3:cloud"
+human_reviewer: "Oliver Laudan"
+review_date: 2026-08-11
 ---
 
 Stell dir vor, dein Smartphone übersetzt eine fremde Sprache in Echtzeit, ohne dass ein einziger Buchstabe das Gerät verlässt. Oder dein Kühlschrank erkennt verdorbene Lebensmittel, ohne ein Foto an irgendeinen Server zu schicken. Was vor zwei Jahren noch nach Zukunftsmusik klang, ist 2026 Alltag – dank **Edge-KI**.

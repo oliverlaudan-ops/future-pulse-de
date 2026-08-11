@@ -13,6 +13,10 @@ cover:
     image: "https://user-gen-media-assets.s3.amazonaws.com/seedream_images/3e0324ac-a549-4bdd-8ec8-b6ca39740321.png"
     alt: "OpenClaw AI Agent Deployment on VPS - Terminal and Server Infrastructure"
     caption: "OpenClaw auf Contabo VPS: Von der Installation bis Production-Ready"
+ai_generated: true
+ai_model: "minimax-m3:cloud"
+human_reviewer: "Oliver Laudan"
+review_date: 2026-08-11
 ---
 
 Heute richte ich **OpenClaw** – den mächtigsten Open-Source AI-Agenten – auf meinem Contabo VPS ein. Von der Installation bis zum Production-Setup: Der komplette Weg mit kopierbaren Terminal-Befehlen.

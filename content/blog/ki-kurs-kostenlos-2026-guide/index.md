@@ -9,6 +9,10 @@ keywords: ["KI Kurs kostenlos", "KI lernen kostenlos", "ChatGPT Kurs gratis", "M
 author: "Oliver Laudan"
 ShowToc: true
 TocOpen: false
+ai_generated: true
+ai_model: "minimax-m3:cloud"
+human_reviewer: "Oliver Laudan"
+review_date: 2026-08-11
 ---
 
 Du willst in die Welt der Künstlichen Intelligenz einsteigen – aber fragst dich, ob das teuer werden muss? Gute Nachricht: **2026 gibt es mehr hochwertige, kostenlose KI-Kurse denn je.** Von ChatGPT-Tutorials bis hin zu Machine Learning für Profis – ich habe die 15 besten Optionen für dich getestet und verglichen.

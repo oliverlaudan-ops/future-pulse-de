@@ -9,6 +9,10 @@ keywords: ["KI-Agenten Marketing", "AI Marketing Automation", "KI Content Creati
 author: "Oliver Laudan"
 ShowToc: true
 TocOpen: false
+ai_generated: true
+ai_model: "minimax-m3:cloud"
+human_reviewer: "Oliver Laudan"
+review_date: 2026-08-11
 ---
 
 # KI-Agenten im Marketing 2026: 8 Automatisierungen die Ergebnisse liefern

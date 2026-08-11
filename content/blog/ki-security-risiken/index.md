@@ -14,6 +14,10 @@ cover:
   relative: false
 ShowToc: true
 TocOpen: false
+ai_generated: true
+ai_model: "minimax-m3:cloud"
+human_reviewer: "Oliver Laudan"
+review_date: 2026-08-11
 ---
 
 Stell dir vor, dein KI-Chatbot gibt plötzlich interne Kundendaten preis – ausgelöst durch eine harmlos wirkende E-Mail. Oder ein Angreifer manipuliert deinen KI-Agenten so, dass er Überweisungen auf das falsche Konto auslöst. Was nach Science-Fiction klingt, ist 2026 Realität: Über 60 Prozent der Prompt-Injection-Angriffe auf Unternehmenssysteme sind laut aktuellen Tests mindestens teilweise erfolgreich.
