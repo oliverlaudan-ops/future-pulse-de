@@ -1,0 +1,10 @@
+Image-Manifest Summary — generated 2026-08-11T08:20:39+00:00
+Scope: 58 blog posts scanned under content/blog/
+
+count  class
+    2  ai-generated/leonardo-ai
+    1  self-hosted/github-raw
+    1  ai-generated/seedream
+
+Total entries: 4
+Output: static/image-manifest.json
