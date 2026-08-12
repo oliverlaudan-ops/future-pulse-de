@@ -208,7 +208,8 @@
         "Robo Advisor Performance",
         "KI Betrugserkennung Banken"
       ],
-      "status": "pending"
+      "status": "completed",
+      "completedAt": "2026-08-12T12:39:33+02:00"
     },
     {
       "id": "ki-wissensmanagement-unternehmen-2026",
