@@ -101,7 +101,9 @@
         "humanoide Roboter Einsatz",
         "Robot Foundation Models"
       ],
-      "status": "pending"
+      "status": "completed",
+      "completedAt": "2026-08-08T09:00:00+02:00",
+      "reconciledNote": "Status korrigiert: Artikel war bereits live, aber in topics.json noch als pending markiert."
     },
     {
       "id": "ki-gesundheitswesen-medizin-2026",
@@ -126,7 +128,9 @@
         "Medical AI Diagnostik",
         "KI Pflege Entlastung"
       ],
-      "status": "pending"
+      "status": "completed",
+      "completedAt": "2026-08-08T09:00:00+02:00",
+      "reconciledNote": "Status korrigiert: Artikel war bereits live, aber in topics.json noch als pending markiert."
     },
     {
       "id": "eu-ai-act-pflichten-unternehmen-2026",
@@ -151,7 +155,9 @@
         "AI Act Compliance KMU",
         "KI Risikoklassen"
       ],
-      "status": "pending"
+      "status": "completed",
+      "completedAt": "2026-08-08T09:00:00+02:00",
+      "reconciledNote": "Status korrigiert: Artikel war bereits live, aber in topics.json noch als pending markiert."
     },
     {
       "id": "ki-bildung-unterricht-2026",
@@ -255,10 +261,135 @@
       "status": "skipped_duplicate",
       "skippedReason": "Hohe Überschneidung mit bestehendem Artikel 'open-source-ki-modelle-2026' (gleiche Modelle, gleiche Souveränitäts-/DSGVO-Perspektive, gleiche Enterprise-Empfehlungen) – ~88% thematische Überlappung",
       "skippedAt": "2026-07-24T09:00:00+02:00"
+    },
+    {
+      "id": "small-language-models-slm-2026",
+      "title": "Small Language Models 2026: Wann kleine KI-Modelle die großen schlagen",
+      "keywords": [
+        "Small Language Models",
+        "SLM 2026",
+        "kleine KI-Modelle",
+        "effiziente KI",
+        "On-Device LLM"
+      ],
+      "tags": [
+        "Small Language Models",
+        "Effizienz",
+        "KI-Modelle",
+        "Green AI"
+      ],
+      "wordCountTarget": 950,
+      "angle": "Entscheidungs-Guide: Wann ein spezialisiertes Small Language Model günstiger, schneller und datenschutzfreundlicher ist als ein großes Cloud-LLM – mit Kosten-, Latenz- und Use-Case-Vergleich.",
+      "researchFocus": [
+        "Small Language Models 2026",
+        "SLM vs LLM Kosten",
+        "spezialisierte KI-Modelle Unternehmen"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "ki-governance-agentops-2026",
+      "title": "KI-Governance 2026: AgentOps als Schlüssel zur sicheren Skalierung",
+      "keywords": [
+        "KI-Governance",
+        "AgentOps",
+        "MLOps 2026",
+        "KI Compliance",
+        "KI Skalierung Unternehmen"
+      ],
+      "tags": [
+        "Governance",
+        "AgentOps",
+        "Compliance",
+        "Unternehmen"
+      ],
+      "wordCountTarget": 1000,
+      "angle": "Warum über 40% der Agentic-AI-Projekte scheitern – und wie AgentOps, MLOps und klare Governance-Strukturen 2026 den Unterschied zwischen Pilot und Produktivbetrieb machen. Mit Praxis-Framework.",
+      "researchFocus": [
+        "AgentOps 2026",
+        "KI-Governance Unternehmen",
+        "Agentic AI Projekt Scheitern Gartner"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "multi-agent-systeme-orchestrierung-2026",
+      "title": "Multi-Agent-Systeme 2026: Wenn KI-Agenten im Team arbeiten",
+      "keywords": [
+        "Multi-Agent-Systeme",
+        "Agent Orchestrierung",
+        "LangGraph",
+        "CrewAI",
+        "KI-Agenten Zusammenarbeit"
+      ],
+      "tags": [
+        "Multi-Agent",
+        "KI-Agenten",
+        "Orchestrierung",
+        "Architektur"
+      ],
+      "wordCountTarget": 1000,
+      "angle": "Von Einzel-Agent zu orchestriertem Team: Wie hierarchische und Peer-to-Peer-Architekturen (LangGraph, CrewAI, AutoGen) komplexe End-to-End-Aufgaben lösen – mit Architektur-Mustern und Stolperfallen.",
+      "researchFocus": [
+        "Multi-Agent Systeme 2026",
+        "LangGraph CrewAI Vergleich",
+        "Agent Orchestrierung Architektur"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "ki-logistik-supply-chain-2026",
+      "title": "KI in Logistik & Supply Chain 2026: Von der Prognose zur autonomen Disposition",
+      "keywords": [
+        "KI Logistik",
+        "AI Supply Chain 2026",
+        "Bedarfsprognose KI",
+        "autonome Disposition",
+        "Lieferketten KI"
+      ],
+      "tags": [
+        "Logistik",
+        "Supply Chain",
+        "KI-Anwendung",
+        "Automatisierung"
+      ],
+      "wordCountTarget": 950,
+      "angle": "Konkrete Use Cases entlang der Lieferkette: Nachfrageprognose, Routenoptimierung, Lagerautomatisierung und autonome Disposition – mit ROI-Zahlen und den Grenzen im deutschen Mittelstand.",
+      "researchFocus": [
+        "KI Logistik 2026",
+        "Supply Chain KI Prognose",
+        "autonome Disposition Lieferkette"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "explainable-ai-xai-2026",
+      "title": "Explainable AI 2026: KI-Entscheidungen nachvollziehbar machen",
+      "keywords": [
+        "Explainable AI",
+        "XAI 2026",
+        "erklärbare KI",
+        "KI Transparenz",
+        "EU AI Act XAI"
+      ],
+      "tags": [
+        "Explainable AI",
+        "Transparenz",
+        "EU AI Act",
+        "KI-Ethik"
+      ],
+      "wordCountTarget": 950,
+      "angle": "Seit August 2026 verlangt der EU AI Act nachvollziehbare KI-Entscheidungen. Was Explainable AI wirklich bedeutet, welche Methoden (SHAP, LIME & Co.) funktionieren und wie Unternehmen XAI praktisch umsetzen.",
+      "researchFocus": [
+        "Explainable AI 2026",
+        "XAI Methoden SHAP LIME",
+        "EU AI Act Transparenzpflicht XAI"
+      ],
+      "status": "pending"
     }
   ],
   "meta": {
-    "version": "1.1",
+    "version": "1.2",
     "created": "2026-05-29",
     "description": "Themen-Queue für automatische Blog-Artikel-Generierung",
     "schedule": {
@@ -270,6 +401,6 @@
       "time": "09:00",
       "timezone": "Europe/Berlin"
     },
-    "lastRefill": "2026-07-17T10:00:00+02:00"
+    "lastRefill": "2026-08-12T12:24:22+02:00"
   }
 }
