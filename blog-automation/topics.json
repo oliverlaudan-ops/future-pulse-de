@@ -287,7 +287,8 @@
         "SLM vs LLM Kosten",
         "spezialisierte KI-Modelle Unternehmen"
       ],
-      "status": "pending"
+      "status": "completed",
+      "completedAt": "2026-08-14T09:15:37.620278+02:00"
     },
     {
       "id": "ki-governance-agentops-2026",
