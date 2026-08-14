@@ -234,7 +234,8 @@
         "Enterprise Search KI 2026",
         "Knowledge Management Best Practices"
       ],
-      "status": "pending"
+      "status": "completed",
+      "completedAt": "2026-08-14T09:13:06.637965+02:00"
     },
     {
       "id": "open-source-llm-einsatz-unternehmen-2026",
