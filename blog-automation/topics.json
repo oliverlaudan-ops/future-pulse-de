@@ -73,7 +73,9 @@
         "Supply Chain KI Prognose",
         "autonome Disposition Lieferkette"
       ],
-      "status": "pending"
+      "status": "skipped_duplicate",
+      "skippedReason": "Thematische Überschneidung mit soeben veröffentlichtem Artikel 'ki-logistik-lieferketten-2026' (Commit dea603a) – gleiche DACH-Logistik-Perspektive, gleiche Use Cases (Routenoptimierung, Predictive Maintenance, Demand Forecasting), gleiche Zielgruppe Mittelstand. Topic aus 2026-08-14-Refill jetzt redundant.",
+      "skippedAt": "2026-08-18T09:05:00+02:00"
     },
     {
       "id": "explainable-ai-xai-2026",
