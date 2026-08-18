@@ -1,32 +1,6 @@
 {
   "topics": [
     {
-      "id": "ki-governance-agentops-2026",
-      "title": "KI-Governance 2026: AgentOps als Schlüssel zur sicheren Skalierung",
-      "keywords": [
-        "KI-Governance",
-        "AgentOps",
-        "MLOps 2026",
-        "KI Compliance",
-        "KI Skalierung Unternehmen"
-      ],
-      "tags": [
-        "Governance",
-        "AgentOps",
-        "Compliance",
-        "Unternehmen"
-      ],
-      "wordCountTarget": 1000,
-      "angle": "Warum über 40% der Agentic-AI-Projekte scheitern – und wie AgentOps, MLOps und klare Governance-Strukturen 2026 den Unterschied zwischen Pilot und Produktivbetrieb machen. Mit Praxis-Framework.",
-      "researchFocus": [
-        "AgentOps 2026",
-        "KI-Governance Unternehmen",
-        "Agentic AI Projekt Scheitern Gartner"
-      ],
-      "status": "completed",
-      "completedAt": "2026-08-18T09:10:40.623066+02:00"
-    },
-    {
       "id": "multi-agent-systeme-orchestrierung-2026",
       "title": "Multi-Agent-Systeme 2026: Wenn KI-Agenten im Team arbeiten",
       "keywords": [
@@ -52,33 +26,6 @@
       "status": "pending"
     },
     {
-      "id": "ki-logistik-supply-chain-2026",
-      "title": "KI in Logistik & Supply Chain 2026: Von der Prognose zur autonomen Disposition",
-      "keywords": [
-        "KI Logistik",
-        "AI Supply Chain 2026",
-        "Bedarfsprognose KI",
-        "autonome Disposition",
-        "Lieferketten KI"
-      ],
-      "tags": [
-        "Logistik",
-        "Supply Chain",
-        "KI-Anwendung",
-        "Automatisierung"
-      ],
-      "wordCountTarget": 950,
-      "angle": "Konkrete Use Cases entlang der Lieferkette: Nachfrageprognose, Routenoptimierung, Lagerautomatisierung und autonome Disposition – mit ROI-Zahlen und den Grenzen im deutschen Mittelstand.",
-      "researchFocus": [
-        "KI Logistik 2026",
-        "Supply Chain KI Prognose",
-        "autonome Disposition Lieferkette"
-      ],
-      "status": "skipped_duplicate",
-      "skippedReason": "Thematische Überschneidung mit soeben veröffentlichtem Artikel 'ki-logistik-lieferketten-2026' (Commit dea603a) – gleiche DACH-Logistik-Perspektive, gleiche Use Cases (Routenoptimierung, Predictive Maintenance, Demand Forecasting), gleiche Zielgruppe Mittelstand. Topic aus 2026-08-14-Refill jetzt redundant.",
-      "skippedAt": "2026-08-18T09:05:00+02:00"
-    },
-    {
       "id": "explainable-ai-xai-2026",
       "title": "Explainable AI 2026: KI-Entscheidungen nachvollziehbar machen",
       "keywords": [
@@ -102,6 +49,106 @@
         "EU AI Act Transparenzpflicht XAI"
       ],
       "status": "pending"
+    },
+    {
+      "id": "ki-legal-tech-recht-2026",
+      "title": "KI im Recht 2026: Legal Tech für Anwälte",
+      "keywords": [
+        "KI Legal Tech",
+        "KI im Recht 2026",
+        "KI Anwalt",
+        "Legal AI Deutschland",
+        "Vertragsanalyse KI"
+      ],
+      "tags": [
+        "Legal Tech",
+        "KI-Anwendung",
+        "Recht",
+        "Unternehmen"
+      ],
+      "wordCountTarget": 1000,
+      "angle": "Wie KI-Tools Vertragsanalyse, Recherche und Dokumentenprüfung in deutschen Kanzleien und Rechtsabteilungen revolutionieren – mit konkreten Tools, Chancen und den Grenzen der KI im Rechtswesen.",
+      "researchFocus": [
+        "Legal Tech KI Deutschland 2026",
+        "KI Vertragsanalyse Anwalt",
+        "AI Legal Research Tools 2026"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "ki-upskilling-weiterbildung-2026",
+      "title": "KI-Upskilling 2026: So bleibst du relevant",
+      "keywords": [
+        "KI Weiterbildung",
+        "KI Upskilling 2026",
+        "KI-Kompetenz Beruf",
+        "Future Skills KI",
+        "KI lernen Unternehmen"
+      ],
+      "tags": [
+        "Weiterbildung",
+        "Future Skills",
+        "KI-Kompetenz",
+        "Karriere"
+      ],
+      "wordCountTarget": 1000,
+      "angle": "Welche KI-Kompetenzen Arbeitgeber 2026 wirklich suchen, wie du dich in 90 Tagen gezielt weiterbildest und welche kostenlosen und kostenpflichtigen Lernpfade den besten ROI liefern.",
+      "researchFocus": [
+        "KI Upskilling Unternehmen 2026",
+        "Future Skills KI Weiterbildung",
+        "KI Kompetenz Arbeitnehmer 2026"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "synthetic-data-ki-training-2026",
+      "title": "Synthetic Data 2026: KI trainieren ohne echte Daten",
+      "keywords": [
+        "Synthetic Data",
+        "synthetische Daten KI",
+        "KI Training Datenschutz",
+        "Datengenerierung KI 2026",
+        "Synthetic Data Tools"
+      ],
+      "tags": [
+        "Synthetic Data",
+        "KI-Training",
+        "Datenschutz",
+        "MLOps"
+      ],
+      "wordCountTarget": 950,
+      "angle": "Warum synthetische Daten 2026 zum Standard im KI-Training werden: Datenschutz, Kosten, Bias-Reduktion – mit den wichtigsten Tools und einem Praxis-Leitfaden für den Einstieg.",
+      "researchFocus": [
+        "Synthetic Data KI Training 2026",
+        "synthetische Daten Datenschutz DSGVO",
+        "Synthetic Data Tools Vergleich 2026"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "ki-agenten-softwareentwicklung-2026",
+      "title": "KI-Agenten für Devs 2026: Cursor, Devin & Co.",
+      "keywords": [
+        "KI Softwareentwicklung",
+        "Cursor AI 2026",
+        "Devin AI",
+        "KI-Agenten Programmierung",
+        "AI Coding Agents"
+      ],
+      "tags": [
+        "Softwareentwicklung",
+        "KI-Agenten",
+        "Coding",
+        "Produktivität"
+      ],
+      "wordCountTarget": 1100,
+      "angle": "Von Autocomplete zu autonomen Coding-Agenten: Wie Cursor, Devin, GitHub Copilot Workspace und Co. 2026 ganze Features selbstständig implementieren – und was das für Entwickler bedeutet.",
+      "researchFocus": [
+        "Cursor AI Devin Vergleich 2026",
+        "KI Coding Agents Softwareentwicklung",
+        "GitHub Copilot Workspace 2026"
+      ],
+      "status": "pending"
     }
   ],
   "meta": {
@@ -117,6 +164,6 @@
       "time": "09:00",
       "timezone": "Europe/Berlin"
     },
-    "lastRefill": "2026-08-14T09:15:55.664838+02:00"
+    "lastRefill": "2026-08-18T09:11:56.911267+02:00"
   }
 }
