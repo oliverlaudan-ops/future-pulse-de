@@ -23,7 +23,8 @@
         "KI-Governance Unternehmen",
         "Agentic AI Projekt Scheitern Gartner"
       ],
-      "status": "pending"
+      "status": "completed",
+      "completedAt": "2026-08-18T09:10:40.623066+02:00"
     },
     {
       "id": "multi-agent-systeme-orchestrierung-2026",
