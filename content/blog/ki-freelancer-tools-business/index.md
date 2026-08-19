@@ -1,8 +1,8 @@
 ---
-title: "KI für Freelancer: Die 10 besten Tools für dein Business 2026"
+title: "10 KI-Tools für Freelancer 2026: Admin, Marketing & Buchhaltung automatisieren"
 date: 2026-04-20
 draft: false
-description: "Als Freelancer bist du Ein-Personen-Abteilung. Diese 10 KI-Tools übernehmen Admin, Marketing und Rechnungswesen – damit du dich auf deine Arbeit konzentrierst."
+description: "Die 10 besten KI-Tools für Freelancer 2026 im Vergleich: Angebotserstellung, Buchhaltung, Marketing & Akquise automatisieren. Spart 10–15 Std/Woche – ab 0€/Monat."
 summary: "10 KI-Tools die Freelancern 2026 den Rücken freihalten: Von Angebotserstellung über Rechnungslegung bis Kundenakquise."
 tags: ["KI", "Freelancer", "Tools", "Produktivität", "Business"]
 keywords: ["KI Tools Freelancer", "Freelancer Business Tools", "KI Rechnung", "KI Angebot", "Selbstständig KI"]

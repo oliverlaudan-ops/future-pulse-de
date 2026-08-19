@@ -1,8 +1,8 @@
 ---
-title: "Automatisierte Content-Pipelines mit KI: So produzierst du 10x mehr"
+title: "Content-Pipeline mit KI automatisieren: 5-Stufen-Workflow 2026"
 date: 2026-06-12
 draft: false
-description: "KI-Content-Pipelines automatisieren den kompletten Workflow: Brainstorming, Recherche, Schreiben, Editing & Publishing. Tools, Schritte und Praxis-Guide 2026."
+description: "KI-Content-Pipeline in 5 Stufen: Ideen-Funnel, Recherche, Schreiben, Editing, Publishing. Mit Tool-Stack, Workflow-Templates & ROI-Rechnung."
 summary: "Wie du mit KI-gestützten Content-Pipelines in 2026 das Zehnfache an Content produzierst – vom Brainstorming über Recherche bis zum automatisierten Publishing auf allen Kanälen."
 tags: ["Content Creation", "Automation", "Workflow", "KI-Agenten", "Produktivität"]
 keywords: ["Content Pipeline", "AI Content Automation", "KI Content Workflow", "Automated Content Creation", "Content Automation Tools"]
