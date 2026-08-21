@@ -1,32 +1,6 @@
 {
   "topics": [
     {
-      "id": "multi-agent-systeme-orchestrierung-2026",
-      "title": "Multi-Agent-Systeme 2026: Wenn KI-Agenten im Team arbeiten",
-      "keywords": [
-        "Multi-Agent-Systeme",
-        "Agent Orchestrierung",
-        "LangGraph",
-        "CrewAI",
-        "KI-Agenten Zusammenarbeit"
-      ],
-      "tags": [
-        "Multi-Agent",
-        "KI-Agenten",
-        "Orchestrierung",
-        "Architektur"
-      ],
-      "wordCountTarget": 1000,
-      "angle": "Von Einzel-Agent zu orchestriertem Team: Wie hierarchische und Peer-to-Peer-Architekturen (LangGraph, CrewAI, AutoGen) komplexe End-to-End-Aufgaben lösen – mit Architektur-Mustern und Stolperfallen.",
-      "researchFocus": [
-        "Multi-Agent Systeme 2026",
-        "LangGraph CrewAI Vergleich",
-        "Agent Orchestrierung Architektur"
-      ],
-      "status": "completed",
-      "completedAt": "2026-08-21T07:11:22.361623+00:00"
-    },
-    {
       "id": "explainable-ai-xai-2026",
       "title": "Explainable AI 2026: KI-Entscheidungen nachvollziehbar machen",
       "keywords": [
@@ -50,33 +24,6 @@
         "EU AI Act Transparenzpflicht XAI"
       ],
       "status": "pending"
-    },
-    {
-      "id": "ki-legal-tech-recht-2026",
-      "title": "KI im Recht 2026: Legal Tech für Anwälte",
-      "keywords": [
-        "KI Legal Tech",
-        "KI im Recht 2026",
-        "KI Anwalt",
-        "Legal AI Deutschland",
-        "Vertragsanalyse KI"
-      ],
-      "tags": [
-        "Legal Tech",
-        "KI-Anwendung",
-        "Recht",
-        "Unternehmen"
-      ],
-      "wordCountTarget": 1000,
-      "angle": "Wie KI-Tools Vertragsanalyse, Recherche und Dokumentenprüfung in deutschen Kanzleien und Rechtsabteilungen revolutionieren – mit konkreten Tools, Chancen und den Grenzen der KI im Rechtswesen.",
-      "researchFocus": [
-        "Legal Tech KI Deutschland 2026",
-        "KI Vertragsanalyse Anwalt",
-        "AI Legal Research Tools 2026"
-      ],
-      "status": "skipped_duplicate",
-      "skippedReason": "Thematische Überschneidung >80% mit ki-legal-tech-juristen-2026 (Vertragsanalyse KI, Legal AI, KI Anwalt)",
-      "skippedAt": "2026-08-21T07:11:22.361623+00:00"
     },
     {
       "id": "ki-upskilling-weiterbildung-2026",
@@ -167,6 +114,6 @@
       "time": "09:00",
       "timezone": "Europe/Berlin"
     },
-    "lastRefill": "2026-08-18T09:11:56.911267+02:00"
+    "lastRefill": "2026-08-21T07:11:38.909847+00:00"
   }
 }
