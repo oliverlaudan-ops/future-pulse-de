@@ -23,7 +23,8 @@
         "LangGraph CrewAI Vergleich",
         "Agent Orchestrierung Architektur"
       ],
-      "status": "pending"
+      "status": "completed",
+      "completedAt": "2026-08-21T07:11:22.361623+00:00"
     },
     {
       "id": "explainable-ai-xai-2026",
@@ -73,7 +74,9 @@
         "KI Vertragsanalyse Anwalt",
         "AI Legal Research Tools 2026"
       ],
-      "status": "pending"
+      "status": "skipped_duplicate",
+      "skippedReason": "Thematische Überschneidung >80% mit ki-legal-tech-juristen-2026 (Vertragsanalyse KI, Legal AI, KI Anwalt)",
+      "skippedAt": "2026-08-21T07:11:22.361623+00:00"
     },
     {
       "id": "ki-upskilling-weiterbildung-2026",
