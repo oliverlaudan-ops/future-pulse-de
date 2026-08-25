@@ -1,0 +1,260 @@
+{
+  "topics": [
+    {
+      "id": "ki-bildung-unterricht-2026",
+      "title": "KI in Schule und Unterricht 2026: Zwischen personalisiertem Lernen und Datenschutz",
+      "keywords": [
+        "KI Schule",
+        "AI Education 2026",
+        "personalisiertes Lernen",
+        "KI Nachhilfe",
+        "Lehrer KI"
+      ],
+      "tags": [
+        "Bildung",
+        "Schule",
+        "KI-Kompetenz",
+        "Lernen"
+      ],
+      "wordCountTarget": 900,
+      "angle": "Welche KI-Tools 2026 in deutschen Klassenzimmern wirklich funktionieren — mit Praxisbeispielen, rechtlichen Rahmenbedingungen und einem Blick auf Chancengerechtigkeit",
+      "researchFocus": [
+        "KI Schule Deutschland 2026",
+        "personalisiertes Lernen KI",
+        "AI Tutoring Wirksamkeit"
+      ],
+      "status": "skipped_duplicate",
+      "skippedReason": "Artikel 'ki-bildung-unterricht-2026' existiert bereits (commit von 2026-08-11) – identischer Titel, identische Keywords, identischer Angle. 100% thematische Überlappung.",
+      "skippedAt": "2026-08-25T09:00:00+02:00"
+    },
+    {
+      "id": "ki-finanzen-banking-2026",
+      "title": "KI in Banken und Finanzen 2026: Betrugserkennung, Robo-Advisor und regulatorische Hürden",
+      "keywords": [
+        "KI Banking",
+        "AI Finance 2026",
+        "Robo Advisor",
+        "KI Betrugserkennung",
+        "Finanzbranche KI"
+      ],
+      "tags": [
+        "Finanzen",
+        "Banking",
+        "KI-Anwendung",
+        "Compliance"
+      ],
+      "wordCountTarget": 1000,
+      "angle": "Wo 2026 in Banken und Versicherungen Geld gespart und Risiko reduziert wird — mit konkreten Use Cases, Tooling-Stack und den Grenzen der KI im regulierten Umfeld",
+      "researchFocus": [
+        "KI Banken 2026 Use Cases",
+        "Robo Advisor Performance",
+        "KI Betrugserkennung Banken"
+      ],
+      "status": "skipped_duplicate",
+      "skippedReason": "Artikel 'ki-finanzen-banking-2026' existiert bereits (commit 2026-08-12) – identischer Titel, identische Keywords, identischer Angle. 100% thematische Überlappung.",
+      "skippedAt": "2026-08-25T09:00:00+02:00"
+    },
+    {
+      "id": "ki-wissensmanagement-unternehmen-2026",
+      "title": "KI-Wissensmanagement 2026: Wie Unternehmen ihr internes Know-how endlich nutzbar machen",
+      "keywords": [
+        "KI Wissensmanagement",
+        "Enterprise Search KI",
+        "RAG Unternehmen",
+        "Knowledge Management AI",
+        "internes Wiki KI"
+      ],
+      "tags": [
+        "Wissensmanagement",
+        "RAG",
+        "Produktivität",
+        "Unternehmen"
+      ],
+      "wordCountTarget": 950,
+      "angle": "Schritt-für-Schritt: Vom klassischen Wiki zur RAG-basierten Unternehmenssuche — Architektur-Entscheidungen, Datenquellen, Stolperfallen und ein realistischer 90-Tage-Plan",
+      "researchFocus": [
+        "RAG Wissensmanagement Unternehmen",
+        "Enterprise Search KI 2026",
+        "Knowledge Management Best Practices"
+      ],
+      "status": "completed",
+      "completedAt": "2026-08-14T09:00:00+02:00",
+      "commit": "ac6d7b8"
+    },
+    {
+      "id": "ki-logistik-lieferketten-2026",
+      "title": "KI in Logistik und Lieferketten 2026: Von Routenoptimierung bis vorausschauender Wartung",
+      "keywords": [
+        "KI Logistik",
+        "Supply Chain AI 2026",
+        "Routenoptimierung KI",
+        "Predictive Maintenance",
+        "Lagerverwaltung KI"
+      ],
+      "tags": [
+        "Logistik",
+        "Supply Chain",
+        "KI-Anwendung",
+        "Industrie"
+      ],
+      "wordCountTarget": 1000,
+      "angle": "Wo KI 2026 in Spedition, Lager und Beschaffung wirklich Kosten spart — mit konkreten Use Cases, ROI-Beispielen aus DACH und Abgrenzung zu Lieferketten-Hype",
+      "researchFocus": [
+        "KI Logistik Use Cases 2026",
+        "Predictive Maintenance ROI",
+        "Supply Chain Optimierung KI Deutschland"
+      ],
+      "status": "skipped_duplicate",
+      "skippedReason": "Artikel 'ki-logistik-lieferketten-2026' existiert bereits (commit 2026-08-18) – identischer Titel, identische Keywords, identischer Angle. 100% thematische Überlappung.",
+      "skippedAt": "2026-08-25T09:00:00+02:00"
+    },
+    {
+      "id": "small-language-models-edge-2026",
+      "title": "Small Language Models 2026: Warum Phi-4, Gemma 3 und Co. die Edge-KI-Revolution anführen",
+      "keywords": [
+        "Small Language Models",
+        "SLM 2026",
+        "Phi-4",
+        "Gemma 3",
+        "Edge KI Modelle"
+      ],
+      "tags": [
+        "Edge KI",
+        "SLM",
+        "Open Source",
+        "Hardware"
+      ],
+      "wordCountTarget": 950,
+      "angle": "Warum 2026 nicht das Jahr der größten Modelle ist, sondern das der kleinen: SLM-Benchmarks, Hardware-Anforderungen und konkrete Einsatzszenarien abseits der Cloud",
+      "researchFocus": [
+        "Small Language Models 2026 Vergleich",
+        "Phi-4 Gemma 3 Benchmarks",
+        "Edge LLM Einsatz Unternehmen"
+      ],
+      "status": "skipped_duplicate",
+      "skippedReason": "Bestehender Artikel 'small-language-models-slm-2026' (2026-08-14) deckt Phi-4, Gemma, Qwen3, Edge-KI, Hardware-Anforderungen, Latenz-Benchmarks und Cloud-vs-On-Device ab. ~90% thematische Überlappung mit identischem Angle ('Edge-KI-Revolution' / 'SLMs schlagen große LLMs').",
+      "skippedAt": "2026-08-25T09:00:00+02:00"
+    },
+    {
+      "id": "ki-legal-tech-juristen-2026",
+      "title": "KI für Juristen 2026: Vertragsanalyse, Recherche und Mandantenkommunikation im Wandel",
+      "keywords": [
+        "Legal Tech KI",
+        "KI Juristen",
+        "Vertragsanalyse KI",
+        "Legal AI 2026",
+        "Anwaltskanzlei KI"
+      ],
+      "tags": [
+        "Legal Tech",
+        "Juristen",
+        "KI-Anwendung",
+        "Compliance"
+      ],
+      "wordCountTarget": 950,
+      "angle": "Wo 2026 in deutschen Kanzleien und Rechtsabteilungen wirklich Stunden gespart werden — mit Tooling-Vergleich, Halluzinations-Risiken und DSGVO-konformen Setups",
+      "researchFocus": [
+        "Legal Tech KI Deutschland 2026",
+        "KI Vertragsanalyse Tools",
+        "Legal AI Halluzinationen Risiken"
+      ],
+      "status": "completed",
+      "completedAt": "2026-08-21T09:00:00+02:00",
+      "commit": "2de4ded"
+    },
+    {
+      "id": "deepfakes-synthetische-medien-2026",
+      "title": "Deepfakes und synthetische Medien 2026: Erkennung, Regulierung und Schutz für Unternehmen",
+      "keywords": [
+        "Deepfake Erkennung",
+        "synthetische Medien 2026",
+        "AI Voice Cloning",
+        "Deepfake Betrug Unternehmen",
+        "Content Credentials"
+      ],
+      "tags": [
+        "Deepfake",
+        "Sicherheit",
+        "KI-Ethik",
+        "Cybersecurity"
+      ],
+      "wordCountTarget": 900,
+      "angle": "Wie 2026 Deepfake-Angriffe auf Unternehmen aussehen (CEO-Fraud, Voice Cloning) — mit Erkennungstools, C2PA-Standard und konkreten Schutzmaßnahmen für Geschäftsführung und IT",
+      "researchFocus": [
+        "Deepfake Erkennung 2026 Tools",
+        "AI Voice Cloning CEO Fraud",
+        "C2PA Content Credentials Standard"
+      ],
+      "status": "completed",
+      "completedAt": "2026-08-25T09:00:00+02:00",
+      "commit": "550fd6c"
+    },
+    {
+      "id": "multi-agent-systeme-produktion-2026",
+      "title": "Multi-Agent-Systeme 2026: Wenn ACP und A2A die KI-Automatisierung neu verschalten",
+      "keywords": [
+        "Multi-Agent System",
+        "ACP Agent Communication Protocol",
+        "A2A Protocol",
+        "Agent Orchestration 2026",
+        "MCP Multi-Agent"
+      ],
+      "tags": [
+        "Multi-Agent",
+        "Agent Orchestration",
+        "MCP",
+        "Automatisierung"
+      ],
+      "wordCountTarget": 1000,
+      "angle": "Warum 2026 das Jahr der Multi-Agent-Systeme in Produktion wird — Architektur-Vergleich (MCP, ACP, A2A), praktische Patterns und Fallstricke beim Zusammenschalten spezialisierter Agenten",
+      "researchFocus": [
+        "Multi-Agent Orchestration 2026",
+        "ACP vs A2A vs MCP Vergleich",
+        "Agent Mesh Architecture Patterns"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "open-source-llm-einsatz-unternehmen-2026",
+      "title": "Open-Source-LLMs im Unternehmen 2026: Wann sich Llama, Mistral und Olmo wirklich lohnen",
+      "keywords": [
+        "Open Source LLM Unternehmen",
+        "Self Hosted KI",
+        "Llama Enterprise",
+        "Mistral Business",
+        "KI Souveränität"
+      ],
+      "tags": [
+        "Open Source",
+        "LLM",
+        "Enterprise",
+        "Souveränität"
+      ],
+      "wordCountTarget": 1000,
+      "angle": "Entscheidungs-Framework: Wann lohnt sich Self-Hosting wirklich? Vergleich von Cloud-API vs. eigenem Open-Source-Modell hinsichtlich Kosten, Datenschutz, DSGVO und Performance",
+      "researchFocus": [
+        "Open Source LLM Self Hosting 2026",
+        "Llama vs Mistral Enterprise",
+        "DSGVO konforme KI Unternehmen"
+      ],
+      "status": "skipped_duplicate",
+      "skippedReason": "Hohe Überschneidung mit bestehendem Artikel 'open-source-ki-modelle-2026' (gleiche Modelle, gleiche Souveränitäts-/DSGVO-Perspektive, gleiche Enterprise-Empfehlungen) – ~88% thematische Überlappung",
+      "skippedAt": "2026-07-24T09:00:00+02:00"
+    }
+  ],
+  "meta": {
+    "version": "1.2",
+    "created": "2026-05-29",
+    "description": "Themen-Queue für automatische Blog-Artikel-Generierung",
+    "schedule": {
+      "frequency": "2x weekly",
+      "days": [
+        "Tuesday",
+        "Friday"
+      ],
+      "time": "09:00",
+      "timezone": "Europe/Berlin"
+    },
+    "lastRefill": "2026-08-07T10:00:00+02:00"
+  }
+}
