@@ -1,32 +1,6 @@
 {
   "topics": [
     {
-      "id": "explainable-ai-xai-2026",
-      "title": "Explainable AI 2026: KI-Entscheidungen nachvollziehbar machen",
-      "keywords": [
-        "Explainable AI",
-        "XAI 2026",
-        "erklärbare KI",
-        "KI Transparenz",
-        "EU AI Act XAI"
-      ],
-      "tags": [
-        "Explainable AI",
-        "Transparenz",
-        "EU AI Act",
-        "KI-Ethik"
-      ],
-      "wordCountTarget": 950,
-      "angle": "Seit August 2026 verlangt der EU AI Act nachvollziehbare KI-Entscheidungen. Was Explainable AI wirklich bedeutet, welche Methoden (SHAP, LIME & Co.) funktionieren und wie Unternehmen XAI praktisch umsetzen.",
-      "researchFocus": [
-        "Explainable AI 2026",
-        "XAI Methoden SHAP LIME",
-        "EU AI Act Transparenzpflicht XAI"
-      ],
-      "status": "completed",
-      "completedAt": "2026-08-25T07:10:01.218872+00:00"
-    },
-    {
       "id": "ki-upskilling-weiterbildung-2026",
       "title": "KI-Upskilling 2026: So bleibst du relevant",
       "keywords": [
@@ -100,6 +74,81 @@
         "GitHub Copilot Workspace 2026"
       ],
       "status": "pending"
+    },
+    {
+      "id": "ki-datenqualitaet-unternehmen-2026",
+      "title": "KI-Datenqualität 2026: Garbage in, out",
+      "keywords": [
+        "Datenqualität KI",
+        "Data Governance 2026",
+        "KI Datenstrategie",
+        "MLOps Datenqualität",
+        "KI Datenpipeline"
+      ],
+      "tags": [
+        "Datenqualität",
+        "Data Governance",
+        "MLOps",
+        "KI-Strategie"
+      ],
+      "wordCountTarget": 1000,
+      "angle": "Warum schlechte Datenqualität 2026 der häufigste Grund für gescheiterte KI-Projekte ist – und wie du mit Data Governance, Datenpipelines und konkreten Qualitäts-Checks deine KI-Projekte auf solide Füße stellst.",
+      "researchFocus": [
+        "Datenqualität KI Projekte 2026",
+        "Data Governance MLOps",
+        "KI Datenstrategie Unternehmen"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "ki-plattform-strategie-2026",
+      "title": "KI-Plattform 2026: Mehr als ein Modell",
+      "keywords": [
+        "KI Plattform Strategie",
+        "AI Platform 2026",
+        "KI Integration Unternehmen",
+        "Enterprise AI",
+        "KI Ökosystem"
+      ],
+      "tags": [
+        "KI-Strategie",
+        "Enterprise AI",
+        "Plattform",
+        "Automatisierung"
+      ],
+      "wordCountTarget": 1050,
+      "angle": "Modelle sind 2026 Commodity – der Wettbewerbsvorteil liegt in der KI-Plattform. Wie du ein KI-Ökosystem mit Langzeitgedächtnis, sicherem Datenzugriff und messbarem ROI aufbaust.",
+      "researchFocus": [
+        "KI Plattform Strategie Unternehmen 2026",
+        "Enterprise AI Platform ROI",
+        "AI Ökosystem Integration"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "humanoide-robotik-ki-2026",
+      "title": "Humanoide Roboter 2026: KI trifft Körper",
+      "keywords": [
+        "humanoide Roboter 2026",
+        "KI Robotik",
+        "Embodied AI",
+        "Roboter Industrie",
+        "humanoide KI"
+      ],
+      "tags": [
+        "Robotik",
+        "Embodied AI",
+        "Industrie",
+        "KI-Trends"
+      ],
+      "wordCountTarget": 1100,
+      "angle": "Humanoide Roboter sind 2026 kein Science-Fiction mehr: Tesla Optimus, Figure 02 und Boston Dynamics Atlas arbeiten in echten Fabriken. Was das für die deutsche Industrie bedeutet und welche Jobs wirklich gefährdet sind.",
+      "researchFocus": [
+        "humanoide Roboter 2026 Industrie",
+        "Tesla Optimus Figure Boston Dynamics 2026",
+        "Robotik Arbeitsmarkt Deutschland 2026"
+      ],
+      "status": "pending"
     }
   ],
   "meta": {
@@ -115,6 +164,6 @@
       "time": "09:00",
       "timezone": "Europe/Berlin"
     },
-    "lastRefill": "2026-08-21T07:11:38.909847+00:00"
+    "lastRefill": "2026-08-25T07:11:00.586947+00:00"
   }
 }
