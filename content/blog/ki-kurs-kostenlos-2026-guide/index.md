@@ -2,7 +2,7 @@
 title: "KI Kurs kostenlos: Die 15 besten kostenlosen KI-Kurse 2026"
 date: 2026-04-28
 draft: false
-description: "KI Kurs kostenlos finden – geht das? Ja! Dieser Guide zeigt dir die 15 besten kostenlosen KI-Kurse 2026. Mit Zertifikaten, Deutsch-Optionen und Praxistipps."
+description: "KI-Kurs kostenlos lernen: Die 15 besten kostenlosen KI-Kurse 2026 – auf Deutsch, mit Zertifikat und ohne Vorkenntnisse."
 summary: "Du willst KI lernen, ohne zu bezahlen? Entdecke die besten kostenlosen KI-Kurse 2026 – von ChatGPT-Tutorials bis Machine Learning. Mit Zertifikaten und Deutsch-Optionen."
 tags: ["KI lernen", "KI Kurs", "Kostenlos", "Online Kurs", "Weiterbildung", "KI-Zertifikat", "ChatGPT"]
 keywords: ["KI Kurs kostenlos", "KI lernen kostenlos", "ChatGPT Kurs gratis", "Machine Learning Kurs kostenlos", "KI Zertifikat kostenlos", "AI Kurs Deutsch", "Künstliche Intelligenz lernen"]
