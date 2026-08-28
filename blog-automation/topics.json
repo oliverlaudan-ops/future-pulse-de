@@ -1,32 +1,6 @@
 {
   "topics": [
     {
-      "id": "ki-upskilling-weiterbildung-2026",
-      "title": "KI-Upskilling 2026: So bleibst du relevant",
-      "keywords": [
-        "KI Weiterbildung",
-        "KI Upskilling 2026",
-        "KI-Kompetenz Beruf",
-        "Future Skills KI",
-        "KI lernen Unternehmen"
-      ],
-      "tags": [
-        "Weiterbildung",
-        "Future Skills",
-        "KI-Kompetenz",
-        "Karriere"
-      ],
-      "wordCountTarget": 1000,
-      "angle": "Welche KI-Kompetenzen Arbeitgeber 2026 wirklich suchen, wie du dich in 90 Tagen gezielt weiterbildest und welche kostenlosen und kostenpflichtigen Lernpfade den besten ROI liefern.",
-      "researchFocus": [
-        "KI Upskilling Unternehmen 2026",
-        "Future Skills KI Weiterbildung",
-        "KI Kompetenz Arbeitnehmer 2026"
-      ],
-      "status": "completed",
-      "completedAt": "2026-08-28T07:12:53.229967+00:00"
-    },
-    {
       "id": "synthetic-data-ki-training-2026",
       "title": "Synthetic Data 2026: KI trainieren ohne echte Daten",
       "keywords": [
@@ -165,6 +139,6 @@
       "time": "09:00",
       "timezone": "Europe/Berlin"
     },
-    "lastRefill": "2026-08-25T07:11:00.586947+00:00"
+    "lastRefill": "2026-08-28T07:13:06.803866+00:00"
   }
 }
