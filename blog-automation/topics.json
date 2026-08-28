@@ -23,7 +23,8 @@
         "Future Skills KI Weiterbildung",
         "KI Kompetenz Arbeitnehmer 2026"
       ],
-      "status": "pending"
+      "status": "completed",
+      "completedAt": "2026-08-28T07:12:53.229967+00:00"
     },
     {
       "id": "synthetic-data-ki-training-2026",
