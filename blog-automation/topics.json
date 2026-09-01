@@ -1,32 +1,6 @@
 {
   "topics": [
     {
-      "id": "synthetic-data-ki-training-2026",
-      "title": "Synthetic Data 2026: KI trainieren ohne echte Daten",
-      "keywords": [
-        "Synthetic Data",
-        "synthetische Daten KI",
-        "KI Training Datenschutz",
-        "Datengenerierung KI 2026",
-        "Synthetic Data Tools"
-      ],
-      "tags": [
-        "Synthetic Data",
-        "KI-Training",
-        "Datenschutz",
-        "MLOps"
-      ],
-      "wordCountTarget": 950,
-      "angle": "Warum synthetische Daten 2026 zum Standard im KI-Training werden: Datenschutz, Kosten, Bias-Reduktion – mit den wichtigsten Tools und einem Praxis-Leitfaden für den Einstieg.",
-      "researchFocus": [
-        "Synthetic Data KI Training 2026",
-        "synthetische Daten Datenschutz DSGVO",
-        "Synthetic Data Tools Vergleich 2026"
-      ],
-      "status": "completed",
-      "completedAt": "2026-09-01T07:14:20.914875+00:00"
-    },
-    {
       "id": "ki-agenten-softwareentwicklung-2026",
       "title": "KI-Agenten für Devs 2026: Cursor, Devin & Co.",
       "keywords": [
@@ -140,6 +114,6 @@
       "time": "09:00",
       "timezone": "Europe/Berlin"
     },
-    "lastRefill": "2026-08-28T07:13:06.803866+00:00"
+    "lastRefill": "2026-09-01T07:14:35.043042+00:00"
   }
 }
