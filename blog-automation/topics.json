@@ -1,32 +1,6 @@
 {
   "topics": [
     {
-      "id": "ki-agenten-softwareentwicklung-2026",
-      "title": "KI-Agenten für Devs 2026: Cursor, Devin & Co.",
-      "keywords": [
-        "KI Softwareentwicklung",
-        "Cursor AI 2026",
-        "Devin AI",
-        "KI-Agenten Programmierung",
-        "AI Coding Agents"
-      ],
-      "tags": [
-        "Softwareentwicklung",
-        "KI-Agenten",
-        "Coding",
-        "Produktivität"
-      ],
-      "wordCountTarget": 1100,
-      "angle": "Von Autocomplete zu autonomen Coding-Agenten: Wie Cursor, Devin, GitHub Copilot Workspace und Co. 2026 ganze Features selbstständig implementieren – und was das für Entwickler bedeutet.",
-      "researchFocus": [
-        "Cursor AI Devin Vergleich 2026",
-        "KI Coding Agents Softwareentwicklung",
-        "GitHub Copilot Workspace 2026"
-      ],
-      "status": "completed",
-      "completedAt": "2026-09-04T07:07:52.321357+00:00"
-    },
-    {
       "id": "ki-datenqualitaet-unternehmen-2026",
       "title": "KI-Datenqualität 2026: Garbage in, out",
       "keywords": [
@@ -100,6 +74,81 @@
         "Robotik Arbeitsmarkt Deutschland 2026"
       ],
       "status": "pending"
+    },
+    {
+      "id": "ki-roi-messen-unternehmen-2026",
+      "title": "KI-ROI messen: So zeigst du den Wert",
+      "keywords": [
+        "KI ROI messen",
+        "KI Projekte Wirtschaftlichkeit",
+        "AI Return on Investment",
+        "KI Kennzahlen Unternehmen",
+        "KI Business Case 2026"
+      ],
+      "tags": [
+        "KI-Strategie",
+        "ROI",
+        "Unternehmen",
+        "Automatisierung"
+      ],
+      "wordCountTarget": 1100,
+      "angle": "95 % der KI-Projekte liefern keinen messbaren ROI – nicht weil KI nicht funktioniert, sondern weil die richtigen Kennzahlen fehlen. Wie du KI-Investitionen mit konkreten Metriken, Vorher-Nachher-Vergleichen und einem einfachen ROI-Framework rechtfertigst.",
+      "researchFocus": [
+        "KI ROI messen Unternehmen 2026",
+        "AI Return on Investment Kennzahlen",
+        "KI Projekte Wirtschaftlichkeit scheitern"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "ki-vertrieb-sales-automation-2026",
+      "title": "KI im Vertrieb 2026: Sales neu gedacht",
+      "keywords": [
+        "KI Vertrieb 2026",
+        "Sales Automation KI",
+        "AI CRM Integration",
+        "KI Lead Scoring",
+        "KI Verkauf Automatisierung"
+      ],
+      "tags": [
+        "Vertrieb",
+        "Sales",
+        "Automatisierung",
+        "KI-Tools"
+      ],
+      "wordCountTarget": 1050,
+      "angle": "KI verändert den Vertrieb 2026 grundlegend: Von automatischem Lead-Scoring über KI-gestützte Gesprächsanalyse bis zu personalisierten Angeboten in Echtzeit. Welche Tools wirklich funktionieren und wie du deinen Sales-Prozess ohne Jobverlust-Angst transformierst.",
+      "researchFocus": [
+        "KI Vertrieb Sales Automation 2026",
+        "AI CRM Lead Scoring Tools",
+        "KI Verkaufsgespräch Analyse"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "schatten-ki-unternehmen-risiken-2026",
+      "title": "Schatten-KI: Das unsichtbare Risiko 2026",
+      "keywords": [
+        "Schatten-KI Unternehmen",
+        "Shadow AI Risiken",
+        "unkontrollierte KI Nutzung",
+        "KI Governance Mitarbeiter",
+        "AI Compliance 2026"
+      ],
+      "tags": [
+        "KI-Strategie",
+        "Compliance",
+        "Datenschutz",
+        "Unternehmen"
+      ],
+      "wordCountTarget": 1000,
+      "angle": "Mitarbeiter nutzen ChatGPT, Gemini und Co. ohne Wissen der IT – Schatten-KI ist 2026 das größte unbemerkte Sicherheitsrisiko in Unternehmen. Wie du Schatten-KI erkennst, Datenlecks vermeidest und eine KI-Nutzungsrichtlinie einführst, die Mitarbeiter wirklich akzeptieren.",
+      "researchFocus": [
+        "Schatten-KI Shadow AI Unternehmen 2026",
+        "unkontrollierte KI Nutzung Mitarbeiter Risiken",
+        "KI Nutzungsrichtlinie Unternehmen einführen"
+      ],
+      "status": "pending"
     }
   ],
   "meta": {
@@ -115,6 +164,6 @@
       "time": "09:00",
       "timezone": "Europe/Berlin"
     },
-    "lastRefill": "2026-09-01T07:14:35.043042+00:00"
+    "lastRefill": "2026-09-04T07:09:08.229509+00:00"
   }
 }
