@@ -1,32 +1,6 @@
 {
   "topics": [
     {
-      "id": "ki-datenqualitaet-unternehmen-2026",
-      "title": "KI-Datenqualität 2026: Garbage in, out",
-      "keywords": [
-        "Datenqualität KI",
-        "Data Governance 2026",
-        "KI Datenstrategie",
-        "MLOps Datenqualität",
-        "KI Datenpipeline"
-      ],
-      "tags": [
-        "Datenqualität",
-        "Data Governance",
-        "MLOps",
-        "KI-Strategie"
-      ],
-      "wordCountTarget": 1000,
-      "angle": "Warum schlechte Datenqualität 2026 der häufigste Grund für gescheiterte KI-Projekte ist – und wie du mit Data Governance, Datenpipelines und konkreten Qualitäts-Checks deine KI-Projekte auf solide Füße stellst.",
-      "researchFocus": [
-        "Datenqualität KI Projekte 2026",
-        "Data Governance MLOps",
-        "KI Datenstrategie Unternehmen"
-      ],
-      "status": "completed",
-      "completedAt": "2026-09-08T07:06:05.953704+00:00"
-    },
-    {
       "id": "ki-plattform-strategie-2026",
       "title": "KI-Plattform 2026: Mehr als ein Modell",
       "keywords": [
@@ -165,6 +139,6 @@
       "time": "09:00",
       "timezone": "Europe/Berlin"
     },
-    "lastRefill": "2026-09-04T07:09:08.229509+00:00"
+    "lastRefill": "2026-09-08T07:06:20.668265+00:00"
   }
 }
