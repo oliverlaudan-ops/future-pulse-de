@@ -23,7 +23,9 @@
         "Tesla Optimus Figure Boston Dynamics 2026",
         "Robotik Arbeitsmarkt Deutschland 2026"
       ],
-      "status": "pending"
+      "status": "skipped_duplicate",
+      "skippedReason": "Thematische Überschneidung >80% mit ki-robotik-embodied-ai-2026 (Tesla Optimus, Figure 02, Boston Dynamics, Industrie-Einsatz bereits abgedeckt)",
+      "skippedAt": "2026-09-15T07:04:36.429297+00:00"
     },
     {
       "id": "ki-roi-messen-unternehmen-2026",
