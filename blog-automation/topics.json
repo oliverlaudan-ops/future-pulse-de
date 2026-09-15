@@ -50,7 +50,8 @@
         "AI Return on Investment Kennzahlen",
         "KI Projekte Wirtschaftlichkeit scheitern"
       ],
-      "status": "pending"
+      "status": "completed",
+      "completedAt": "2026-09-15T07:06:46.520012+00:00"
     },
     {
       "id": "ki-vertrieb-sales-automation-2026",
