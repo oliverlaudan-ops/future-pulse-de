@@ -1,59 +1,6 @@
 {
   "topics": [
     {
-      "id": "humanoide-robotik-ki-2026",
-      "title": "Humanoide Roboter 2026: KI trifft Körper",
-      "keywords": [
-        "humanoide Roboter 2026",
-        "KI Robotik",
-        "Embodied AI",
-        "Roboter Industrie",
-        "humanoide KI"
-      ],
-      "tags": [
-        "Robotik",
-        "Embodied AI",
-        "Industrie",
-        "KI-Trends"
-      ],
-      "wordCountTarget": 1100,
-      "angle": "Humanoide Roboter sind 2026 kein Science-Fiction mehr: Tesla Optimus, Figure 02 und Boston Dynamics Atlas arbeiten in echten Fabriken. Was das für die deutsche Industrie bedeutet und welche Jobs wirklich gefährdet sind.",
-      "researchFocus": [
-        "humanoide Roboter 2026 Industrie",
-        "Tesla Optimus Figure Boston Dynamics 2026",
-        "Robotik Arbeitsmarkt Deutschland 2026"
-      ],
-      "status": "skipped_duplicate",
-      "skippedReason": "Thematische Überschneidung >80% mit ki-robotik-embodied-ai-2026 (Tesla Optimus, Figure 02, Boston Dynamics, Industrie-Einsatz bereits abgedeckt)",
-      "skippedAt": "2026-09-15T07:04:36.429297+00:00"
-    },
-    {
-      "id": "ki-roi-messen-unternehmen-2026",
-      "title": "KI-ROI messen: So zeigst du den Wert",
-      "keywords": [
-        "KI ROI messen",
-        "KI Projekte Wirtschaftlichkeit",
-        "AI Return on Investment",
-        "KI Kennzahlen Unternehmen",
-        "KI Business Case 2026"
-      ],
-      "tags": [
-        "KI-Strategie",
-        "ROI",
-        "Unternehmen",
-        "Automatisierung"
-      ],
-      "wordCountTarget": 1100,
-      "angle": "95 % der KI-Projekte liefern keinen messbaren ROI – nicht weil KI nicht funktioniert, sondern weil die richtigen Kennzahlen fehlen. Wie du KI-Investitionen mit konkreten Metriken, Vorher-Nachher-Vergleichen und einem einfachen ROI-Framework rechtfertigst.",
-      "researchFocus": [
-        "KI ROI messen Unternehmen 2026",
-        "AI Return on Investment Kennzahlen",
-        "KI Projekte Wirtschaftlichkeit scheitern"
-      ],
-      "status": "completed",
-      "completedAt": "2026-09-15T07:06:46.520012+00:00"
-    },
-    {
       "id": "ki-vertrieb-sales-automation-2026",
       "title": "KI im Vertrieb 2026: Sales neu gedacht",
       "keywords": [
@@ -102,6 +49,106 @@
         "KI Nutzungsrichtlinie Unternehmen einführen"
       ],
       "status": "pending"
+    },
+    {
+      "id": "ki-projektmanagement-teams-2026",
+      "title": "KI im Projektmanagement 2026",
+      "keywords": [
+        "KI Projektmanagement 2026",
+        "AI Projektplanung Tools",
+        "KI Teamarbeit Automatisierung",
+        "KI Aufgabenmanagement",
+        "KI Projektsteuerung Unternehmen"
+      ],
+      "tags": [
+        "Projektmanagement",
+        "KI-Tools",
+        "Automatisierung",
+        "Teams"
+      ],
+      "wordCountTarget": 1100,
+      "angle": "KI verändert Projektmanagement 2026 grundlegend: Von automatischer Aufgabenverteilung über KI-gestützte Risikoerkennung bis zu intelligenten Statusberichten. Welche Tools wirklich helfen und wie du dein Team ohne Widerstand auf KI-gestütztes PM umstellst.",
+      "researchFocus": [
+        "KI Projektmanagement Tools 2026",
+        "AI Projektplanung Risikoerkennung",
+        "KI Teamarbeit Automatisierung Praxis"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "ki-personalentwicklung-hr-2026",
+      "title": "KI in der Personalentwicklung 2026",
+      "keywords": [
+        "KI Personalentwicklung 2026",
+        "AI HR Weiterbildung",
+        "KI Mitarbeiterentwicklung",
+        "KI Talentmanagement",
+        "KI Lernpfade Unternehmen"
+      ],
+      "tags": [
+        "HR",
+        "Personalentwicklung",
+        "KI-Tools",
+        "Weiterbildung"
+      ],
+      "wordCountTarget": 1050,
+      "angle": "KI revolutioniert Personalentwicklung 2026: Individuelle Lernpfade, KI-gestützte Skill-Gap-Analysen und automatisierte Feedbacksysteme ersetzen den Einheitsbrei klassischer Schulungen. Wie HR-Teams KI nutzen, um Mitarbeitende gezielt zu fördern und Fluktuation zu senken.",
+      "researchFocus": [
+        "KI Personalentwicklung HR 2026",
+        "AI Lernpfade Skill-Gap-Analyse Unternehmen",
+        "KI Mitarbeiterentwicklung Fluktuation senken"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "ki-einkauf-procurement-2026",
+      "title": "KI im Einkauf: Smarter beschaffen 2026",
+      "keywords": [
+        "KI Einkauf 2026",
+        "AI Procurement Automatisierung",
+        "KI Lieferantenmanagement",
+        "KI Beschaffung Unternehmen",
+        "AI Supply Chain Einkauf"
+      ],
+      "tags": [
+        "Einkauf",
+        "Procurement",
+        "Automatisierung",
+        "KI-Strategie"
+      ],
+      "wordCountTarget": 1000,
+      "angle": "KI im Einkauf 2026: Automatische Lieferantenbewertung, KI-gestützte Preisverhandlung und intelligente Bedarfsprognosen sparen deutschen Unternehmen bis zu 15 % der Beschaffungskosten. Welche Prozesse sich am schnellsten automatisieren lassen und welche Tools sich bewährt haben.",
+      "researchFocus": [
+        "KI Einkauf Procurement Automatisierung 2026",
+        "AI Lieferantenmanagement Preisverhandlung",
+        "KI Beschaffungskosten senken Unternehmen"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "ki-kundensegmentierung-marketing-2026",
+      "title": "KI-Kundensegmentierung 2026: Mehr Treffer",
+      "keywords": [
+        "KI Kundensegmentierung 2026",
+        "AI Marketing Personalisierung",
+        "KI Zielgruppen Analyse",
+        "KI Customer Segmentation",
+        "KI Marketing Automatisierung"
+      ],
+      "tags": [
+        "Marketing",
+        "KI-Tools",
+        "Personalisierung",
+        "Automatisierung"
+      ],
+      "wordCountTarget": 1050,
+      "angle": "KI-Kundensegmentierung 2026 geht weit über klassische Demografie hinaus: Verhaltensbasierte Cluster, Echtzeit-Personalisierung und prädiktive Kaufwahrscheinlichkeiten steigern Conversion Rates um bis zu 35 %. Wie du KI-Segmentierung in dein Marketing integrierst – ohne Data-Science-Team.",
+      "researchFocus": [
+        "KI Kundensegmentierung Marketing 2026",
+        "AI Personalisierung Conversion Rate steigern",
+        "KI Zielgruppenanalyse Tools Praxis"
+      ],
+      "status": "pending"
     }
   ],
   "meta": {
@@ -117,6 +164,6 @@
       "time": "09:00",
       "timezone": "Europe/Berlin"
     },
-    "lastRefill": "2026-09-11T07:06:17.741029+00:00"
+    "lastRefill": "2026-09-15T07:08:08.306761+00:00"
   }
 }
