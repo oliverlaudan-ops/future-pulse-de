@@ -1,32 +1,6 @@
 {
   "topics": [
     {
-      "id": "ki-vertrieb-sales-automation-2026",
-      "title": "KI im Vertrieb 2026: Sales neu gedacht",
-      "keywords": [
-        "KI Vertrieb 2026",
-        "Sales Automation KI",
-        "AI CRM Integration",
-        "KI Lead Scoring",
-        "KI Verkauf Automatisierung"
-      ],
-      "tags": [
-        "Vertrieb",
-        "Sales",
-        "Automatisierung",
-        "KI-Tools"
-      ],
-      "wordCountTarget": 1050,
-      "angle": "KI verändert den Vertrieb 2026 grundlegend: Von automatischem Lead-Scoring über KI-gestützte Gesprächsanalyse bis zu personalisierten Angeboten in Echtzeit. Welche Tools wirklich funktionieren und wie du deinen Sales-Prozess ohne Jobverlust-Angst transformierst.",
-      "researchFocus": [
-        "KI Vertrieb Sales Automation 2026",
-        "AI CRM Lead Scoring Tools",
-        "KI Verkaufsgespräch Analyse"
-      ],
-      "status": "completed",
-      "completedAt": "2026-09-18T07:04:54.962303+00:00"
-    },
-    {
       "id": "schatten-ki-unternehmen-risiken-2026",
       "title": "Schatten-KI: Das unsichtbare Risiko 2026",
       "keywords": [
@@ -165,6 +139,6 @@
       "time": "09:00",
       "timezone": "Europe/Berlin"
     },
-    "lastRefill": "2026-09-15T07:08:08.306761+00:00"
+    "lastRefill": "2026-09-18T07:05:07.647763+00:00"
   }
 }
