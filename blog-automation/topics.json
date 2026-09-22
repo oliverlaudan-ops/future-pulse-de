@@ -1,32 +1,6 @@
 {
   "topics": [
     {
-      "id": "schatten-ki-unternehmen-risiken-2026",
-      "title": "Schatten-KI: Das unsichtbare Risiko 2026",
-      "keywords": [
-        "Schatten-KI Unternehmen",
-        "Shadow AI Risiken",
-        "unkontrollierte KI Nutzung",
-        "KI Governance Mitarbeiter",
-        "AI Compliance 2026"
-      ],
-      "tags": [
-        "KI-Strategie",
-        "Compliance",
-        "Datenschutz",
-        "Unternehmen"
-      ],
-      "wordCountTarget": 1000,
-      "angle": "Mitarbeiter nutzen ChatGPT, Gemini und Co. ohne Wissen der IT – Schatten-KI ist 2026 das größte unbemerkte Sicherheitsrisiko in Unternehmen. Wie du Schatten-KI erkennst, Datenlecks vermeidest und eine KI-Nutzungsrichtlinie einführst, die Mitarbeiter wirklich akzeptieren.",
-      "researchFocus": [
-        "Schatten-KI Shadow AI Unternehmen 2026",
-        "unkontrollierte KI Nutzung Mitarbeiter Risiken",
-        "KI Nutzungsrichtlinie Unternehmen einführen"
-      ],
-      "status": "completed",
-      "completedAt": "2026-09-22T07:04:16.086722+00:00"
-    },
-    {
       "id": "ki-projektmanagement-teams-2026",
       "title": "KI im Projektmanagement 2026",
       "keywords": [
@@ -140,6 +114,6 @@
       "time": "09:00",
       "timezone": "Europe/Berlin"
     },
-    "lastRefill": "2026-09-18T07:05:07.647763+00:00"
+    "lastRefill": "2026-09-22T07:04:28.665432+00:00"
   }
 }
