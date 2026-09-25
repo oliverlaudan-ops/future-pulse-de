@@ -1,32 +1,6 @@
 {
   "topics": [
     {
-      "id": "ki-projektmanagement-teams-2026",
-      "title": "KI im Projektmanagement 2026",
-      "keywords": [
-        "KI Projektmanagement 2026",
-        "AI Projektplanung Tools",
-        "KI Teamarbeit Automatisierung",
-        "KI Aufgabenmanagement",
-        "KI Projektsteuerung Unternehmen"
-      ],
-      "tags": [
-        "Projektmanagement",
-        "KI-Tools",
-        "Automatisierung",
-        "Teams"
-      ],
-      "wordCountTarget": 1100,
-      "angle": "KI verändert Projektmanagement 2026 grundlegend: Von automatischer Aufgabenverteilung über KI-gestützte Risikoerkennung bis zu intelligenten Statusberichten. Welche Tools wirklich helfen und wie du dein Team ohne Widerstand auf KI-gestütztes PM umstellst.",
-      "researchFocus": [
-        "KI Projektmanagement Tools 2026",
-        "AI Projektplanung Risikoerkennung",
-        "KI Teamarbeit Automatisierung Praxis"
-      ],
-      "status": "completed",
-      "completedAt": "2026-09-25T07:04:25.083161+00:00"
-    },
-    {
       "id": "ki-personalentwicklung-hr-2026",
       "title": "KI in der Personalentwicklung 2026",
       "keywords": [
@@ -100,6 +74,81 @@
         "KI Zielgruppenanalyse Tools Praxis"
       ],
       "status": "pending"
+    },
+    {
+      "id": "ki-buchhaltung-finanzprozesse-2026",
+      "title": "KI in der Buchhaltung 2026: Mehr Zeit",
+      "keywords": [
+        "KI Buchhaltung 2026",
+        "AI Buchhaltung Automatisierung",
+        "KI Rechnungsprüfung",
+        "KI Finanzbuchhaltung Unternehmen",
+        "AI Belegverarbeitung automatisch"
+      ],
+      "tags": [
+        "Buchhaltung",
+        "Automatisierung",
+        "KI-Tools",
+        "Finanzen"
+      ],
+      "wordCountTarget": 1050,
+      "angle": "KI in der Buchhaltung 2026: Automatische Rechnungsprüfung, KI-gestützte Vorkontierung und intelligente Belegverarbeitung sparen deutschen KMUs bis zu 60 % manuellen Aufwand. Welche Prozesse sich am schnellsten automatisieren lassen und welche Tools DSGVO-konform sind.",
+      "researchFocus": [
+        "KI Buchhaltung Automatisierung 2026 Deutschland",
+        "AI Rechnungsprüfung Belegverarbeitung KMU",
+        "KI Finanzbuchhaltung DSGVO-konform Tools"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "ki-qualitaetskontrolle-produktion-2026",
+      "title": "KI-Qualitätskontrolle 2026: Null Fehler",
+      "keywords": [
+        "KI Qualitätskontrolle 2026",
+        "AI Qualitätssicherung Produktion",
+        "KI Computer Vision Fertigung",
+        "KI Predictive Quality",
+        "AI Fehlererkennung automatisch"
+      ],
+      "tags": [
+        "Produktion",
+        "Qualitätssicherung",
+        "KI-Tools",
+        "Automatisierung"
+      ],
+      "wordCountTarget": 1100,
+      "angle": "KI-Qualitätskontrolle 2026 revolutioniert die Fertigung: Computer Vision erkennt Defekte in Millisekunden, prädiktive Qualitätsmodelle verhindern Ausschuss bevor er entsteht. Wie Industrieunternehmen KI-gestützte Qualitätssicherung einführen und welche ROI-Zahlen realistisch sind.",
+      "researchFocus": [
+        "KI Qualitätskontrolle Produktion Computer Vision 2026",
+        "AI Fehlererkennung Fertigung ROI Praxis",
+        "KI Predictive Quality Industrie 4.0 2026"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "ki-it-support-helpdesk-2026",
+      "title": "KI im IT-Support 2026: Tickets lösen",
+      "keywords": [
+        "KI IT-Support 2026",
+        "AI Helpdesk Automatisierung",
+        "KI Ticketsystem automatisch",
+        "KI First-Level-Support",
+        "AI IT-Service-Management"
+      ],
+      "tags": [
+        "IT-Support",
+        "Automatisierung",
+        "KI-Tools",
+        "Helpdesk"
+      ],
+      "wordCountTarget": 1000,
+      "angle": "KI im IT-Support 2026: Autonome Agenten lösen bis zu 70 % der First-Level-Tickets ohne menschliches Eingreifen. Von automatischen Passwort-Resets bis zur intelligenten Ticket-Klassifizierung – wie IT-Teams KI einsetzen, um Reaktionszeiten zu halbieren und Kosten zu senken.",
+      "researchFocus": [
+        "KI IT-Support Helpdesk Automatisierung 2026",
+        "AI First-Level-Support Ticketsystem Praxis",
+        "KI ITSM Reaktionszeit senken Kosten"
+      ],
+      "status": "pending"
     }
   ],
   "meta": {
@@ -115,6 +164,6 @@
       "time": "09:00",
       "timezone": "Europe/Berlin"
     },
-    "lastRefill": "2026-09-22T07:04:28.665432+00:00"
+    "lastRefill": "2026-09-25T07:05:26.495626+00:00"
   }
 }
