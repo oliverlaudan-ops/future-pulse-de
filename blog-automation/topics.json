@@ -1,32 +1,6 @@
 {
   "topics": [
     {
-      "id": "ki-personalentwicklung-hr-2026",
-      "title": "KI in der Personalentwicklung 2026",
-      "keywords": [
-        "KI Personalentwicklung 2026",
-        "AI HR Weiterbildung",
-        "KI Mitarbeiterentwicklung",
-        "KI Talentmanagement",
-        "KI Lernpfade Unternehmen"
-      ],
-      "tags": [
-        "HR",
-        "Personalentwicklung",
-        "KI-Tools",
-        "Weiterbildung"
-      ],
-      "wordCountTarget": 1050,
-      "angle": "KI revolutioniert Personalentwicklung 2026: Individuelle Lernpfade, KI-gestützte Skill-Gap-Analysen und automatisierte Feedbacksysteme ersetzen den Einheitsbrei klassischer Schulungen. Wie HR-Teams KI nutzen, um Mitarbeitende gezielt zu fördern und Fluktuation zu senken.",
-      "researchFocus": [
-        "KI Personalentwicklung HR 2026",
-        "AI Lernpfade Skill-Gap-Analyse Unternehmen",
-        "KI Mitarbeiterentwicklung Fluktuation senken"
-      ],
-      "status": "completed",
-      "completedAt": "2026-09-29T07:04:17.945039+00:00"
-    },
-    {
       "id": "ki-einkauf-procurement-2026",
       "title": "KI im Einkauf: Smarter beschaffen 2026",
       "keywords": [
@@ -165,6 +139,6 @@
       "time": "09:00",
       "timezone": "Europe/Berlin"
     },
-    "lastRefill": "2026-09-25T07:05:26.495626+00:00"
+    "lastRefill": "2026-09-29T07:04:30.842929+00:00"
   }
 }
