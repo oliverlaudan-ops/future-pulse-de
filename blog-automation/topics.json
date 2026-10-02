@@ -23,7 +23,8 @@
         "AI Lieferantenmanagement Preisverhandlung",
         "KI Beschaffungskosten senken Unternehmen"
       ],
-      "status": "pending"
+      "status": "completed",
+      "completedAt": "2026-10-02T07:04:09.236326+00:00"
     },
     {
       "id": "ki-kundensegmentierung-marketing-2026",
