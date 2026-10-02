@@ -1,32 +1,6 @@
 {
   "topics": [
     {
-      "id": "ki-einkauf-procurement-2026",
-      "title": "KI im Einkauf: Smarter beschaffen 2026",
-      "keywords": [
-        "KI Einkauf 2026",
-        "AI Procurement Automatisierung",
-        "KI Lieferantenmanagement",
-        "KI Beschaffung Unternehmen",
-        "AI Supply Chain Einkauf"
-      ],
-      "tags": [
-        "Einkauf",
-        "Procurement",
-        "Automatisierung",
-        "KI-Strategie"
-      ],
-      "wordCountTarget": 1000,
-      "angle": "KI im Einkauf 2026: Automatische Lieferantenbewertung, KI-gestützte Preisverhandlung und intelligente Bedarfsprognosen sparen deutschen Unternehmen bis zu 15 % der Beschaffungskosten. Welche Prozesse sich am schnellsten automatisieren lassen und welche Tools sich bewährt haben.",
-      "researchFocus": [
-        "KI Einkauf Procurement Automatisierung 2026",
-        "AI Lieferantenmanagement Preisverhandlung",
-        "KI Beschaffungskosten senken Unternehmen"
-      ],
-      "status": "completed",
-      "completedAt": "2026-10-02T07:04:09.236326+00:00"
-    },
-    {
       "id": "ki-kundensegmentierung-marketing-2026",
       "title": "KI-Kundensegmentierung 2026: Mehr Treffer",
       "keywords": [
@@ -140,6 +114,6 @@
       "time": "09:00",
       "timezone": "Europe/Berlin"
     },
-    "lastRefill": "2026-09-29T07:04:30.842929+00:00"
+    "lastRefill": "2026-10-02T07:04:18.961324+00:00"
   }
 }
