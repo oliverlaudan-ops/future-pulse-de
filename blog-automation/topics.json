@@ -1,32 +1,6 @@
 {
   "topics": [
     {
-      "id": "ki-kundensegmentierung-marketing-2026",
-      "title": "KI-Kundensegmentierung 2026: Mehr Treffer",
-      "keywords": [
-        "KI Kundensegmentierung 2026",
-        "AI Marketing Personalisierung",
-        "KI Zielgruppen Analyse",
-        "KI Customer Segmentation",
-        "KI Marketing Automatisierung"
-      ],
-      "tags": [
-        "Marketing",
-        "KI-Tools",
-        "Personalisierung",
-        "Automatisierung"
-      ],
-      "wordCountTarget": 1050,
-      "angle": "KI-Kundensegmentierung 2026 geht weit über klassische Demografie hinaus: Verhaltensbasierte Cluster, Echtzeit-Personalisierung und prädiktive Kaufwahrscheinlichkeiten steigern Conversion Rates um bis zu 35 %. Wie du KI-Segmentierung in dein Marketing integrierst – ohne Data-Science-Team.",
-      "researchFocus": [
-        "KI Kundensegmentierung Marketing 2026",
-        "AI Personalisierung Conversion Rate steigern",
-        "KI Zielgruppenanalyse Tools Praxis"
-      ],
-      "status": "completed",
-      "completedAt": "2026-10-06T07:03:56.022502+00:00"
-    },
-    {
       "id": "ki-buchhaltung-finanzprozesse-2026",
       "title": "KI in der Buchhaltung 2026: Mehr Zeit",
       "keywords": [
@@ -100,6 +74,81 @@
         "KI ITSM Reaktionszeit senken Kosten"
       ],
       "status": "pending"
+    },
+    {
+      "id": "ki-immobilien-proptech-2026",
+      "title": "KI im Immobilienmarkt 2026: Smarter kaufen",
+      "keywords": [
+        "KI Immobilien 2026",
+        "PropTech KI Deutschland",
+        "KI Immobilienbewertung automatisch",
+        "AI Immobilienmarkt Analyse",
+        "KI Wohnungssuche Automatisierung"
+      ],
+      "tags": [
+        "Immobilien",
+        "PropTech",
+        "KI-Tools",
+        "Automatisierung"
+      ],
+      "wordCountTarget": 1050,
+      "angle": "KI revolutioniert den Immobilienmarkt 2026: Automatische Bewertungsmodelle, KI-gestützte Marktanalysen und intelligente Matching-Algorithmen helfen Käufern, Verkäufern und Maklern, bessere Entscheidungen schneller zu treffen. Welche PropTech-Tools 2026 wirklich liefern.",
+      "researchFocus": [
+        "KI Immobilienbewertung PropTech 2026 Deutschland",
+        "AI Immobilienmarkt Analyse Automatisierung",
+        "KI Wohnungssuche Matching Algorithmus 2026"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "ki-versicherung-insurtech-2026",
+      "title": "KI in der Versicherung 2026: Schneller zahlen",
+      "keywords": [
+        "KI Versicherung 2026",
+        "InsurTech KI Deutschland",
+        "KI Schadenbearbeitung automatisch",
+        "AI Risikoberechnung Versicherung",
+        "KI Versicherungsbetrug erkennen"
+      ],
+      "tags": [
+        "Versicherung",
+        "InsurTech",
+        "KI-Tools",
+        "Automatisierung"
+      ],
+      "wordCountTarget": 1050,
+      "angle": "KI in der Versicherungsbranche 2026: Automatische Schadenbearbeitung in Minuten statt Wochen, KI-gestützte Risikomodelle und intelligente Betrugserkennung senken Kosten und steigern Kundenzufriedenheit. Wie InsurTechs und klassische Versicherer KI einsetzen.",
+      "researchFocus": [
+        "KI Versicherung Schadenbearbeitung Automatisierung 2026",
+        "InsurTech KI Risikomodell Betrugerkennung",
+        "AI Versicherung Kundenzufriedenheit Kosten senken 2026"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "ki-controlling-reporting-2026",
+      "title": "KI im Controlling 2026: Zahlen verstehen",
+      "keywords": [
+        "KI Controlling 2026",
+        "AI Reporting Automatisierung",
+        "KI Finanzplanung Unternehmen",
+        "KI Forecasting automatisch",
+        "AI Business Intelligence 2026"
+      ],
+      "tags": [
+        "Controlling",
+        "Finanzen",
+        "KI-Tools",
+        "Automatisierung"
+      ],
+      "wordCountTarget": 1100,
+      "angle": "KI im Controlling 2026: Automatisierte Reports, KI-gestützte Forecasts und intelligente Abweichungsanalysen sparen CFOs und Controllern bis zu 40 % Analysezeit. Welche BI-Tools mit KI wirklich funktionieren und wie du prädiktive Planung einführst.",
+      "researchFocus": [
+        "KI Controlling Reporting Automatisierung 2026",
+        "AI Forecasting Finanzplanung Unternehmen Praxis",
+        "KI Business Intelligence CFO Zeitersparnis 2026"
+      ],
+      "status": "pending"
     }
   ],
   "meta": {
@@ -115,6 +164,6 @@
       "time": "09:00",
       "timezone": "Europe/Berlin"
     },
-    "lastRefill": "2026-10-02T07:04:18.961324+00:00"
+    "lastRefill": "2026-10-06T07:04:56.329037+00:00"
   }
 }
