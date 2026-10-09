@@ -23,7 +23,8 @@
         "AI Rechnungsprüfung Belegverarbeitung KMU",
         "KI Finanzbuchhaltung DSGVO-konform Tools"
       ],
-      "status": "pending"
+      "status": "completed",
+      "completedAt": "2026-10-09T07:04:32.886621+00:00"
     },
     {
       "id": "ki-qualitaetskontrolle-produktion-2026",
