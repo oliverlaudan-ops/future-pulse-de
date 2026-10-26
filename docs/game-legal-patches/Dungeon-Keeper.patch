@@ -1,0 +1,204 @@
+--- a/index.html
++++ b/index.html
+@@ -1,99 +1,102 @@
+-<!DOCTYPE html>
+-<html lang="en">
+-<head>
+-    <meta charset="UTF-8">
+-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+-    <title>🏰 Dungeon Keeper</title>
+-    <link rel="preconnect" href="https://fonts.googleapis.com">
+-    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Lato:wght@400;700&family=Fira+Code&display=swap" rel="stylesheet">
+-    <link rel="stylesheet" href="css/style.css">
+-</head>
+-<body>
+-    <div id="game-container">
+-        <header>
+-            <h1>🏰 Dungeon Keeper</h1>
+-            <span class="level-badge" id="dungeon-level">Level 1</span>
+-        </header>
+-
+-        <div id="resources">
+-            <div class="resource gold">
+-                <span>💰</span>
+-                <span id="gold">0</span>
+-            </div>
+-            <div class="resource souls">
+-                <span>💀</span>
+-                <span id="souls">0</span>
+-            </div>
+-            <div class="resource food">
+-                <span>🍖</span>
+-                <span id="food">50</span>
+-                <span style="font-size: 0.8rem; color: var(--text-muted);">/ 50</span>
+-            </div>
+-            <div class="resource imps">
+-                <span>👹</span>
+-                <span id="imps">1</span>
+-                <span style="font-size: 0.8rem; color: var(--text-muted);">/ 3</span>
+-            </div>
+-        </div>
+-
+-        <div id="stats">
+-            <div class="stat">
+-                <div class="stat-label">Heroes Defeated</div>
+-                <div class="stat-value" id="heroes-defeated">0</div>
+-            </div>
+-            <div class="stat">
+-                <div class="stat-label">Heroes Escaped</div>
+-                <div class="stat-value" id="heroes-escaped">0</div>
+-            </div>
+-            <div class="stat">
+-                <div class="stat-label">Gold/sec</div>
+-                <div class="stat-value" id="gold-per-sec">0</div>
+-            </div>
+-            <div class="stat">
+-                <div class="stat-label">Next Wave</div>
+-                <div class="stat-value" id="next-wave">60s</div>
+-            </div>
+-        </div>
+-
+-        <div id="wave-status">
+-            <span id="wave-status-text">☀️ Peaceful - Heroes approaching...</span>
+-            <div class="wave-progress" id="wave-progress" style="display: none;">
+-                <div class="wave-progress-bar" id="wave-progress-bar"></div>
+-                <div class="wave-progress-text" id="wave-progress-text"></div>
+-            </div>
+-        </div>
+-
+-        <div id="building">
+-            <h2>🏗️ Build</h2>
+-            
+-            <div class="building-tabs">
+-                <button class="tab-btn active" data-tab="monsters">🐉 Monsters</button>
+-                <button class="tab-btn" data-tab="traps">⚙️ Traps</button>
+-                <button class="tab-btn" data-tab="income">💰 Income</button>
+-                <button class="tab-btn" data-tab="utilities">⛏️ Utilities</button>
+-            </div>
+-
+-            <div class="building-grid" id="building-grid">
+-                <!-- Populated by JS -->
+-            </div>
+-        </div>
+-
+-        <div id="upgrades">
+-            <h2>⚡ Upgrades</h2>
+-            <div id="upgrades-list">
+-                <!-- Populated by JS -->
+-            </div>
+-        </div>
+-
+-        <div id="log">
+-            <!-- Populated by JS -->
+-        </div>
+-
+-        <div id="imp-status">
+-            <span id="imp-status-text">👹 Imp status: idle</span>
+-        </div>
+-    </div>
+-
+-    <script src="js/game.js"></script>
+-</body>
+-</html>
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>🏰 Dungeon Keeper</title>
++<link rel="stylesheet" href="css/style.css">
++</head>
++<body>
++    <div id="game-container">
++        <header>
++            <h1>🏰 Dungeon Keeper</h1>
++            <span class="level-badge" id="dungeon-level">Level 1</span>
++        </header>
++
++        <div id="resources">
++            <div class="resource gold">
++                <span>💰</span>
++                <span id="gold">0</span>
++            </div>
++            <div class="resource souls">
++                <span>💀</span>
++                <span id="souls">0</span>
++            </div>
++            <div class="resource food">
++                <span>🍖</span>
++                <span id="food">50</span>
++                <span style="font-size: 0.8rem; color: var(--text-muted);">/ 50</span>
++            </div>
++            <div class="resource imps">
++                <span>👹</span>
++                <span id="imps">1</span>
++                <span style="font-size: 0.8rem; color: var(--text-muted);">/ 3</span>
++            </div>
++        </div>
++
++        <div id="stats">
++            <div class="stat">
++                <div class="stat-label">Heroes Defeated</div>
++                <div class="stat-value" id="heroes-defeated">0</div>
++            </div>
++            <div class="stat">
++                <div class="stat-label">Heroes Escaped</div>
++                <div class="stat-value" id="heroes-escaped">0</div>
++            </div>
++            <div class="stat">
++                <div class="stat-label">Gold/sec</div>
++                <div class="stat-value" id="gold-per-sec">0</div>
++            </div>
++            <div class="stat">
++                <div class="stat-label">Next Wave</div>
++                <div class="stat-value" id="next-wave">60s</div>
++            </div>
++        </div>
++
++        <div id="wave-status">
++            <span id="wave-status-text">☀️ Peaceful - Heroes approaching...</span>
++            <div class="wave-progress" id="wave-progress" style="display: none;">
++                <div class="wave-progress-bar" id="wave-progress-bar"></div>
++                <div class="wave-progress-text" id="wave-progress-text"></div>
++            </div>
++        </div>
++
++        <div id="building">
++            <h2>🏗️ Build</h2>
++            
++            <div class="building-tabs">
++                <button class="tab-btn active" data-tab="monsters">🐉 Monsters</button>
++                <button class="tab-btn" data-tab="traps">⚙️ Traps</button>
++                <button class="tab-btn" data-tab="income">💰 Income</button>
++                <button class="tab-btn" data-tab="utilities">⛏️ Utilities</button>
++            </div>
++
++            <div class="building-grid" id="building-grid">
++                <!-- Populated by JS -->
++            </div>
++        </div>
++
++        <div id="upgrades">
++            <h2>⚡ Upgrades</h2>
++            <div id="upgrades-list">
++                <!-- Populated by JS -->
++            </div>
++        </div>
++
++        <div id="log">
++            <!-- Populated by JS -->
++        </div>
++
++        <div id="imp-status">
++            <span id="imp-status-text">👹 Imp status: idle</span>
++        </div>
++    </div>
++
++    <script src="js/game.js"></script>
++<nav aria-label="Rechtliche Hinweise" lang="de" style="position:fixed;bottom:6px;right:8px;z-index:20000;background:#151521;color:#eee;padding:4px 8px;border-radius:4px;display:flex;flex-wrap:wrap;gap:8px;font:12px/1.6 system-ui,sans-serif">
++<a style="color:inherit;text-decoration:underline" href="https://future-pulse.de/spiele-rechtliches/#impressum" target="_blank" rel="noopener noreferrer">Impressum</a>
++<a style="color:inherit;text-decoration:underline" href="https://future-pulse.de/spiele-rechtliches/#datenschutz" target="_blank" rel="noopener noreferrer">Datenschutz</a>
++<a style="color:inherit;text-decoration:underline" href="https://future-pulse.de/spiele-rechtliches/#lizenzen" target="_blank" rel="noopener noreferrer">Lizenzen</a>
++</nav>
++</body>
++</html>

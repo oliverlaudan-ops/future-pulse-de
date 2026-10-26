@@ -1,0 +1,1474 @@
+--- a/index.html
++++ b/index.html
+@@ -1,167 +1,172 @@
+-<!DOCTYPE html>
+-<html lang="en">
+-<head>
+-    <meta charset="UTF-8">
+-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+-    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+-    <meta http-equiv="Pragma" content="no-cache">
+-    <meta http-equiv="Expires" content="0">
+-    <title>Emergency Dispatch - Idle Game</title>
+-    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+-    <link rel="stylesheet" href="styles.css?v=023">
+-</head>
+-<body>
+-    <div class="game-container">
+-        <header>
+-            <h1>🚨 Emergency Dispatch Control Center</h1>
+-            <div class="header-stats">
+-                <span id="budget-display">Budget: 0</span>
+-                <span id="reputation-display">Reputation: 0</span>
+-                <span id="stress-display">Stress: 0%</span>
+-            </div>
+-        </header>
+-
+-        <nav class="tab-nav">
+-            <button class="tab-button active" data-tab="dashboard">📍 Dashboard</button>
+-            <button class="tab-button" data-tab="units">🚓 Units</button>
+-            <button class="tab-button" data-tab="buildings">🏢 Buildings</button>
+-            <button class="tab-button" data-tab="research">🔬 Research</button>
+-            <button class="tab-button" data-tab="achievements">🏆 Achievements</button>
+-            <button class="tab-button" data-tab="prestige">⭐ Prestige</button>
+-        </nav>
+-
+-        <main class="content">
+-            <!-- Dashboard Tab -->
+-            <section id="dashboard-tab" class="tab-content active">
+-                <div class="dashboard-grid">
+-                    <div class="panel calls-panel">
+-                        <h2>🚨 Active Calls</h2>
+-                        <div id="active-calls" class="calls-list">
+-                            <p class="empty-state">No active emergency calls</p>
+-                        </div>
+-                    </div>
+-
+-                    <div class="panel units-status-panel">
+-                        <h2>📊 Units Status</h2>
+-                        <div id="units-status">
+-                            <div class="unit-stat">
+-                                <span class="unit-icon">🚓</span>
+-                                <span class="unit-label">Police:</span>
+-                                <span id="police-available">0</span>/<span id="police-total">0</span>
+-                                <span class="efficiency-badge" id="police-efficiency">1.0x</span>
+-                            </div>
+-                            <div class="unit-stat">
+-                                <span class="unit-icon">🚒</span>
+-                                <span class="unit-label">Fire:</span>
+-                                <span id="fire-available">0</span>/<span id="fire-total">0</span>
+-                                <span class="efficiency-badge" id="fire-efficiency">1.0x</span>
+-                            </div>
+-                            <div class="unit-stat">
+-                                <span class="unit-icon">🚑</span>
+-                                <span class="unit-label">Medical:</span>
+-                                <span id="medical-available">0</span>/<span id="medical-total">0</span>
+-                                <span class="efficiency-badge" id="medical-efficiency">1.0x</span>
+-                            </div>
+-                        </div>
+-                    </div>
+-
+-                    <div class="panel stats-panel">
+-                        <h2>📈 Statistics</h2>
+-                        <div id="stats">
+-                            <p>Successful: <span id="successful-calls">0</span></p>
+-                            <p>Failed: <span id="failed-calls">0</span></p>
+-                            <p>Success Rate: <span id="success-rate">0%</span></p>
+-                            <p>Perfect Matches: <span id="perfect-matches">0</span></p>
+-                        </div>
+-                    </div>
+-                </div>
+-            </section>
+-
+-            <!-- Units Tab -->
+-            <section id="units-tab" class="tab-content">
+-                <h2>🚓 Manage Units</h2>
+-                <p class="info-text">ℹ️ Units are now provided by buildings. Build police stations, fire stations, and hospitals in the Buildings tab!</p>
+-                <div class="current-units-overview">
+-                    <h3>Current Units</h3>
+-                    <div class="units-summary">
+-                        <div class="unit-summary-card police">
+-                            <div class="unit-summary-icon">🚓</div>
+-                            <div class="unit-summary-info">
+-                                <strong>Police</strong>
+-                                <p>Units: <span id="summary-police-total">0</span></p>
+-                                <p>Efficiency: <span id="summary-police-eff">1.0x</span></p>
+-                            </div>
+-                        </div>
+-                        <div class="unit-summary-card fire">
+-                            <div class="unit-summary-icon">🚒</div>
+-                            <div class="unit-summary-info">
+-                                <strong>Fire</strong>
+-                                <p>Units: <span id="summary-fire-total">0</span></p>
+-                                <p>Efficiency: <span id="summary-fire-eff">1.0x</span></p>
+-                            </div>
+-                        </div>
+-                        <div class="unit-summary-card medical">
+-                            <div class="unit-summary-icon">🚑</div>
+-                            <div class="unit-summary-info">
+-                                <strong>Medical</strong>
+-                                <p>Units: <span id="summary-medical-total">0</span></p>
+-                                <p>Efficiency: <span id="summary-medical-eff">1.0x</span></p>
+-                            </div>
+-                        </div>
+-                    </div>
+-                </div>
+-            </section>
+-
+-            <!-- Buildings Tab -->
+-            <section id="buildings-tab" class="tab-content">
+-                <h2>🏢 Buildings</h2>
+-                <div class="buildings-header">
+-                    <div class="buildings-info">
+-                        <p>Building Slots: <span id="used-slots">0</span>/<span id="total-slots">15</span></p>
+-                    </div>
+-                    <button id="expand-slots-button" class="expand-button">
+-                        🏭️ Expand Building Slots
+-                    </button>
+-                </div>
+-                
+-                <div class="building-categories">
+-                    <button class="category-filter active" data-category="all">All</button>
+-                    <button class="category-filter" data-category="police">🚓 Police</button>
+-                    <button class="category-filter" data-category="fire">🚒 Fire</button>
+-                    <button class="category-filter" data-category="medical">🚑 Medical</button>
+-                </div>
+-                
+-                <div id="buildings-list" class="buildings-grid">
+-                    <!-- Dynamically generated -->
+-                </div>
+-            </section>
+-
+-            <!-- Research Tab -->
+-            <section id="research-tab" class="tab-content">
+-                <h2>🔬 Research</h2>
+-                <p class="coming-soon">Research system coming in the next update...</p>
+-            </section>
+-
+-            <!-- Achievements Tab -->
+-            <section id="achievements-tab" class="tab-content">
+-                <h2>🏆 Achievements</h2>
+-                <p class="coming-soon">Achievement system coming in the next update...</p>
+-            </section>
+-
+-            <!-- Prestige Tab -->
+-            <section id="prestige-tab" class="tab-content">
+-                <h2>⭐ Prestige</h2>
+-                <p class="coming-soon">Prestige system coming in the next update...</p>
+-            </section>
+-        </main>
+-
+-        <footer>
+-            <button id="save-button" class="action-button">💾 Save</button>
+-            <button id="reset-button" class="action-button danger">🔄 Reset (Dangerous!)</button>
+-            <span class="version">v0.3.0 - Balanced & English</span>
+-        </footer>
+-    </div>
+-
+-    <script type="module" src="main.js?v=1738080000"></script>
+-</body>
+-</html>
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
++    <meta http-equiv="Pragma" content="no-cache">
++    <meta http-equiv="Expires" content="0">
++    <title>Emergency Dispatch - Idle Game</title>
++    <link rel="icon" type="image/svg+xml" href="favicon.svg">
++    <link rel="stylesheet" href="styles.css?v=023">
++</head>
++<body>
++    <div class="game-container">
++        <header>
++            <h1>🚨 Emergency Dispatch Control Center</h1>
++            <div class="header-stats">
++                <span id="budget-display">Budget: 0</span>
++                <span id="reputation-display">Reputation: 0</span>
++                <span id="stress-display">Stress: 0%</span>
++            </div>
++        </header>
++
++        <nav class="tab-nav">
++            <button class="tab-button active" data-tab="dashboard">📍 Dashboard</button>
++            <button class="tab-button" data-tab="units">🚓 Units</button>
++            <button class="tab-button" data-tab="buildings">🏢 Buildings</button>
++            <button class="tab-button" data-tab="research">🔬 Research</button>
++            <button class="tab-button" data-tab="achievements">🏆 Achievements</button>
++            <button class="tab-button" data-tab="prestige">⭐ Prestige</button>
++        </nav>
++
++        <main class="content">
++            <!-- Dashboard Tab -->
++            <section id="dashboard-tab" class="tab-content active">
++                <div class="dashboard-grid">
++                    <div class="panel calls-panel">
++                        <h2>🚨 Active Calls</h2>
++                        <div id="active-calls" class="calls-list">
++                            <p class="empty-state">No active emergency calls</p>
++                        </div>
++                    </div>
++
++                    <div class="panel units-status-panel">
++                        <h2>📊 Units Status</h2>
++                        <div id="units-status">
++                            <div class="unit-stat">
++                                <span class="unit-icon">🚓</span>
++                                <span class="unit-label">Police:</span>
++                                <span id="police-available">0</span>/<span id="police-total">0</span>
++                                <span class="efficiency-badge" id="police-efficiency">1.0x</span>
++                            </div>
++                            <div class="unit-stat">
++                                <span class="unit-icon">🚒</span>
++                                <span class="unit-label">Fire:</span>
++                                <span id="fire-available">0</span>/<span id="fire-total">0</span>
++                                <span class="efficiency-badge" id="fire-efficiency">1.0x</span>
++                            </div>
++                            <div class="unit-stat">
++                                <span class="unit-icon">🚑</span>
++                                <span class="unit-label">Medical:</span>
++                                <span id="medical-available">0</span>/<span id="medical-total">0</span>
++                                <span class="efficiency-badge" id="medical-efficiency">1.0x</span>
++                            </div>
++                        </div>
++                    </div>
++
++                    <div class="panel stats-panel">
++                        <h2>📈 Statistics</h2>
++                        <div id="stats">
++                            <p>Successful: <span id="successful-calls">0</span></p>
++                            <p>Failed: <span id="failed-calls">0</span></p>
++                            <p>Success Rate: <span id="success-rate">0%</span></p>
++                            <p>Perfect Matches: <span id="perfect-matches">0</span></p>
++                        </div>
++                    </div>
++                </div>
++            </section>
++
++            <!-- Units Tab -->
++            <section id="units-tab" class="tab-content">
++                <h2>🚓 Manage Units</h2>
++                <p class="info-text">ℹ️ Units are now provided by buildings. Build police stations, fire stations, and hospitals in the Buildings tab!</p>
++                <div class="current-units-overview">
++                    <h3>Current Units</h3>
++                    <div class="units-summary">
++                        <div class="unit-summary-card police">
++                            <div class="unit-summary-icon">🚓</div>
++                            <div class="unit-summary-info">
++                                <strong>Police</strong>
++                                <p>Units: <span id="summary-police-total">0</span></p>
++                                <p>Efficiency: <span id="summary-police-eff">1.0x</span></p>
++                            </div>
++                        </div>
++                        <div class="unit-summary-card fire">
++                            <div class="unit-summary-icon">🚒</div>
++                            <div class="unit-summary-info">
++                                <strong>Fire</strong>
++                                <p>Units: <span id="summary-fire-total">0</span></p>
++                                <p>Efficiency: <span id="summary-fire-eff">1.0x</span></p>
++                            </div>
++                        </div>
++                        <div class="unit-summary-card medical">
++                            <div class="unit-summary-icon">🚑</div>
++                            <div class="unit-summary-info">
++                                <strong>Medical</strong>
++                                <p>Units: <span id="summary-medical-total">0</span></p>
++                                <p>Efficiency: <span id="summary-medical-eff">1.0x</span></p>
++                            </div>
++                        </div>
++                    </div>
++                </div>
++            </section>
++
++            <!-- Buildings Tab -->
++            <section id="buildings-tab" class="tab-content">
++                <h2>🏢 Buildings</h2>
++                <div class="buildings-header">
++                    <div class="buildings-info">
++                        <p>Building Slots: <span id="used-slots">0</span>/<span id="total-slots">15</span></p>
++                    </div>
++                    <button id="expand-slots-button" class="expand-button">
++                        🏭️ Expand Building Slots
++                    </button>
++                </div>
++                
++                <div class="building-categories">
++                    <button class="category-filter active" data-category="all">All</button>
++                    <button class="category-filter" data-category="police">🚓 Police</button>
++                    <button class="category-filter" data-category="fire">🚒 Fire</button>
++                    <button class="category-filter" data-category="medical">🚑 Medical</button>
++                </div>
++                
++                <div id="buildings-list" class="buildings-grid">
++                    <!-- Dynamically generated -->
++                </div>
++            </section>
++
++            <!-- Research Tab -->
++            <section id="research-tab" class="tab-content">
++                <h2>🔬 Research</h2>
++                <p class="coming-soon">Research system coming in the next update...</p>
++            </section>
++
++            <!-- Achievements Tab -->
++            <section id="achievements-tab" class="tab-content">
++                <h2>🏆 Achievements</h2>
++                <p class="coming-soon">Achievement system coming in the next update...</p>
++            </section>
++
++            <!-- Prestige Tab -->
++            <section id="prestige-tab" class="tab-content">
++                <h2>⭐ Prestige</h2>
++                <p class="coming-soon">Prestige system coming in the next update...</p>
++            </section>
++        </main>
++
++        <footer>
++            <button id="save-button" class="action-button">💾 Save</button>
++            <button id="reset-button" class="action-button danger">🔄 Reset (Dangerous!)</button>
++            <span class="version">v0.3.0 - Balanced & English</span>
++        <nav aria-label="Rechtliche Hinweise" lang="de" style="display:flex;flex-wrap:wrap;gap:8px;font:12px/1.6 system-ui,sans-serif">
++<a style="color:inherit;text-decoration:underline" href="https://future-pulse.de/spiele-rechtliches/#impressum" target="_blank" rel="noopener noreferrer">Impressum</a>
++<a style="color:inherit;text-decoration:underline" href="https://future-pulse.de/spiele-rechtliches/#datenschutz" target="_blank" rel="noopener noreferrer">Datenschutz</a>
++<a style="color:inherit;text-decoration:underline" href="https://future-pulse.de/spiele-rechtliches/#lizenzen" target="_blank" rel="noopener noreferrer">Lizenzen</a>
++</nav>
++</footer>
++    </div>
++
++    <script type="module" src="main.js?v=1738080000"></script>
++</body>
++</html>
+--- a/styles.css
++++ b/styles.css
+@@ -1,553 +1,552 @@
+-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+-
+-* {
+-    margin: 0;
+-    padding: 0;
+-    box-sizing: border-box;
+-}
+-
+-body {
+-    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+-    color: #2c3e50;
+-    min-height: 100vh;
+-    padding: 20px;
+-}
+-
+-.game-container {
+-    max-width: 1400px;
+-    margin: 0 auto;
+-    background: white;
+-    border-radius: 20px;
+-    box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+-    overflow: hidden;
+-}
+-
+-header {
+-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+-    color: white;
+-    padding: 30px;
+-    text-align: center;
+-}
+-
+-header h1 {
+-    font-size: 2.5rem;
+-    margin-bottom: 15px;
+-    text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+-}
+-
+-.header-stats {
+-    display: flex;
+-    justify-content: center;
+-    gap: 30px;
+-    font-size: 1.1rem;
+-    font-weight: 600;
+-}
+-
+-.tab-nav {
+-    display: flex;
+-    background: #f8f9fa;
+-    border-bottom: 2px solid #e1e4e8;
+-    overflow-x: auto;
+-}
+-
+-.tab-button {
+-    flex: 1;
+-    padding: 15px 20px;
+-    border: none;
+-    background: transparent;
+-    cursor: pointer;
+-    font-size: 1rem;
+-    font-weight: 600;
+-    color: #6c757d;
+-    transition: all 0.3s;
+-    border-bottom: 3px solid transparent;
+-}
+-
+-.tab-button:hover {
+-    background: #e9ecef;
+-    color: #495057;
+-}
+-
+-.tab-button.active {
+-    color: #667eea;
+-    border-bottom-color: #667eea;
+-    background: white;
+-}
+-
+-.content {
+-    padding: 30px;
+-    min-height: 600px;
+-}
+-
+-.tab-content {
+-    display: none;
+-}
+-
+-.tab-content.active {
+-    display: block;
+-    animation: fadeIn 0.3s;
+-}
+-
+-@keyframes fadeIn {
+-    from { opacity: 0; transform: translateY(10px); }
+-    to { opacity: 1; transform: translateY(0); }
+-}
+-
+-/* Info Banner */
+-.info-banner {
+-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+-    color: white;
+-    padding: 15px 20px;
+-    border-radius: 10px;
+-    margin-bottom: 20px;
+-    text-align: center;
+-}
+-
+-.info-banner h3 {
+-    margin-bottom: 8px;
+-    font-size: 1.2rem;
+-}
+-
+-.info-banner p {
+-    margin: 5px 0;
+-    font-size: 0.95rem;
+-}
+-
+-/* Dashboard */
+-.dashboard-grid {
+-    display: grid;
+-    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+-    gap: 20px;
+-}
+-
+-.panel {
+-    background: #f8f9fa;
+-    border-radius: 15px;
+-    padding: 25px;
+-    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+-}
+-
+-.panel h2 {
+-    font-size: 1.5rem;
+-    margin-bottom: 20px;
+-    color: #2c3e50;
+-    border-bottom: 3px solid #667eea;
+-    padding-bottom: 10px;
+-}
+-
+-.calls-panel {
+-    grid-column: span 2;
+-}
+-
+-.empty-state {
+-    text-align: center;
+-    color: #6c757d;
+-    padding: 40px;
+-    font-size: 1.1rem;
+-}
+-
+-/* Call Cards */
+-.calls-list {
+-    display: grid;
+-    gap: 15px;
+-}
+-
+-.call-card {
+-    background: white;
+-    border-radius: 12px;
+-    padding: 20px;
+-    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+-    border-left: 5px solid #667eea;
+-    transition: transform 0.2s;
+-}
+-
+-.call-card:hover {
+-    transform: translateY(-2px);
+-    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+-}
+-
+-.call-card.police { border-left-color: #3498db; }
+-.call-card.fire { border-left-color: #e74c3c; }
+-.call-card.medical { border-left-color: #2ecc71; }
+-
+-.call-header {
+-    display: flex;
+-    justify-content: space-between;
+-    align-items: center;
+-    margin-bottom: 15px;
+-}
+-
+-.call-title {
+-    font-size: 1.3rem;
+-    font-weight: 700;
+-}
+-
+-.call-urgency {
+-    padding: 5px 12px;
+-    border-radius: 20px;
+-    font-size: 0.85rem;
+-    font-weight: 600;
+-    text-transform: uppercase;
+-}
+-
+-.call-urgency.high {
+-    background: #fee;
+-    color: #c33;
+-}
+-
+-.call-urgency.medium {
+-    background: #ffeaa7;
+-    color: #d63031;
+-}
+-
+-.call-details p {
+-    margin: 8px 0;
+-    color: #555;
+-}
+-
+-.call-actions {
+-    display: flex;
+-    gap: 10px;
+-    margin-top: 15px;
+-}
+-
+-.dispatch-button {
+-    flex: 1;
+-    padding: 12px;
+-    border: 2px solid transparent;
+-    border-radius: 8px;
+-    font-size: 0.95rem;
+-    font-weight: 600;
+-    cursor: pointer;
+-    transition: all 0.3s;
+-    background: #e9ecef;
+-    color: #495057;
+-}
+-
+-.dispatch-button:hover:not(:disabled) {
+-    transform: translateY(-2px);
+-    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+-}
+-
+-.dispatch-button:disabled {
+-    opacity: 0.5;
+-    cursor: not-allowed;
+-}
+-
+-.dispatch-button.police {
+-    background: #3498db;
+-    color: white;
+-}
+-
+-.dispatch-button.fire {
+-    background: #e74c3c;
+-    color: white;
+-}
+-
+-.dispatch-button.medical {
+-    background: #2ecc71;
+-    color: white;
+-}
+-
+-.dispatch-button.perfect-match {
+-    border-color: #f1c40f;
+-    box-shadow: 0 0 15px rgba(241, 196, 15, 0.5);
+-}
+-
+-.dispatch-button small {
+-    display: block;
+-    margin-top: 4px;
+-    font-size: 0.85rem;
+-    font-weight: 700;
+-}
+-
+-/* Units Status */
+-.unit-stat {
+-    display: flex;
+-    align-items: center;
+-    gap: 10px;
+-    padding: 15px;
+-    background: white;
+-    border-radius: 10px;
+-    margin-bottom: 10px;
+-    font-size: 1.1rem;
+-    font-weight: 600;
+-}
+-
+-.unit-icon {
+-    font-size: 2rem;
+-}
+-
+-.efficiency-badge {
+-    margin-left: auto;
+-    padding: 5px 12px;
+-    background: #2ecc71;
+-    color: white;
+-    border-radius: 20px;
+-    font-size: 0.9rem;
+-}
+-
+-/* Buildings */
+-.buildings-header {
+-    display: flex;
+-    justify-content: space-between;
+-    align-items: center;
+-    margin-bottom: 20px;
+-    padding: 20px;
+-    background: #f8f9fa;
+-    border-radius: 10px;
+-}
+-
+-.expand-button {
+-    padding: 12px 24px;
+-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+-    color: white;
+-    border: none;
+-    border-radius: 8px;
+-    font-weight: 600;
+-    cursor: pointer;
+-    transition: all 0.3s;
+-}
+-
+-.expand-button:hover:not(:disabled) {
+-    transform: translateY(-2px);
+-    box-shadow: 0 4px 12px rgba(102, 126, 234, 0.4);
+-}
+-
+-.expand-button:disabled {
+-    opacity: 0.5;
+-    cursor: not-allowed;
+-}
+-
+-.building-categories {
+-    display: flex;
+-    gap: 10px;
+-    margin-bottom: 20px;
+-}
+-
+-.category-filter {
+-    padding: 10px 20px;
+-    border: 2px solid #e1e4e8;
+-    background: white;
+-    border-radius: 8px;
+-    cursor: pointer;
+-    font-weight: 600;
+-    transition: all 0.3s;
+-}
+-
+-.category-filter:hover {
+-    border-color: #667eea;
+-    color: #667eea;
+-}
+-
+-.category-filter.active {
+-    background: #667eea;
+-    color: white;
+-    border-color: #667eea;
+-}
+-
+-.buildings-grid {
+-    display: grid;
+-    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+-    gap: 20px;
+-}
+-
+-.building-card {
+-    background: white;
+-    border-radius: 12px;
+-    padding: 20px;
+-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+-    transition: transform 0.2s;
+-    border-left: 5px solid #667eea;
+-}
+-
+-.building-card:hover {
+-    transform: translateY(-4px);
+-    box-shadow: 0 8px 16px rgba(0,0,0,0.15);
+-}
+-
+-.building-card.police { border-left-color: #3498db; }
+-.building-card.fire { border-left-color: #e74c3c; }
+-.building-card.medical { border-left-color: #2ecc71; }
+-.building-card.locked { border-left-color: #95a5a6; opacity: 0.7; }
+-
+-.building-header {
+-    display: flex;
+-    justify-content: space-between;
+-    align-items: center;
+-    margin-bottom: 15px;
+-}
+-
+-.owned-badge {
+-    background: #667eea;
+-    color: white;
+-    padding: 5px 12px;
+-    border-radius: 20px;
+-    font-size: 0.9rem;
+-    font-weight: 600;
+-}
+-
+-.building-effect {
+-    color: #2ecc71;
+-    font-weight: 600;
+-    margin-top: 10px;
+-}
+-
+-.building-actions {
+-    display: flex;
+-    gap: 10px;
+-    margin-top: 15px;
+-}
+-
+-.buy-button, .demolish-button {
+-    flex: 1;
+-    padding: 12px;
+-    border: none;
+-    border-radius: 8px;
+-    font-weight: 600;
+-    cursor: pointer;
+-    transition: all 0.3s;
+-}
+-
+-.buy-button {
+-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+-    color: white;
+-}
+-
+-.buy-button:hover:not(:disabled) {
+-    transform: translateY(-2px);
+-    box-shadow: 0 4px 12px rgba(102, 126, 234, 0.4);
+-}
+-
+-.buy-button:disabled {
+-    opacity: 0.5;
+-    cursor: not-allowed;
+-}
+-
+-.demolish-button {
+-    background: #e74c3c;
+-    color: white;
+-}
+-
+-.demolish-button:hover {
+-    background: #c0392b;
+-    transform: translateY(-2px);
+-}
+-
+-/* Units Summary */
+-.units-summary {
+-    display: grid;
+-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+-    gap: 20px;
+-    margin-top: 20px;
+-}
+-
+-.unit-summary-card {
+-    background: white;
+-    border-radius: 12px;
+-    padding: 25px;
+-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+-    border-left: 5px solid #667eea;
+-    display: flex;
+-    align-items: center;
+-    gap: 20px;
+-}
+-
+-.unit-summary-card.police { border-left-color: #3498db; }
+-.unit-summary-card.fire { border-left-color: #e74c3c; }
+-.unit-summary-card.medical { border-left-color: #2ecc71; }
+-
+-.unit-summary-icon {
+-    font-size: 3rem;
+-}
+-
+-.unit-summary-info strong {
+-    display: block;
+-    font-size: 1.2rem;
+-    margin-bottom: 10px;
+-}
+-
+-.unit-summary-info p {
+-    margin: 5px 0;
+-    color: #555;
+-}
+-
+-/* Footer */
+-footer {
+-    background: #f8f9fa;
+-    padding: 20px 30px;
+-    border-top: 2px solid #e1e4e8;
+-    display: flex;
+-    justify-content: space-between;
+-    align-items: center;
+-}
+-
+-.action-button {
+-    padding: 10px 20px;
+-    border: none;
+-    border-radius: 8px;
+-    font-weight: 600;
+-    cursor: pointer;
+-    transition: all 0.3s;
+-    background: #667eea;
+-    color: white;
+-}
+-
+-.action-button:hover {
+-    transform: translateY(-2px);
+-    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+-}
+-
+-.action-button.danger {
+-    background: #e74c3c;
+-}
+-
+-.version {
+-    color: #6c757d;
+-    font-size: 0.9rem;
+-}
+-
+-/* Coming Soon */
+-.coming-soon {
+-    text-align: center;
+-    padding: 60px;
+-    color: #6c757d;
+-    font-size: 1.2rem;
+-}
+-
+-.info-text {
+-    background: #e3f2fd;
+-    padding: 15px;
+-    border-radius: 8px;
+-    border-left: 4px solid #2196f3;
+-    margin-bottom: 20px;
+-}
+-
+-/* Responsive */
+-@media (max-width: 768px) {
+-    .dashboard-grid {
+-        grid-template-columns: 1fr;
+-    }
+-    
+-    .calls-panel {
+-        grid-column: span 1;
+-    }
+-    
+-    header h1 {
+-        font-size: 1.8rem;
+-    }
+-    
+-    .header-stats {
+-        flex-direction: column;
+-        gap: 10px;
+-    }
+-    
+-    .call-actions {
+-        flex-direction: column;
+-    }
+-    
+-    .buildings-grid {
+-        grid-template-columns: 1fr;
+-    }
+-}
++
++* {
++    margin: 0;
++    padding: 0;
++    box-sizing: border-box;
++}
++
++body {
++    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
++    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
++    color: #2c3e50;
++    min-height: 100vh;
++    padding: 20px;
++}
++
++.game-container {
++    max-width: 1400px;
++    margin: 0 auto;
++    background: white;
++    border-radius: 20px;
++    box-shadow: 0 20px 60px rgba(0,0,0,0.3);
++    overflow: hidden;
++}
++
++header {
++    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
++    color: white;
++    padding: 30px;
++    text-align: center;
++}
++
++header h1 {
++    font-size: 2.5rem;
++    margin-bottom: 15px;
++    text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
++}
++
++.header-stats {
++    display: flex;
++    justify-content: center;
++    gap: 30px;
++    font-size: 1.1rem;
++    font-weight: 600;
++}
++
++.tab-nav {
++    display: flex;
++    background: #f8f9fa;
++    border-bottom: 2px solid #e1e4e8;
++    overflow-x: auto;
++}
++
++.tab-button {
++    flex: 1;
++    padding: 15px 20px;
++    border: none;
++    background: transparent;
++    cursor: pointer;
++    font-size: 1rem;
++    font-weight: 600;
++    color: #6c757d;
++    transition: all 0.3s;
++    border-bottom: 3px solid transparent;
++}
++
++.tab-button:hover {
++    background: #e9ecef;
++    color: #495057;
++}
++
++.tab-button.active {
++    color: #667eea;
++    border-bottom-color: #667eea;
++    background: white;
++}
++
++.content {
++    padding: 30px;
++    min-height: 600px;
++}
++
++.tab-content {
++    display: none;
++}
++
++.tab-content.active {
++    display: block;
++    animation: fadeIn 0.3s;
++}
++
++@keyframes fadeIn {
++    from { opacity: 0; transform: translateY(10px); }
++    to { opacity: 1; transform: translateY(0); }
++}
++
++/* Info Banner */
++.info-banner {
++    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
++    color: white;
++    padding: 15px 20px;
++    border-radius: 10px;
++    margin-bottom: 20px;
++    text-align: center;
++}
++
++.info-banner h3 {
++    margin-bottom: 8px;
++    font-size: 1.2rem;
++}
++
++.info-banner p {
++    margin: 5px 0;
++    font-size: 0.95rem;
++}
++
++/* Dashboard */
++.dashboard-grid {
++    display: grid;
++    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
++    gap: 20px;
++}
++
++.panel {
++    background: #f8f9fa;
++    border-radius: 15px;
++    padding: 25px;
++    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
++}
++
++.panel h2 {
++    font-size: 1.5rem;
++    margin-bottom: 20px;
++    color: #2c3e50;
++    border-bottom: 3px solid #667eea;
++    padding-bottom: 10px;
++}
++
++.calls-panel {
++    grid-column: span 2;
++}
++
++.empty-state {
++    text-align: center;
++    color: #6c757d;
++    padding: 40px;
++    font-size: 1.1rem;
++}
++
++/* Call Cards */
++.calls-list {
++    display: grid;
++    gap: 15px;
++}
++
++.call-card {
++    background: white;
++    border-radius: 12px;
++    padding: 20px;
++    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
++    border-left: 5px solid #667eea;
++    transition: transform 0.2s;
++}
++
++.call-card:hover {
++    transform: translateY(-2px);
++    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
++}
++
++.call-card.police { border-left-color: #3498db; }
++.call-card.fire { border-left-color: #e74c3c; }
++.call-card.medical { border-left-color: #2ecc71; }
++
++.call-header {
++    display: flex;
++    justify-content: space-between;
++    align-items: center;
++    margin-bottom: 15px;
++}
++
++.call-title {
++    font-size: 1.3rem;
++    font-weight: 700;
++}
++
++.call-urgency {
++    padding: 5px 12px;
++    border-radius: 20px;
++    font-size: 0.85rem;
++    font-weight: 600;
++    text-transform: uppercase;
++}
++
++.call-urgency.high {
++    background: #fee;
++    color: #c33;
++}
++
++.call-urgency.medium {
++    background: #ffeaa7;
++    color: #d63031;
++}
++
++.call-details p {
++    margin: 8px 0;
++    color: #555;
++}
++
++.call-actions {
++    display: flex;
++    gap: 10px;
++    margin-top: 15px;
++}
++
++.dispatch-button {
++    flex: 1;
++    padding: 12px;
++    border: 2px solid transparent;
++    border-radius: 8px;
++    font-size: 0.95rem;
++    font-weight: 600;
++    cursor: pointer;
++    transition: all 0.3s;
++    background: #e9ecef;
++    color: #495057;
++}
++
++.dispatch-button:hover:not(:disabled) {
++    transform: translateY(-2px);
++    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
++}
++
++.dispatch-button:disabled {
++    opacity: 0.5;
++    cursor: not-allowed;
++}
++
++.dispatch-button.police {
++    background: #3498db;
++    color: white;
++}
++
++.dispatch-button.fire {
++    background: #e74c3c;
++    color: white;
++}
++
++.dispatch-button.medical {
++    background: #2ecc71;
++    color: white;
++}
++
++.dispatch-button.perfect-match {
++    border-color: #f1c40f;
++    box-shadow: 0 0 15px rgba(241, 196, 15, 0.5);
++}
++
++.dispatch-button small {
++    display: block;
++    margin-top: 4px;
++    font-size: 0.85rem;
++    font-weight: 700;
++}
++
++/* Units Status */
++.unit-stat {
++    display: flex;
++    align-items: center;
++    gap: 10px;
++    padding: 15px;
++    background: white;
++    border-radius: 10px;
++    margin-bottom: 10px;
++    font-size: 1.1rem;
++    font-weight: 600;
++}
++
++.unit-icon {
++    font-size: 2rem;
++}
++
++.efficiency-badge {
++    margin-left: auto;
++    padding: 5px 12px;
++    background: #2ecc71;
++    color: white;
++    border-radius: 20px;
++    font-size: 0.9rem;
++}
++
++/* Buildings */
++.buildings-header {
++    display: flex;
++    justify-content: space-between;
++    align-items: center;
++    margin-bottom: 20px;
++    padding: 20px;
++    background: #f8f9fa;
++    border-radius: 10px;
++}
++
++.expand-button {
++    padding: 12px 24px;
++    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
++    color: white;
++    border: none;
++    border-radius: 8px;
++    font-weight: 600;
++    cursor: pointer;
++    transition: all 0.3s;
++}
++
++.expand-button:hover:not(:disabled) {
++    transform: translateY(-2px);
++    box-shadow: 0 4px 12px rgba(102, 126, 234, 0.4);
++}
++
++.expand-button:disabled {
++    opacity: 0.5;
++    cursor: not-allowed;
++}
++
++.building-categories {
++    display: flex;
++    gap: 10px;
++    margin-bottom: 20px;
++}
++
++.category-filter {
++    padding: 10px 20px;
++    border: 2px solid #e1e4e8;
++    background: white;
++    border-radius: 8px;
++    cursor: pointer;
++    font-weight: 600;
++    transition: all 0.3s;
++}
++
++.category-filter:hover {
++    border-color: #667eea;
++    color: #667eea;
++}
++
++.category-filter.active {
++    background: #667eea;
++    color: white;
++    border-color: #667eea;
++}
++
++.buildings-grid {
++    display: grid;
++    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
++    gap: 20px;
++}
++
++.building-card {
++    background: white;
++    border-radius: 12px;
++    padding: 20px;
++    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
++    transition: transform 0.2s;
++    border-left: 5px solid #667eea;
++}
++
++.building-card:hover {
++    transform: translateY(-4px);
++    box-shadow: 0 8px 16px rgba(0,0,0,0.15);
++}
++
++.building-card.police { border-left-color: #3498db; }
++.building-card.fire { border-left-color: #e74c3c; }
++.building-card.medical { border-left-color: #2ecc71; }
++.building-card.locked { border-left-color: #95a5a6; opacity: 0.7; }
++
++.building-header {
++    display: flex;
++    justify-content: space-between;
++    align-items: center;
++    margin-bottom: 15px;
++}
++
++.owned-badge {
++    background: #667eea;
++    color: white;
++    padding: 5px 12px;
++    border-radius: 20px;
++    font-size: 0.9rem;
++    font-weight: 600;
++}
++
++.building-effect {
++    color: #2ecc71;
++    font-weight: 600;
++    margin-top: 10px;
++}
++
++.building-actions {
++    display: flex;
++    gap: 10px;
++    margin-top: 15px;
++}
++
++.buy-button, .demolish-button {
++    flex: 1;
++    padding: 12px;
++    border: none;
++    border-radius: 8px;
++    font-weight: 600;
++    cursor: pointer;
++    transition: all 0.3s;
++}
++
++.buy-button {
++    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
++    color: white;
++}
++
++.buy-button:hover:not(:disabled) {
++    transform: translateY(-2px);
++    box-shadow: 0 4px 12px rgba(102, 126, 234, 0.4);
++}
++
++.buy-button:disabled {
++    opacity: 0.5;
++    cursor: not-allowed;
++}
++
++.demolish-button {
++    background: #e74c3c;
++    color: white;
++}
++
++.demolish-button:hover {
++    background: #c0392b;
++    transform: translateY(-2px);
++}
++
++/* Units Summary */
++.units-summary {
++    display: grid;
++    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
++    gap: 20px;
++    margin-top: 20px;
++}
++
++.unit-summary-card {
++    background: white;
++    border-radius: 12px;
++    padding: 25px;
++    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
++    border-left: 5px solid #667eea;
++    display: flex;
++    align-items: center;
++    gap: 20px;
++}
++
++.unit-summary-card.police { border-left-color: #3498db; }
++.unit-summary-card.fire { border-left-color: #e74c3c; }
++.unit-summary-card.medical { border-left-color: #2ecc71; }
++
++.unit-summary-icon {
++    font-size: 3rem;
++}
++
++.unit-summary-info strong {
++    display: block;
++    font-size: 1.2rem;
++    margin-bottom: 10px;
++}
++
++.unit-summary-info p {
++    margin: 5px 0;
++    color: #555;
++}
++
++/* Footer */
++footer {
++    background: #f8f9fa;
++    padding: 20px 30px;
++    border-top: 2px solid #e1e4e8;
++    display: flex;
++    justify-content: space-between;
++    align-items: center;
++}
++
++.action-button {
++    padding: 10px 20px;
++    border: none;
++    border-radius: 8px;
++    font-weight: 600;
++    cursor: pointer;
++    transition: all 0.3s;
++    background: #667eea;
++    color: white;
++}
++
++.action-button:hover {
++    transform: translateY(-2px);
++    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
++}
++
++.action-button.danger {
++    background: #e74c3c;
++}
++
++.version {
++    color: #6c757d;
++    font-size: 0.9rem;
++}
++
++/* Coming Soon */
++.coming-soon {
++    text-align: center;
++    padding: 60px;
++    color: #6c757d;
++    font-size: 1.2rem;
++}
++
++.info-text {
++    background: #e3f2fd;
++    padding: 15px;
++    border-radius: 8px;
++    border-left: 4px solid #2196f3;
++    margin-bottom: 20px;
++}
++
++/* Responsive */
++@media (max-width: 768px) {
++    .dashboard-grid {
++        grid-template-columns: 1fr;
++    }
++    
++    .calls-panel {
++        grid-column: span 1;
++    }
++    
++    header h1 {
++        font-size: 1.8rem;
++    }
++    
++    .header-stats {
++        flex-direction: column;
++        gap: 10px;
++    }
++    
++    .call-actions {
++        flex-direction: column;
++    }
++    
++    .buildings-grid {
++        grid-template-columns: 1fr;
++    }
++}
+--- /dev/null
++++ b/LICENSE
+@@ -0,0 +1,21 @@
++MIT License
++
++Copyright (c) 2026 Oliver Laudan
++
++Permission is hereby granted, free of charge, to any person obtaining a copy
++of this software and associated documentation files (the "Software"), to deal
++in the Software without restriction, including without limitation the rights
++to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
++copies of the Software, and to permit persons to whom the Software is
++furnished to do so, subject to the following conditions:
++
++The above copyright notice and this permission notice shall be included in all
++copies or substantial portions of the Software.
++
++THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
++IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
++FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
++AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
++LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
++OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
++SOFTWARE.

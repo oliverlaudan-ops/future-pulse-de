@@ -1,11 +1,13 @@
 ---
 title: "Impressum"
 date: 2026-01-17
-ai_generated: false
-ai_model: "human-only"
-human_reviewer: "Oliver Laudan"
-review_date: 2026-08-11
+ai_generated: true
+ai_model: "ChatGPT"
 ---
+## Geltungsbereich
+
+Die Anbieterangaben gelten für future-pulse.de und die von Oliver Laudan betriebenen Spiel-Subdomains. Spielbezogene Datenschutz- und Lizenzhinweise stehen in den [Rechtshinweisen für Browsergames](/spiele-rechtliches/). Ausdrückliche Open-Source-Lizenzen eines Projekts und Lizenzen seiner Fremdkomponenten haben Vorrang vor allgemeinen Urheberrechtshinweisen dieser Website.
+
 ## Angaben gemäß § 5 DDG
 
 **Future Pulse**  
@@ -27,7 +29,7 @@ Annenstr. 76
 
 ### Haftung für Inhalte
 
-Die Inhalte unserer Seiten wurden mit größter Sorgfalt erstellt. Für die Richtigkeit, Vollständigkeit und Aktualität der Inhalte können wir jedoch keine Gewähr übernehmen. Als Diensteanbieter sind wir gemäß § 7 Abs. 1 DDG für eigene Inhalte auf diesen Seiten nach den allgemeinen Gesetzen verantwortlich. Nach §§ 8 bis 10 DDG sind wir als Diensteanbieter jedoch nicht verpflichtet, übermittelte oder gespeicherte fremde Informationen zu überwachen oder nach Umständen zu forschen, die auf eine rechtswidrige Tätigkeit hinweisen.
+Die Inhalte unserer Seiten wurden mit größter Sorgfalt erstellt. Für die Richtigkeit, Vollständigkeit und Aktualität der Inhalte können wir jedoch keine Gewähr übernehmen. Für eigene Inhalte gelten die allgemeinen gesetzlichen Vorschriften.
 
 ### Haftung für Links
 
@@ -43,11 +45,8 @@ Ein wesentlicher Teil der Inhalte auf dieser Website wurde mithilfe von künstli
 
 ## Streitschlichtung
 
-Die Europäische Kommission stellt eine Plattform zur Online-Streitbeilegung (OS) bereit: [https://ec.europa.eu/consumers/odr](https://ec.europa.eu/consumers/odr).  
-Unsere E-Mail-Adresse finden Sie oben im Impressum.
-
 Wir sind nicht bereit oder verpflichtet, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen.
 
 ---
 
-*Stand: Mai 2026*
+*Stand: 26. Oktober 2026*
