@@ -1,11 +1,13 @@
 ---
 title: "Datenschutzerklärung"
 date: 2026-01-17
-ai_generated: false
-ai_model: "human-only"
-human_reviewer: "Oliver Laudan"
-review_date: 2026-08-11
+ai_generated: true
+ai_model: "ChatGPT"
 ---
+## Geltungsbereich
+
+Diese Erklärung beschreibt den Blog future-pulse.de. Für die separat betriebenen Browsergames gelten die [spielbezogenen Datenschutzhinweise](/spiele-rechtliches/#datenschutz). Insbesondere werden die Analyse- und Kommentarfunktionen des Blogs nicht allein durch diese Verlinkung in die Spiele übernommen.
+
 ## 1. Datenschutz auf einen Blick
 
 ### Allgemeine Hinweise

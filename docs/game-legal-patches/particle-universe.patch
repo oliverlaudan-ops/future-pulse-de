@@ -1,0 +1,158 @@
+--- a/index.html
++++ b/index.html
+@@ -1,75 +1,80 @@
+-<!DOCTYPE html>
+-<html lang="en">
+-<head>
+-    <meta charset="UTF-8">
+-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+-    <title>Particle Universe</title>
+-    <link rel="icon" type="image/x-icon" href="favicon.ico">
+-    <link rel="stylesheet" href="css/style.css">
+-</head>
+-<body class="cycle-low">
+-    <div id="game-container">
+-        <header>
+-            <h1>Particle Universe</h1>
+-            <p class="subtitle">Time exists. The universe has it. But how much?</p>
+-        </header>
+-
+-        <main>
+-            <div id="universe-display">
+-                <pre id="ascii-art"></pre>
+-                <p id="narrative"></p>
+-            </div>
+-
+-            <div id="stats">
+-                <div class="stat">
+-                    <span class="label">Stage:</span>
+-                    <span id="stage">Particle</span>
+-                </div>
+-                <div class="stat">
+-                    <span class="label">Existential Weight:</span>
+-                    <span id="weight">0</span>
+-                </div>
+-                <div class="stat">
+-                    <span class="label">Passive:</span>
+-                    <span id="passive-rate">0/s</span>
+-                </div>
+-                <div class="stat">
+-                    <span class="label">Particles:</span>
+-                    <span id="particles">1</span>
+-                </div>
+-            </div>
+-
+-            <div id="prestige-stats">
+-                <span id="cycle">Cycle 1</span>
+-                <span class="sep">|</span>
+-                <span id="memory">0x</span>
+-                <span class="sep">|</span>
+-                <span id="awareness">0</span>
+-                <span class="label-small">Awareness</span>
+-            </div>
+-
+-            <div id="actions">
+-                <button id="btn-create">Create (1)</button>
+-                <button id="btn-merge">Merge (3)</button>
+-                <button id="btn-ascend" disabled>Ascend</button>
+-                <button id="btn-prestige" style="display: none;">End Cycle</button>
+-            </div>
+-
+-            <div id="upgrades">
+-                <h3>Upgrades</h3>
+-                <div id="upgrade-list"></div>
+-            </div>
+-        </main>
+-
+-        <footer>
+-            <p id="time-display"></p>
+-            <p class="hint">Keys: C=Create, M=Merge, A=Ascend, P=Prestige, R=Reset</p>
+-        </footer>
+-    </div>
+-
+-    <script src="js/narrative.js"></script>
+-    <script src="js/renderer.js"></script>
+-    <script src="js/universe.js"></script>
+-    <script src="js/game.js"></script>
+-</body>
+-</html>
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>Particle Universe</title>
++    <link rel="icon" type="image/x-icon" href="favicon.ico">
++    <link rel="stylesheet" href="css/style.css">
++</head>
++<body class="cycle-low">
++    <div id="game-container">
++        <header>
++            <h1>Particle Universe</h1>
++            <p class="subtitle">Time exists. The universe has it. But how much?</p>
++        </header>
++
++        <main>
++            <div id="universe-display">
++                <pre id="ascii-art"></pre>
++                <p id="narrative"></p>
++            </div>
++
++            <div id="stats">
++                <div class="stat">
++                    <span class="label">Stage:</span>
++                    <span id="stage">Particle</span>
++                </div>
++                <div class="stat">
++                    <span class="label">Existential Weight:</span>
++                    <span id="weight">0</span>
++                </div>
++                <div class="stat">
++                    <span class="label">Passive:</span>
++                    <span id="passive-rate">0/s</span>
++                </div>
++                <div class="stat">
++                    <span class="label">Particles:</span>
++                    <span id="particles">1</span>
++                </div>
++            </div>
++
++            <div id="prestige-stats">
++                <span id="cycle">Cycle 1</span>
++                <span class="sep">|</span>
++                <span id="memory">0x</span>
++                <span class="sep">|</span>
++                <span id="awareness">0</span>
++                <span class="label-small">Awareness</span>
++            </div>
++
++            <div id="actions">
++                <button id="btn-create">Create (1)</button>
++                <button id="btn-merge">Merge (3)</button>
++                <button id="btn-ascend" disabled>Ascend</button>
++                <button id="btn-prestige" style="display: none;">End Cycle</button>
++            </div>
++
++            <div id="upgrades">
++                <h3>Upgrades</h3>
++                <div id="upgrade-list"></div>
++            </div>
++        </main>
++
++        <footer>
++            <p id="time-display"></p>
++            <p class="hint">Keys: C=Create, M=Merge, A=Ascend, P=Prestige, R=Reset</p>
++        <nav aria-label="Rechtliche Hinweise" lang="de" style="display:flex;flex-wrap:wrap;gap:8px;font:12px/1.6 system-ui,sans-serif">
++<a style="color:inherit;text-decoration:underline" href="https://future-pulse.de/spiele-rechtliches/#impressum" target="_blank" rel="noopener noreferrer">Impressum</a>
++<a style="color:inherit;text-decoration:underline" href="https://future-pulse.de/spiele-rechtliches/#datenschutz" target="_blank" rel="noopener noreferrer">Datenschutz</a>
++<a style="color:inherit;text-decoration:underline" href="https://future-pulse.de/spiele-rechtliches/#lizenzen" target="_blank" rel="noopener noreferrer">Lizenzen</a>
++</nav>
++</footer>
++    </div>
++
++    <script src="js/narrative.js"></script>
++    <script src="js/renderer.js"></script>
++    <script src="js/universe.js"></script>
++    <script src="js/game.js"></script>
++</body>
++</html>
