@@ -2,14 +2,16 @@
 
 Dieses Schema erfüllt die Transparenz- und Kennzeichnungspflichten gemäß **Art. 50 EU AI Act** (gültig ab 2. August 2026) für KI-generierte oder KI-unterstützte Inhalte auf `future-pulse.de`.
 
-Alle Blog-Posts unter `content/blog/**/index.md` tragen die folgenden vier Felder im YAML-Frontmatter. Pflichtfelder (Stand August 2026):
+Alle Blog-Posts unter `content/blog/**/index.md` kennzeichnen die tatsächliche Erstellung und Prüfung im YAML-Frontmatter. Historische menschliche Reviews bleiben unverändert; neue KI-Reviews werden separat ausgewiesen:
 
 | Feld | Typ | Werte | Zweck |
 |---|---|---|---|
 | `ai_generated` | bool | `true` / `false` | Kennzeichnet, ob der Beitrag vollständig oder in wesentlichen Teilen KI-gestützt erstellt wurde. `false` nur, wenn der Beitrag von Hand und ohne KI-Hilfe geschrieben wurde. |
 | `ai_model` | string | z.B. `minimax-m3:cloud`, `kimi-k2.5:cloud`, `human-only` | Name + Version des Modells, das für Recherche, Gliederung oder Textgenerierung eingesetzt wurde. Bei `ai_generated: false`: `human-only`. |
-| `human_reviewer` | string | `Oliver Laudan` / anderer Name | Person, die den Beitrag redaktionell geprüft, Fakten gegengeprüft und freigegeben hat. |
-| `review_date` | date | `YYYY-MM-DD` | Datum der letzten redaktionellen Prüfung. Bei Aktualisierungen mit neuem Review wird das Datum aktualisiert (zusammen mit `human_reviewer`). |
+| `human_reviewer` | string | Name oder leer | Nur eine tatsächlich erfolgte menschliche Prüfung. Bei reinem KI-Review leer lassen. |
+| `ai_reviewer` | string | z. B. `openai/gpt-6-sol` | Identität des unabhängigen KI-Reviewers, falls eingesetzt. |
+| `ai_review_status` | string | `passed`, `failed`, `pending`, `passed_draft_only` | Ergebnis der KI-Prüfung; nur `passed` erlaubt die KI-basierte Publikationsfreigabe. |
+| `review_date` | date | `YYYY-MM-DD` oder leer | Datum der tatsächlich abgeschlossenen menschlichen oder KI-Prüfung. |
 
 Wahlfelder (optional, abhängig vom Beitrag):
 
@@ -43,11 +45,28 @@ review_date: 2026-08-11
 ---
 ```
 
+## KI-Schlussprüfung und Publikationsgate (Beschluss vom 23.11.2026)
+
+Eine dokumentierte, unabhängige KI-Schlussprüfung reicht für reguläre neue Future-Pulse-Artikel aus; eine zusätzliche menschliche Freigabe ist nicht erforderlich. Der Writer darf nicht sein eigener finaler Reviewer sein. Eine Freigabe erfordert überprüfte Primärquellen, korrekte Tatsachen, verständlichen deutschen Text, SEO- und Duplikatprüfung, gültige interne Links, vollständige Metadaten und einen erfolgreichen Hugo-Build. Der Reviewer muss `ai_review_status: passed` nach Abschluss aller Gates ausdrücklich bestätigen; bei ungeklärten oder kritischen Befunden gilt `failed` bzw. `pending`, und es darf kein Merge stattfinden. Maximal zwei redaktionelle Korrekturrunden. Alle Prüfergebnisse müssen im PR nachvollziehbar dokumentiert sein.
+
+Ein erfolgreicher Draft-Test (`passed_draft_only`) ist **keine** Publikationsfreigabe. Der Veröffentlichungsworkflow erfolgt über einen eigenen Branch und Pull Request. Der Merge nach `main` ist erst nach allen Gates und innerhalb des freigegebenen Veröffentlichungsplans erlaubt. Keine Admin-Bypässe oder Force-Pushes. Bestehende Inhalte und fremde Projekte bleiben außerhalb des automatisierten Schreibbereichs. `human_reviewer` darf niemals einen KI-Agenten oder einen nicht beteiligten Menschen nennen.
+
+Beispiel für einen nach allen Gates KI-geprüften Beitrag:
+
+```yaml
+ai_generated: true
+ai_model: "openai/gpt-6-luna"
+human_reviewer: ""
+ai_reviewer: "openai/gpt-6-sol"
+ai_review_status: passed
+review_date: 2026-11-23
+```
+
 ## Pflegeprozess
 
-1. Jeder neue Beitrag enthält die vier Pflichtfelder bereits im Entwurf. Der `blog-writer`-Cron-Prompt erzeugt das Frontmatter seit 2026-08-11 automatisch korrekt.
-2. Bei Aktualisierungen eines bestehenden Beitrags: `review_date` wird auf das Datum der letzten manuellen Prüfung gesetzt, `human_reviewer` ggf. aktualisiert.
-3. Der Footer im Theme rendert die vier Felder automatisch am Ende jedes Beitrags, sodass Leser:innen die Kennzeichnung direkt sehen (Art. 50 Abs. 1).
+1. Jeder neue Beitrag enthält `ai_generated`, `ai_model`, `human_reviewer`, `ai_reviewer`, `ai_review_status` und `review_date` bereits im Entwurf. Ein Review-Datum wird erst nach abgeschlossener Prüfung gesetzt.
+2. Bei Aktualisierungen bestehender Beiträge werden nur tatsächlich erfolgte Reviews mit korrektem Reviewer-Typ und Datum dokumentiert. Historische Felder werden nicht rückwirkend umgedeutet.
+3. Der Footer und RSS unterscheiden ausdrücklich menschliche und KI-Prüfung; ein fehlendes Review wird nicht als bestanden ausgegeben.
 
 ## Backfill-Historie
 

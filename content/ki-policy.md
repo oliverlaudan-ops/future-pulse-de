@@ -16,7 +16,7 @@ Diese Seite ist unsere offizielle Selbstauskunft zum Einsatz von KI auf `future-
 - **Art. 50** — Transparenz- und Kennzeichnungspflichten für KI-generierte Inhalte
 - **Art. 12 i.V.m. Anhang IV** — Aufbewahrungspflicht für technische Dokumentation
 
-Stand: 11. August 2026. Bei wesentlichen Änderungen wird das Datum oben aktualisiert.
+Stand: 23. November 2026. Bei wesentlichen Änderungen wird das Datum oben aktualisiert.
 
 ---
 
@@ -31,7 +31,7 @@ Stand: 11. August 2026. Bei wesentlichen Änderungen wird das Datum oben aktuali
 - Kontinuierliche Weiterbildung durch: (a) eigene Blogartikel auf `future-pulse.de`, (b) aktive Mitarbeit an Open-Source-Projekten wie `learning-german` und `prompt-factory-v2`, (c) experimentelle Projekte (Crows Federation, Idle Games). Eine Sammlung veröffentlichter Projekte findet sich auf [github.com/oliverlaudan-ops](https://github.com/oliverlaudan-ops).
 - Praktische Erfahrung mit lokalem Modellbetrieb (Ollama, llama.cpp) und Cloud-KI (Ollama Cloud, OpenAI, Anthropic, Google) — inkl. deren Grenzen, Halluzinationsverhalten, Bias-Risiken und Kostenstrukturen.
 
-Diese Kompetenz wird auf die Inhalte dieser Site angewendet: Recherche, technische Validierung und finale inhaltliche Prüfung liegen bei Oliver Laudan. KI ist Werkzeug, nicht Autor.
+Diese Kompetenz prägt die redaktionellen Regeln der Site. Neue Beiträge können von spezialisierten KI-Agenten recherchiert, geschrieben und von einem unabhängigen KI-Reviewer freigegeben werden. Die Betreiberverantwortung bleibt bei Oliver Laudan; ein KI-Review wird ausdrücklich als KI-Review bezeichnet und nicht als menschliche Prüfung ausgegeben.
 
 ---
 
@@ -40,11 +40,11 @@ Diese Kompetenz wird auf die Inhalte dieser Site angewendet: Recherche, technisc
 **Wir kennzeichnen jeden Blog-Beitrag, der mithilfe von KI erstellt wurde, direkt am Artikel selbst.** Die Kennzeichnung erscheint als Box am Ende jedes Beitrags (zwischen Fließtext und Footer). Sie enthält die vier Pflichtangaben:
 
 1. **Modellname** — z. B. `minimax-m3:cloud`, `kimi-k2.5:cloud`, `claude-opus-46`
-2. **Wer hat geprüft?** — Name des/der redaktionell prüfenden Person
-3. **Wann geprüft?** — Datum der letzten inhaltlichen Prüfung
+2. **Wer hat geprüft?** — Name einer tatsächlich prüfenden Person oder Modellkennung eines unabhängigen KI-Reviewers
+3. **Wann geprüft?** — Datum der letzten abgeschlossenen inhaltlichen Prüfung, sofern vorhanden
 4. **Status** — vollständig KI-generiert / KI-gestützt / menschlich verfasst
 
-Diese Felder sind Bestandteil des Hugo-Frontmatter und werden vom Theme automatisch gerendert. Die technische Doku dazu liegt unter [`docs/CONTENT-METADATA.md`](https://github.com/oliverlaudan-ops/future-pulse-de/blob/main/docs/CONTENT-METADATA.md).
+Die Kennzeichnung unterscheidet `human_reviewer` und `ai_reviewer` samt `ai_review_status`. Eine KI-Prüfung genügt bei bestandenem Quellen-, Fakten-, SEO-, Metadaten- und Hugo-Build-Gate für die Veröffentlichung; bei kritischen Befunden wird nicht veröffentlicht. Die Ergebnisse werden im Pull Request dokumentiert. Diese Felder sind Bestandteil des Hugo-Frontmatter und werden vom Theme gerendert. Die technische Doku dazu liegt unter [`docs/CONTENT-METADATA.md`](https://github.com/oliverlaudan-ops/future-pulse-de/blob/main/docs/CONTENT-METADATA.md).
 
 **Wir kennzeichnen nicht als KI-Inhalt:**
 
@@ -111,6 +111,7 @@ Beide Anwendungen sind **eigenständige Repositories** und werden dort separat d
 | Datum | Änderung |
 |---|---|
 | 2026-08-11 | Erste Veröffentlichung dieser Seite. Vorangegangen war ein internes Audit gegen den ab 2. August 2026 vollständig anwendbaren EU AI Act. |
+| 2026-11-23 | KI-Schlussprüfung als zulässiges redaktionelles Publikationsgate definiert; transparente Trennung von menschlicher und KI-Prüfung. |
 
 ---
 

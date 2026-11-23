@@ -65,10 +65,12 @@
       {{- $aiModel := .Param "ai_model" }}
       {{- $reviewer := .Param "human_reviewer" }}
       {{- $reviewDate := .Param "review_date" }}
+      {{- $aiReviewer := .Param "ai_reviewer" }}
+      {{- $aiReviewStatus := .Param "ai_review_status" }}
 
       <description>
       {{- if eq $aiGen true -}}
-        [KI-generierter / KI-unterstützter Inhalt · Modell: {{ $aiModel }} · Redaktionell geprüft von {{ $reviewer }} am {{ $reviewDate }} · /ki-policy] &#10;&#10;
+        [KI-generierter / KI-unterstützter Inhalt · Modell: {{ $aiModel }} {{ if $reviewer }}· Menschlich geprüft von {{ $reviewer }}{{ with $reviewDate }} am {{ . }}{{ end }}{{ else if $aiReviewer }}· KI-geprüft von {{ $aiReviewer }} ({{ $aiReviewStatus | default "pending" }}){{ with $reviewDate }} am {{ . }}{{ end }}{{ else }}· Prüfung nicht dokumentiert{{ end }} · /ki-policy] &#10;&#10;
       {{- else if eq $aiGen false -}}
         [Manuell erstellt · Keine KI beteiligt · /ki-policy] &#10;&#10;
       {{- end -}}
@@ -76,7 +78,9 @@
       </description>
 
       {{- if .Content }}
-      <content:encoded>{{ printf "<p><em>Hinweis KI-Kennzeichnung: Modell %s, geprüft von %s am %s. Volle Disclosure auf der Artikelseite.</em></p>" ($aiModel | default "n/a") ($reviewer | default "n/a") ($reviewDate | default "n/a") | safeHTML }}{{ .Content | safeHTML }}</content:encoded>
+      {{- $reviewLabel := "Prüfung nicht dokumentiert" -}}
+      {{- if $reviewer }}{{ $reviewLabel = printf "menschlich geprüft von %s" $reviewer }}{{ else if $aiReviewer }}{{ $reviewLabel = printf "KI-geprüft von %s (Status: %s)" $aiReviewer ($aiReviewStatus | default "pending") }}{{ end -}}
+      <content:encoded>{{ printf "<p><em>Hinweis KI-Kennzeichnung: Modell %s, %s. Volle Disclosure auf der Artikelseite.</em></p>" ($aiModel | default "n/a") $reviewLabel | safeHTML }}{{ .Content | safeHTML }}</content:encoded>
       {{- end }}
     </item>
     {{- end }}
