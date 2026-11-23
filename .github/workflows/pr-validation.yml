@@ -24,7 +24,7 @@ jobs:
           sudo dpkg -i "$RUNNER_TEMP/hugo.deb"
       - name: Install Dart Sass
         run: sudo snap install dart-sass
-      - name: Validate editorial metadata
+      - name: Validate editorial metadata and independent reviewer evidence
         run: python3 scripts/validate-blog-frontmatter.py
       - name: Hugo test build (no deployment)
         env:
