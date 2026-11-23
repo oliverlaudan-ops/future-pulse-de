@@ -16,6 +16,8 @@ jobs:
     steps:
       - name: Checkout PR merge candidate
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
       - name: Install Hugo Extended
         env:
           HUGO_VERSION: 0.146.0
@@ -25,7 +27,15 @@ jobs:
       - name: Install Dart Sass
         run: sudo snap install dart-sass
       - name: Validate editorial metadata and independent reviewer evidence
-        run: python3 scripts/validate-blog-frontmatter.py
+        env:
+          BASE_SHA: ${{ github.event.pull_request.base.sha || github.event.before }}
+        run: |
+          python3 -m unittest discover -s tests -p "test_*.py"
+          if [ -n "$BASE_SHA" ] && [ "$BASE_SHA" != "0000000000000000000000000000000000000000" ]; then
+            python3 scripts/validate-blog-frontmatter.py --base "$BASE_SHA"
+          else
+            python3 scripts/validate-blog-frontmatter.py
+          fi
       - name: Hugo test build (no deployment)
         env:
           HUGO_ENVIRONMENT: production
