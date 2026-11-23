@@ -1,0 +1,24 @@
+{
+  "article_path": "content/blog/idempotenz-automatisierungen-doppelte-aktionen-vermeiden/index.md",
+  "article_sha256": "eb421428f3772de23ec486fd37fb36d832c1a14c1ec622acb7be790c375d3a3c",
+  "writer": "openai/gpt-6-luna",
+  "reviewer": "openai/gpt-6-sol",
+  "review_date": "2026-11-23",
+  "status": "passed",
+  "sources": [
+    "https://www.rfc-editor.org/rfc/rfc9110.html#section-9.2.2",
+    "https://docs.stripe.com/api/idempotent_requests",
+    "https://resend.com/docs/dashboard/emails/idempotency-keys",
+    "https://aws.amazon.com/builders-library/making-retries-safe-with-idempotent-APIs/"
+  ],
+  "gates": {
+    "primary_sources": "passed",
+    "factual_accuracy": "passed",
+    "seo": "passed",
+    "duplicate_check": "passed",
+    "internal_links": "passed",
+    "metadata": "passed",
+    "readability": "passed"
+  },
+  "findings": "Unabhängige finale Prüfung der unveränderten Publikationsfassung: vier Primärquellen am 2026-11-23 frisch abgerufen und Kernaussagen geprüft. RFC 9110 bestätigt Effektdefinition, PUT/DELETE und Retry-Grenze. Stripe bestätigt v1-Speicherung einschließlich 500, 24-Stunden-Mindestfrist und v2-Unterschied; Resend bestätigt E-Mail-Endpunkt und 24-Stunden-Fenster; AWS bestätigt Client-Request-ID und semantische Gleichwertigkeit. Aussagen zu Timeout, Schlüsselstabilität, Anbietergrenzen und fehlender Exactly-once-Garantie sachlich angemessen. Titel, Description, Slug und Überschriften SEO-tauglich; Sprache verständlich, präzise und konsistent deutsch. Kein Titeldirektduplikat im Blog; drei interne Links existieren. Frontmatter vollständig mit draft false, Status passed, Datum, Writer/Reviewer. Separater Hugo-Build erfolgreich. Keine blockierenden Findings."
+}

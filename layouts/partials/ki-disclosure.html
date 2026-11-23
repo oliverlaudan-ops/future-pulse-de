@@ -9,8 +9,10 @@
 {{- $aiModel := .Param "ai_model" -}}
 {{- $reviewer := .Param "human_reviewer" -}}
 {{- $reviewDate := .Param "review_date" -}}
+{{- $aiReviewer := .Param "ai_reviewer" -}}
+{{- $aiReviewStatus := .Param "ai_review_status" -}}
 
-{{- if or $aiGen $aiModel $reviewer $reviewDate -}}
+{{- if or $aiGen $aiModel $reviewer $reviewDate $aiReviewer -}}
 <aside class="ki-disclosure" role="note" aria-label="KI-Kennzeichnung gemäß EU AI Act Art. 50">
   <div class="ki-disclosure-header">
     <span class="ki-disclosure-badge">🤖 KI-Kennzeichnung</span>
@@ -38,6 +40,9 @@
     {{- end }}
     {{- if $reviewer }}
     <dt>Redaktionell geprüft von</dt><dd>{{ $reviewer }}</dd>
+    {{- end }}
+    {{- if $aiReviewer }}
+    <dt>KI-Schlussprüfung</dt><dd>{{ $aiReviewer }}{{ if $aiReviewStatus }} ({{ if eq $aiReviewStatus "passed" }}bestanden{{ else if eq $aiReviewStatus "passed_draft_only" }}nur Entwurf geprüft{{ else if eq $aiReviewStatus "failed" }}nicht bestanden{{ else }}ausstehend{{ end }}){{ end }}</dd>
     {{- end }}
     {{- if $reviewDate }}
     <dt>Datum der Prüfung</dt><dd>{{ $reviewDate }}</dd>

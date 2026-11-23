@@ -2,14 +2,16 @@
 
 Dieses Schema erfüllt die Transparenz- und Kennzeichnungspflichten gemäß **Art. 50 EU AI Act** (gültig ab 2. August 2026) für KI-generierte oder KI-unterstützte Inhalte auf `future-pulse.de`.
 
-Alle Blog-Posts unter `content/blog/**/index.md` tragen die folgenden vier Felder im YAML-Frontmatter. Pflichtfelder (Stand August 2026):
+Alle Blog-Posts unter `content/blog/**/index.md` kennzeichnen die tatsächliche Erstellung und Prüfung im YAML-Frontmatter. Historische menschliche Reviews bleiben unverändert; neue KI-Reviews werden separat ausgewiesen:
 
 | Feld | Typ | Werte | Zweck |
 |---|---|---|---|
 | `ai_generated` | bool | `true` / `false` | Kennzeichnet, ob der Beitrag vollständig oder in wesentlichen Teilen KI-gestützt erstellt wurde. `false` nur, wenn der Beitrag von Hand und ohne KI-Hilfe geschrieben wurde. |
 | `ai_model` | string | z.B. `minimax-m3:cloud`, `kimi-k2.5:cloud`, `human-only` | Name + Version des Modells, das für Recherche, Gliederung oder Textgenerierung eingesetzt wurde. Bei `ai_generated: false`: `human-only`. |
-| `human_reviewer` | string | `Oliver Laudan` / anderer Name | Person, die den Beitrag redaktionell geprüft, Fakten gegengeprüft und freigegeben hat. |
-| `review_date` | date | `YYYY-MM-DD` | Datum der letzten redaktionellen Prüfung. Bei Aktualisierungen mit neuem Review wird das Datum aktualisiert (zusammen mit `human_reviewer`). |
+| `human_reviewer` | string | Name oder leer | Nur eine tatsächlich erfolgte menschliche Prüfung. Bei reinem KI-Review leer lassen. |
+| `ai_reviewer` | string | z. B. `openai/gpt-6-sol` | Identität des unabhängigen KI-Reviewers, falls eingesetzt. |
+| `ai_review_status` | string | `passed`, `failed`, `pending`, `passed_draft_only` | Ergebnis der KI-Prüfung; nur `passed` erlaubt die KI-basierte Publikationsfreigabe. |
+| `review_date` | date | `YYYY-MM-DD` oder leer | Datum der tatsächlich abgeschlossenen menschlichen oder KI-Prüfung. |
 
 Wahlfelder (optional, abhängig vom Beitrag):
 
@@ -43,11 +45,28 @@ review_date: 2026-08-11
 ---
 ```
 
+## KI-Schlussprüfung und Publikationsgate (Beschluss vom 23.11.2026)
+
+Eine dokumentierte, unabhängige KI-Schlussprüfung reicht für reguläre neue Future-Pulse-Artikel aus; eine zusätzliche menschliche Freigabe ist nicht erforderlich. Der Writer darf nicht sein eigener finaler Reviewer sein. Eine Freigabe erfordert überprüfte Primärquellen, korrekte Tatsachen, verständlichen deutschen Text, SEO- und Duplikatprüfung, gültige interne Links, vollständige Metadaten und einen erfolgreichen Hugo-Build. Der Reviewer muss `ai_review_status: passed` nach Abschluss aller Gates ausdrücklich bestätigen; bei ungeklärten oder kritischen Befunden gilt `failed` bzw. `pending`, und es darf kein Merge stattfinden. Maximal zwei redaktionelle Korrekturrunden. Alle Prüfergebnisse müssen im PR nachvollziehbar dokumentiert sein. Für jeden neuen oder geänderten KI-Beitrag muss unabhängig von Hugo- oder PR-Draft-Status eine maschinenlesbare Prüfnachweisdatei `reviews/<slug>.json` vorliegen. Sie enthält den SHA-256-Hash der **exakten Artikelfassung**, Writer- und unabhängige Reviewer-Kennung, Prüfdatum, Quellen-URLs, ausführliche Befunde und bestandene Gates (`primary_sources`, `factual_accuracy`, `seo`, `duplicate_check`, `internal_links`, `metadata`, `readability`). Die CI vergleicht diese Angaben und führt zusätzlich den Hugo-Build aus. Eine Textänderung nach dem Review macht den Hash ungültig und erfordert eine neue Prüfung. **Einschränkung:** Die CI kann die Konsistenz des Nachweises prüfen, aber nicht kryptografisch beweisen, welcher Agent den Bericht tatsächlich erstellt hat oder ob Quellen inhaltlich korrekt beurteilt wurden. NEO darf diese Nachweise nicht selbst fälschen oder Reviewer-Aufgaben übernehmen.
+
+Ein erfolgreicher Draft-Test (`passed_draft_only`) ist **keine** Publikationsfreigabe. Der Veröffentlichungsworkflow erfolgt über einen eigenen Branch und Pull Request. Der Merge nach `main` ist erst nach allen Gates und innerhalb des freigegebenen Veröffentlichungsplans erlaubt. Keine Admin-Bypässe oder Force-Pushes. Bestehende Inhalte und fremde Projekte bleiben außerhalb des automatisierten Schreibbereichs. `human_reviewer` darf niemals einen KI-Agenten oder einen nicht beteiligten Menschen nennen.
+
+Beispiel für einen nach allen Gates KI-geprüften Beitrag:
+
+```yaml
+ai_generated: true
+ai_model: "openai/gpt-6-luna"
+human_reviewer: ""
+ai_reviewer: "openai/gpt-6-sol"
+ai_review_status: passed
+review_date: 2026-11-23
+```
+
 ## Pflegeprozess
 
-1. Jeder neue Beitrag enthält die vier Pflichtfelder bereits im Entwurf. Der `blog-writer`-Cron-Prompt erzeugt das Frontmatter seit 2026-08-11 automatisch korrekt.
-2. Bei Aktualisierungen eines bestehenden Beitrags: `review_date` wird auf das Datum der letzten manuellen Prüfung gesetzt, `human_reviewer` ggf. aktualisiert.
-3. Der Footer im Theme rendert die vier Felder automatisch am Ende jedes Beitrags, sodass Leser:innen die Kennzeichnung direkt sehen (Art. 50 Abs. 1).
+1. Jeder neue Beitrag enthält `ai_generated`, `ai_model`, `human_reviewer`, `ai_reviewer`, `ai_review_status` und `review_date` bereits im Entwurf. Ein Review-Datum wird erst nach abgeschlossener Prüfung gesetzt.
+2. Bei Aktualisierungen bestehender Beiträge werden nur tatsächlich erfolgte Reviews mit korrektem Reviewer-Typ und Datum dokumentiert. Historische Felder werden nicht rückwirkend umgedeutet.
+3. Der Footer und RSS unterscheiden ausdrücklich menschliche und KI-Prüfung; ein fehlendes Review wird nicht als bestanden ausgegeben.
 
 ## Backfill-Historie
 
@@ -62,3 +81,14 @@ review_date: 2026-08-11
 - EU AI Act, **Art. 12** + **Anhang IV** — Aufbewahrungspflicht 6 Jahre
 - Impressum & Datenschutz: siehe `/impressum/` und `/datenschutz/` auf der Live-Site
 - AI-Policy: siehe `/ki-policy/` auf der Live-Site
+
+
+## CI-Vertrag für jeden Artikel-PR
+
+Der Check vergleicht den gesamten PR-Diff mit der Basis (nicht nur den letzten Commit). Jeder neue oder geänderte KI-Artikel benötigt vor dem Merge einen unabhängigen JSON-Nachweis mit dem SHA-256 der unveränderten Datei. Der Bericht darf in einem späteren Commit nachgereicht werden: bis dahin ist der Check rot; ein späterer synchronize-Lauf prüft erneut. Historische unveränderte Beiträge werden nicht rückwirkend umgekennzeichnet. Auch zuvor als KI-generiert gekennzeichnete geänderte Beiträge bleiben prüfpflichtig.
+
+Weder ein GitHub-Draft-PR noch `draft: true` befreit vom Review; beide Draft-Zustände sind optional. Ein unveröffentlichter Draft darf mit übereinstimmendem `passed_draft_only`-Nachweis die technische Reviewprüfung bestehen, erhält dadurch aber keine Publikationsfreigabe. Ohne `draft: true` ist ein übereinstimmendes `passed` samt Frontmatter-Prüfdatum nötig. Der Nachweis trägt immer ein gültiges tatsächliches Prüfdatum. Alle sieben Gates, HTTPS-Quellen, ausführliche Findings, exakter Pfad/Hash und unterschiedliche Writer-/Reviewer-Kennungen sind verpflichtend.
+
+Regressionstest: `python3 -m unittest discover -s tests -v`. PR-Prüfung: `python3 scripts/validate-blog-frontmatter.py --base origin/main`. Synthetische Testberichte sind ausschließlich Validator-Fixtures, keine redaktionellen Freigaben.
+
+Die PR-Prüfung behandelt konservativ **alle neuen/geänderten Blog-Markdown-Dateien** als prüfpflichtig: KI-Herkunft ist aus vom Autor editierbaren Flags nicht zuverlässig beweisbar. Entfernte oder auf `false` gesetzte KI-Metadaten sind deshalb keine Ausnahme. Rein menschliche neue Beiträge benötigen vor diesem Workflow eine gesonderte Prozessentscheidung; unveränderte Altartikel bleiben ausgenommen. Für verschachtelte Bundles wird der relative Bundlepfad unter `reviews/` beibehalten; einzelne Markdown-Dateien verwenden ihren relativen Pfad ohne `.md` plus `.json`.
