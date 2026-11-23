@@ -1,0 +1,24 @@
+{
+  "article_path": "content/blog/idempotenz-automatisierungen-doppelte-aktionen-vermeiden/index.md",
+  "article_sha256": "5273d2bf057bc12e3868b5b1e4976ccebb128be027700cdfb068147dbb1828c6",
+  "writer": "openai/gpt-6-luna",
+  "reviewer": "openai/gpt-6-sol",
+  "review_date": "2026-11-23",
+  "status": "passed_draft_only",
+  "sources": [
+    "https://www.rfc-editor.org/rfc/rfc9110.html#section-9.2.2",
+    "https://docs.stripe.com/api/idempotent_requests",
+    "https://resend.com/docs/dashboard/emails/idempotency-keys",
+    "https://aws.amazon.com/builders-library/making-retries-safe-with-idempotent-APIs/"
+  ],
+  "gates": {
+    "primary_sources": "passed",
+    "factual_accuracy": "passed",
+    "seo": "passed",
+    "duplicate_check": "passed",
+    "internal_links": "passed",
+    "metadata": "passed",
+    "readability": "passed"
+  },
+  "findings": "Unabhängiger Review des exakten Draft-SHA: vier Primärquellen frisch geprüft. Alle drei internen Ziele bestehen im Snapshot und ihre Inhalte passen thematisch (Agent-Trigger, Content-Pipeline-Trigger und Multi-Agent-Retry). Titel sämtlicher 81 index.md-Dateien und Volltext-Suche nach Idempotenz/Retry geprüft: kein inhaltlicher Direktduplikat. Technischer Draft-Validator und Hugo-Build laut technical.json Exit 0; nicht selbst neu gebaut. Sieben Draft-Gates bestanden. Keine Freigabe der noch nicht geprüften Publikationsfassung."
+}
