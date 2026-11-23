@@ -22,6 +22,8 @@ for path in ROOT.glob('*/index.md'):
         if match:
             fields[match.group(1)] = match.group(2).strip().strip('"\'')
     if not fields.get('ai_reviewer'):
+        if fields.get('ai_review_status') or (fields.get('ai_generated') == 'true' and not fields.get('human_reviewer') and fields.get('draft') == 'false'):
+            errors.append(f'{path}: published AI article requires a named independent reviewer')
         continue  # Legacy human-reviewed posts: preserve existing semantics
     checked += 1
     for key in ('ai_generated', 'ai_model', 'ai_reviewer', 'ai_review_status', 'draft'):
