@@ -6,12 +6,14 @@ description: "Erfahre, wie Idempotenz doppelte Aktionen bei Automatisierungen ve
 slug: "idempotenz-automatisierungen-doppelte-aktionen-vermeiden"
 tags: [Automatisierung, APIs, Webhooks]
 author: "Oliver Laudan"
+ShowToc: true
+TocOpen: false
 ai_generated: true
 ai_model: "openai/gpt-6-luna"
 human_reviewer: ""
 ai_reviewer: "openai/gpt-6-sol"
 ai_review_status: "passed"
-review_date: 2026-11-23
+review_date: 2026-11-24
 ---
 
 Eine Automatisierung schickt eine E-Mail-Anfrage an einen Dienst. Kurz darauf läuft sie in einen Timeout: Es kommt keine Antwort zurück. Wurde die Nachricht trotzdem angenommen? Wenn der Workflow einfach noch einmal sendet, kann – abhängig von API und Integration – eine zweite Aktion entstehen. Wartest du dagegen immer ab, bleiben möglicherweise Aufgaben liegen.

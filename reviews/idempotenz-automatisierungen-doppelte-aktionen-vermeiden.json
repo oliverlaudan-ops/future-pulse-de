@@ -1,9 +1,9 @@
 {
   "article_path": "content/blog/idempotenz-automatisierungen-doppelte-aktionen-vermeiden/index.md",
-  "article_sha256": "eb421428f3772de23ec486fd37fb36d832c1a14c1ec622acb7be790c375d3a3c",
+  "article_sha256": "2dfd772fb401129340eb6e2ac899841352b0b233278994935bea1e0e54c1f6a8",
   "writer": "openai/gpt-6-luna",
   "reviewer": "openai/gpt-6-sol",
-  "review_date": "2026-11-23",
+  "review_date": "2026-11-24",
   "status": "passed",
   "sources": [
     "https://www.rfc-editor.org/rfc/rfc9110.html#section-9.2.2",
@@ -20,5 +20,5 @@
     "metadata": "passed",
     "readability": "passed"
   },
-  "findings": "Unabhängige finale Prüfung der unveränderten Publikationsfassung: vier Primärquellen am 2026-11-23 frisch abgerufen und Kernaussagen geprüft. RFC 9110 bestätigt Effektdefinition, PUT/DELETE und Retry-Grenze. Stripe bestätigt v1-Speicherung einschließlich 500, 24-Stunden-Mindestfrist und v2-Unterschied; Resend bestätigt E-Mail-Endpunkt und 24-Stunden-Fenster; AWS bestätigt Client-Request-ID und semantische Gleichwertigkeit. Aussagen zu Timeout, Schlüsselstabilität, Anbietergrenzen und fehlender Exactly-once-Garantie sachlich angemessen. Titel, Description, Slug und Überschriften SEO-tauglich; Sprache verständlich, präzise und konsistent deutsch. Kein Titeldirektduplikat im Blog; drei interne Links existieren. Frontmatter vollständig mit draft false, Status passed, Datum, Writer/Reviewer. Separater Hugo-Build erfolgreich. Keine blockierenden Findings."
+  "findings": "Unabhängige Prüfung der finalen Artikelfassung am 2026-11-24. Gegenüber der veröffentlichten Fassung wurden nur ShowToc, TocOpen und das Prüfdatum geändert. Der Artikeltext ist bytegleich. RFC 9110, Stripe, Resend und AWS wurden erneut abgerufen. Sie stützen die Aussagen zu HTTP-Idempotenz und Retries, zu Stripe v1 einschließlich 500-Antworten und 24-Stunden-Mindestfrist, zum 24-Stunden-Fenster bei Resend und zur AWS-Client-Request-ID. Titel, Beschreibung, Slug und Lesbarkeit wurden geprüft. Drei interne Linkziele existieren, ein exaktes Titelduplikat wurde nicht gefunden. Die Frontmatter-Einstellungen aktivieren ein eingeklapptes Inhaltsverzeichnis für die fünf H2-Überschriften. Der separate lokale Hugo-Build bestätigt die Darstellung mit fünf Sprunglinks. Keine blockierenden redaktionellen Befunde."
 }
