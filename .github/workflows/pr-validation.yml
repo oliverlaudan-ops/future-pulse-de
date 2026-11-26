@@ -42,3 +42,25 @@ jobs:
           TZ: Europe/Berlin
           HUGO_CACHEDIR: ${{ runner.temp }}/hugo_cache
         run: hugo --gc --minify --baseURL "https://future-pulse.de/"
+
+      - name: Validate rendered published articles
+        env:
+          HUGO_ENVIRONMENT: production
+          TZ: Europe/Berlin
+          HUGO_CACHEDIR: ${{ runner.temp }}/hugo_cache
+          BASE_SHA: ${{ github.event.pull_request.base.sha || github.event.before }}
+        run: |
+          python3 scripts/validate-rendered-blog.py --base "${BASE_SHA:-origin/main}"
+      - name: Build isolated draft preview (never uploaded)
+        env:
+          HUGO_ENVIRONMENT: production
+          TZ: Europe/Berlin
+          HUGO_CACHEDIR: ${{ runner.temp }}/hugo_cache
+        run: hugo --buildDrafts --buildFuture --destination preview --minify --baseURL "https://future-pulse.de/"
+      - name: Validate rendered draft and future articles
+        env:
+          HUGO_ENVIRONMENT: production
+          TZ: Europe/Berlin
+          HUGO_CACHEDIR: ${{ runner.temp }}/hugo_cache
+          BASE_SHA: ${{ github.event.pull_request.base.sha || github.event.before }}
+        run: python3 scripts/validate-rendered-blog.py --preview --site preview --base "${BASE_SHA:-origin/main}"

@@ -16,7 +16,7 @@ class ReviewGate(unittest.TestCase):
         self.root = Path(self.tmp.name)
         self.article = self.root / 'content/blog/test/index.md'
         self.article.parent.mkdir(parents=True)
-        self.article.write_text('---\nai_generated: true\nai_model: writer\nai_reviewer: reviewer\nai_review_status: passed_draft_only\ndraft: true\n---\nTest article\n')
+        self.article.write_text('---\nShowToc: true\nTocOpen: true\nai_generated: true\nai_model: writer\nai_reviewer: reviewer\nai_review_status: passed_draft_only\ndraft: true\n---\nTest article\n')
         self.evidence = self.root / 'reviews/test.json'
         self.evidence.parent.mkdir()
         self.report = dict(article_path='content/blog/test/index.md', article_sha256=self.sha(), writer='writer', reviewer='reviewer', status='passed_draft_only', review_date='2026-11-23', sources=['https://example.org/source'], findings='Synthetic contract fixture, not a genuine editorial approval. ' * 3, gates={k: 'passed' for k in ('primary_sources', 'factual_accuracy', 'seo', 'duplicate_check', 'internal_links', 'metadata', 'readability')})
@@ -54,6 +54,21 @@ class ReviewGate(unittest.TestCase):
         self.report['gates']['seo'] = 'pending'; self.save(); self.check(1)
     def test_invalid_date(self):
         self.report['review_date'] = '2026-99-99'; self.save(); self.check(1)
+
+    def test_toc_booleans(self):
+        original = self.article.read_text()
+        for key in ('ShowToc', 'TocOpen'):
+            for value in ('false', '"true"', "'true'", 'yes', ''):
+                with self.subTest(key=key, value=value):
+                    self.article.write_text(original.replace(key + ': true', key + ': ' + value))
+                    self.report['article_sha256'] = self.sha()
+                    self.save()
+                    self.check(1)
+            self.article.write_text(original.replace(key + ': true\n', ''))
+            self.report['article_sha256'] = self.sha()
+            self.save()
+            self.check(1)
+        self.article.write_text(original)
 
     def test_report_can_follow_article_commit(self):
         def git(*args):

@@ -39,6 +39,11 @@ for path in ROOT.rglob('*.md'):
     # Fail closed for all changed blog files, including stripped metadata.
     if changed is None and fields.get('ai_generated') != 'true' and not fields.get('ai_reviewer') and not fields.get('ai_review_status'):
         continue
+    for key in ('ShowToc', 'TocOpen'):
+        # Exact unquoted YAML booleans; strings such as "true" are not booleans.
+        values = re.findall(r'^' + key + r':\s*(.*?)\s*$', front, re.M)
+        if len(values) != 1 or values[0].split('#', 1)[0].strip() != 'true':
+            errors.append(f'{path}: {key} must be the explicit YAML boolean true')
     if not fields.get('ai_reviewer'):
         errors.append(f'{path}: AI article requires a named independent reviewer')
     checked += 1

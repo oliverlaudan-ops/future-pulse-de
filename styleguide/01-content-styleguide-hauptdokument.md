@@ -211,3 +211,8 @@ Beispiel:
 
 **Version History:**
 - v1.0 (16.01.2026): Initial Release
+
+
+## Hugo-Inhaltsverzeichnis
+
+Für Blogartikel sind `ShowToc: true` und `TocOpen: true` verpflichtend. Das Inhaltsverzeichnis muss sichtbar und standardmäßig geöffnet sein. Die vollständige technische SEO-Prüfung steht in [`08-seo-checkliste-detailliert.md`](08-seo-checkliste-detailliert.md); die aktuelle Artikelvorlage ist [`00-ARTIKEL-VORLAGE-AKTUELL.md`](00-ARTIKEL-VORLAGE-AKTUELL.md).

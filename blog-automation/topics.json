@@ -1,127 +1,134 @@
 {
   "topics": [
     {
-      "id": "ki-qualitaetskontrolle-produktion-2026",
-      "title": "KI-Qualitätskontrolle 2026: Null Fehler",
+      "id": "ki-qualitaetskontrolle-pruefkonzept",
+      "title": "KI-Qualitätskontrolle: Prüfkonzept statt Null-Fehler-Versprechen",
       "keywords": [
-        "KI Qualitätskontrolle 2026",
-        "AI Qualitätssicherung Produktion",
-        "KI Computer Vision Fertigung",
-        "KI Predictive Quality",
-        "AI Fehlererkennung automatisch"
+        "KI-Qualitätskontrolle: Prüfkonzept statt Null-Fehler-Versprechen",
+        "Produktion KI",
+        "KI Risiken"
       ],
       "tags": [
         "Produktion",
-        "Qualitätssicherung",
-        "KI-Tools",
-        "Automatisierung"
+        "KI",
+        "Praxis"
       ],
       "wordCountTarget": 1100,
-      "angle": "KI-Qualitätskontrolle 2026 revolutioniert die Fertigung: Computer Vision erkennt Defekte in Millisekunden, prädiktive Qualitätsmodelle verhindern Ausschuss bevor er entsteht. Wie Industrieunternehmen KI-gestützte Qualitätssicherung einführen und welche ROI-Zahlen realistisch sind.",
+      "angle": "Wie Computer Vision als Assistenz geprüft wird: Testdaten, Fehlalarme, übersehene Defekte und menschliche Nachkontrolle.",
       "researchFocus": [
-        "KI Qualitätskontrolle Produktion Computer Vision 2026",
-        "AI Fehlererkennung Fertigung ROI Praxis",
-        "KI Predictive Quality Industrie 4.0 2026"
+        "Primärquellen und Grenzen prüfen",
+        "Testverfahren und menschliche Kontrolle",
+        "Datenqualität und Risiken"
       ],
       "status": "pending"
     },
     {
-      "id": "ki-it-support-helpdesk-2026",
-      "title": "KI im IT-Support 2026: Tickets lösen",
+      "id": "ki-it-support-sicherer-pilot",
+      "title": "KI im IT-Support: Einen Helpdesk-Piloten sicher begrenzen",
       "keywords": [
-        "KI IT-Support 2026",
-        "AI Helpdesk Automatisierung",
-        "KI Ticketsystem automatisch",
-        "KI First-Level-Support",
-        "AI IT-Service-Management"
+        "KI im IT-Support: Einen Helpdesk-Piloten sicher begrenzen",
+        "IT-Support KI",
+        "KI Risiken"
       ],
       "tags": [
         "IT-Support",
-        "Automatisierung",
-        "KI-Tools",
-        "Helpdesk"
+        "KI",
+        "Praxis"
       ],
-      "wordCountTarget": 1000,
-      "angle": "KI im IT-Support 2026: Autonome Agenten lösen bis zu 70 % der First-Level-Tickets ohne menschliches Eingreifen. Von automatischen Passwort-Resets bis zur intelligenten Ticket-Klassifizierung – wie IT-Teams KI einsetzen, um Reaktionszeiten zu halbieren und Kosten zu senken.",
+      "wordCountTarget": 1100,
+      "angle": "Ticketklassifikation und Antwortvorschläge evaluieren, Zugriffsrechte begrenzen und an Menschen eskalieren.",
       "researchFocus": [
-        "KI IT-Support Helpdesk Automatisierung 2026",
-        "AI First-Level-Support Ticketsystem Praxis",
-        "KI ITSM Reaktionszeit senken Kosten"
+        "Primärquellen und Grenzen prüfen",
+        "Testverfahren und menschliche Kontrolle",
+        "Datenqualität und Risiken"
       ],
       "status": "pending"
     },
     {
-      "id": "ki-immobilien-proptech-2026",
-      "title": "KI im Immobilienmarkt 2026: Smarter kaufen",
+      "id": "ki-controlling-forecast-pruefen",
+      "title": "KI im Controlling: Forecasts nachvollziehbar prüfen",
       "keywords": [
-        "KI Immobilien 2026",
-        "PropTech KI Deutschland",
-        "KI Immobilienbewertung automatisch",
-        "AI Immobilienmarkt Analyse",
-        "KI Wohnungssuche Automatisierung"
-      ],
-      "tags": [
-        "Immobilien",
-        "PropTech",
-        "KI-Tools",
-        "Automatisierung"
-      ],
-      "wordCountTarget": 1050,
-      "angle": "KI revolutioniert den Immobilienmarkt 2026: Automatische Bewertungsmodelle, KI-gestützte Marktanalysen und intelligente Matching-Algorithmen helfen Käufern, Verkäufern und Maklern, bessere Entscheidungen schneller zu treffen. Welche PropTech-Tools 2026 wirklich liefern.",
-      "researchFocus": [
-        "KI Immobilienbewertung PropTech 2026 Deutschland",
-        "AI Immobilienmarkt Analyse Automatisierung",
-        "KI Wohnungssuche Matching Algorithmus 2026"
-      ],
-      "status": "pending"
-    },
-    {
-      "id": "ki-versicherung-insurtech-2026",
-      "title": "KI in der Versicherung 2026: Schneller zahlen",
-      "keywords": [
-        "KI Versicherung 2026",
-        "InsurTech KI Deutschland",
-        "KI Schadenbearbeitung automatisch",
-        "AI Risikoberechnung Versicherung",
-        "KI Versicherungsbetrug erkennen"
-      ],
-      "tags": [
-        "Versicherung",
-        "InsurTech",
-        "KI-Tools",
-        "Automatisierung"
-      ],
-      "wordCountTarget": 1050,
-      "angle": "KI in der Versicherungsbranche 2026: Automatische Schadenbearbeitung in Minuten statt Wochen, KI-gestützte Risikomodelle und intelligente Betrugserkennung senken Kosten und steigern Kundenzufriedenheit. Wie InsurTechs und klassische Versicherer KI einsetzen.",
-      "researchFocus": [
-        "KI Versicherung Schadenbearbeitung Automatisierung 2026",
-        "InsurTech KI Risikomodell Betrugerkennung",
-        "AI Versicherung Kundenzufriedenheit Kosten senken 2026"
-      ],
-      "status": "pending"
-    },
-    {
-      "id": "ki-controlling-reporting-2026",
-      "title": "KI im Controlling 2026: Zahlen verstehen",
-      "keywords": [
-        "KI Controlling 2026",
-        "AI Reporting Automatisierung",
-        "KI Finanzplanung Unternehmen",
-        "KI Forecasting automatisch",
-        "AI Business Intelligence 2026"
+        "KI im Controlling: Forecasts nachvollziehbar prüfen",
+        "Controlling KI",
+        "KI Risiken"
       ],
       "tags": [
         "Controlling",
-        "Finanzen",
-        "KI-Tools",
-        "Automatisierung"
+        "KI",
+        "Praxis"
       ],
       "wordCountTarget": 1100,
-      "angle": "KI im Controlling 2026: Automatisierte Reports, KI-gestützte Forecasts und intelligente Abweichungsanalysen sparen CFOs und Controllern bis zu 40 % Analysezeit. Welche BI-Tools mit KI wirklich funktionieren und wie du prädiktive Planung einführst.",
+      "angle": "Forecasts gegen Baselines testen, Datenherkunft dokumentieren und Freigaben erhalten.",
       "researchFocus": [
-        "KI Controlling Reporting Automatisierung 2026",
-        "AI Forecasting Finanzplanung Unternehmen Praxis",
-        "KI Business Intelligence CFO Zeitersparnis 2026"
+        "Primärquellen und Grenzen prüfen",
+        "Testverfahren und menschliche Kontrolle",
+        "Datenqualität und Risiken"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "ki-versicherung-schadenpruefung",
+      "title": "KI in der Schadenbearbeitung: Assistenz mit menschlicher Prüfung",
+      "keywords": [
+        "KI in der Schadenbearbeitung: Assistenz mit menschlicher Prüfung",
+        "Versicherung KI",
+        "KI Risiken"
+      ],
+      "tags": [
+        "Versicherung",
+        "KI",
+        "Praxis"
+      ],
+      "wordCountTarget": 1100,
+      "angle": "Bearbeitungsprozesse, Fehlerfolgen, Datenschutz und menschliche Überprüfung untersuchen; keine pauschalen Zeitversprechen.",
+      "researchFocus": [
+        "Primärquellen und Grenzen prüfen",
+        "Testverfahren und menschliche Kontrolle",
+        "Datenqualität und Risiken"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "ki-agenten-evaluation-praxis",
+      "title": "KI-Agenten evaluieren: Testfälle und Traces statt Demo-Erfolg",
+      "keywords": [
+        "KI Agenten Evaluation",
+        "Agent Evals",
+        "Trace Grading"
+      ],
+      "tags": [
+        "KI-Agenten",
+        "Evaluation",
+        "Praxis"
+      ],
+      "wordCountTarget": 1100,
+      "angle": "Ein reproduzierbares Testset mit Sollverhalten, Tool-Aufrufen und Fehlerszenarien für einen begrenzten Workflow entwickeln.",
+      "researchFocus": [
+        "Agenten-Traces und Evaluationsmethoden",
+        "Testfälle, Grenzen und menschliche Bewertung",
+        "Abgrenzung zu AgentOps"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "ki-agenten-absicherung-praxis",
+      "title": "MCP absichern: Berechtigungen, Token und Freigaben",
+      "keywords": [
+        "MCP Sicherheit",
+        "MCP Autorisierung",
+        "MCP Token-Sicherheit"
+      ],
+      "tags": [
+        "Automatisierung",
+        "KI",
+        "Praxis"
+      ],
+      "wordCountTarget": 1100,
+      "angle": "MCP-spezifische Angriffsflächen und Gegenmaßnahmen für einen begrenzten Workflow anhand der Protokolldokumentation prüfen.",
+      "researchFocus": [
+        "MCP Security Best Practices und Autorisierung",
+        "Token-Schutz und menschliche Freigaben",
+        "Abgrenzung zum MCP-Einführungsartikel"
       ],
       "status": "pending"
     }
@@ -129,15 +136,13 @@
   "meta": {
     "version": "1.2",
     "created": "2026-05-29",
-    "description": "Themen-Queue für automatische Blog-Artikel-Generierung",
+    "description": "Redaktionelle Themenvorschläge; Zeitplan deaktiviert, keine automatische Veröffentlichung autorisiert",
     "schedule": {
-      "frequency": "2x weekly",
-      "days": [
-        "Tuesday",
-        "Friday"
-      ],
-      "time": "09:00",
-      "timezone": "Europe/Berlin"
+      "frequency": "disabled",
+      "days": [],
+      "time": null,
+      "timezone": "Europe/Berlin",
+      "enabled": false
     },
     "lastRefill": "2026-10-09T07:04:44.708550+00:00"
   }

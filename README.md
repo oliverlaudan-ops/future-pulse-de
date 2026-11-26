@@ -72,6 +72,10 @@ future-pulse-de/
 
 ---
 
+## Redaktionsbetrieb für Agenten
+
+Der aktuelle Ablauf und seine Phase-1-Grenzen stehen in [docs/REDAKTIONSBETRIEB.md](docs/REDAKTIONSBETRIEB.md). Die folgenden allgemeinen Repository-Anleitungen sind keine Agentenfreigabe: insbesondere kein direkter Push/Merge nach `main` und keine Veröffentlichung in Phase 1. Abacus-Automatisierung ist deaktiviert; produktive Zeitplanung ist nicht aktiviert.
+
 ## ✏️ Neuen Blog-Artikel erstellen
 
 ### Option 1: Via GitHub Web Interface (Einfach)
@@ -127,6 +131,8 @@ git push origin main
 ```
 
 ---
+
+> **Hinweis für Agenten:** Die folgenden Deployment-Informationen beschreiben den allgemeinen Repository-/Website-Ablauf, nicht den Agentenbetrieb. Agenten dürfen in Phase 1 nicht direkt nach `main` pushen oder mergen; es erfolgt keine Veröffentlichung. Siehe [Redaktionsbetrieb](docs/REDAKTIONSBETRIEB.md).
 
 ## 🚀 Deployment
 
