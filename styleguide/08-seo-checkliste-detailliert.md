@@ -174,7 +174,7 @@ Antworten erhÃ¤ltst. Mit Vorlagen. Jetzt lesen!"
 - [ ] `keywords:` 3-5 Keywords
 - [ ] `author:` "Oliver Laudan"
 - [ ] `ShowToc: true` aktiviert
-- [ ] `TocOpen: false` (oder true, je nach PrÃ¤ferenz)
+- [ ] `TocOpen: true` (Pflicht; Inhaltsverzeichnis standardmäßig geöffnet)
 
 #### URL-Struktur
 

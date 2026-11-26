@@ -1,6 +1,6 @@
 # Future Pulse SEO – Regeln für neue Artikel
 
-**Stand:** 2026-05-18 | **Verantwortlich:** Viv (AI Agent)
+**Stand:** 2026-05-18 | **Verantwortlich:** NEO (Redaktionskoordination)
 
 ---
 
@@ -99,7 +99,7 @@ Plus 2–3 interne Links im Fließtext mit beschreibenden Anchor-Texten.
 - Mindestens 1 Liste pro Artikel
 - Fettungen für wichtige Begriffe
 - Fazit/Zusammenfassung am Ende
-- `ShowToc: true` immer aktiviert
+- `ShowToc: true` und `TocOpen: true` immer explizit als YAML-Booleans aktiviert
 
 ---
 

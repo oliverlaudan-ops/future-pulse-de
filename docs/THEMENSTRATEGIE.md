@@ -1,0 +1,48 @@
+# Themenstrategie Future Pulse – Stand 26.11.2026
+
+## Rahmen und Betriebszustand
+Praxisnahe KI-Kompetenz und Future Skills für deutschsprachige Leser; konkrete Entscheidungen, Grenzen und überprüfbare Beispiele statt Tool-Hype. Grundlage: Styleguide, SEO-Regeln, Queue-Dokumentation und Bestandsprüfung unter `content/blog/`. Kein Artikelauftrag und keine Veröffentlichung. Der Zeitplan ist in der Queue ausdrücklich deaktiviert. **Betriebsfestlegung:** Abacus ist laut Auftrag deaktiviert und nur historisch dokumentiert. Der externe Zustand wurde nicht geprüft; der JSON-Schalter allein belegt keine externe Deaktivierung. Eine externe Taskänderung war nicht beauftragt. Die Queue behält das dokumentierte Schema und `pending`, weil andere Statuswerte nicht dokumentiert sind. `lastRefill` bleibt als historischer Wert unverändert.
+
+## Archiv: Bewertung der fünf vorherigen Einträge
+Die früheren IDs sind hier dokumentiert; alte Behauptungen sind keine belastbaren Fakten.
+
+| Alter Eintrag | Entscheidung und Begründung |
+|---|---|
+| `ki-qualitaetskontrolle-produktion-2026` | Revidieren: „Null Fehler“ und garantierte Ausschussvermeidung sind unbelegt. Bestehender Artikel `computer-vision-industrie-2026` erfordert Fokus auf Prüfkonzept statt allgemeiner Einführung. |
+| `ki-it-support-helpdesk-2026` | Revidieren: 70 % autonom gelöste Tickets und Halbierung der Reaktionszeit nicht belegt. Abgrenzung zu `ki-customer-support`: interner IT-Helpdesk, Berechtigungen und Eskalation. |
+| `ki-immobilien-proptech-2026` | Revidieren: bessere Entscheidungen und Tool-Leistung sind nicht belegt. Schwerpunkt Bewertungsunsicherheit statt Kaufratgeber und Produktversprechen. |
+| `ki-versicherung-insurtech-2026` | Revidieren: Minuten statt Wochen, Kostensenkung und Kundenzufriedenheit nicht belegt. Schadenbearbeitung und menschliche Kontrolle statt pauschaler Branchenversprechen. |
+| `ki-controlling-reporting-2026` | Revidieren: 40 % Zeitersparnis unbelegt. Forecast-Validierung statt allgemeiner Finanzautomatisierung; abgrenzen von `ki-buchhaltung-finanzprozesse-2026` und `ki-finanzen-banking-2026`. |
+
+## Priorisierte Themen und Recherchebedarf
+Alle Quellen am 26.11.2026 live abgerufen. NIST ist freiwillige US-Leitlinie, kein Nachweis konkreter Branchenergebnisse und kein Ersatz für EU-Recht. Leserinteresse ist redaktionell eingeschätzt, nicht durch Suchvolumen belegt. Alle Vorschläge benötigen vor Freigabe eigene Fallbelege, erneute Dublettenprüfung und Faktencheck.
+
+1. **Qualitätskontrolle: Prüfkonzept statt Null-Fehler** – Relevanz: übersehene Defekte und Fehlalarme; Interesse hoch bei Fertigungsteams. Primärquelle: [MVTec AD: Datensatz und Evaluationscode](https://www.mvtec.com/research-teaching/datasets/mvtec-ad) (26.11.2026). Benchmarkbilder ersetzen keine anlagenspezifische Validierung; Fehlerraten sind nicht übertragbar. Abgrenzung zu `computer-vision-industrie-2026`: Testdesign statt Use-Case- und ROI-Überblick; dortige Kennzahlen nicht ungeprüft übernehmen.
+2. **IT-Support: sicher begrenzter Pilot** – Relevanz: Ticketinhalte und Rechte; Interesse hoch für IT-Teams. [OWASP LLM01:2025 Prompt Injection](https://genai.owasp.org/llmrisk/llm01-prompt-injection/) (26.11.2026) beschreibt Angriff und Gegenmaßnahmen als Originalprojekt. Es belegt weder Helpdesk-Leistung noch vollständigen Schutz; Tests und Datenschutzprüfung vor Ort nötig. Abgrenzung zu `ki-customer-support`: interner Helpdesk und technische Angriffsflächen statt externer Kundendienst.
+3. **Controlling: Forecasts nachvollziehbar prüfen** – Relevanz: belastbare Entscheidungen; Interesse hoch bei Finanzteams. [Forecasting: Principles and Practice, Kapitel 5](https://otexts.com/fpp3/toolbox.html#sec-tscv) (26.11.2026), Autorenquelle zu zeitlicher Kreuzvalidierung und Baselines. Methodik ist nicht speziell für KI im Controlling und belegt keine Zeitersparnis; Datenqualität und Prognosehorizont bleiben offen. Gegen Buchhaltungs- und Banking-Beiträge auf Forecast-Testdesign eingrenzen.
+4. **Schadenbearbeitung: Assistenz und Kontrolle** – Relevanz: Folgen falscher Entscheidungen; Interesse mittel bis hoch. [EIOPA-Expertengruppe: KI-Governance im Versicherungssektor](https://www.eiopa.europa.eu/publications/artificial-intelligence-governance-principles-towards-ethical-and-trustworthy-artificial_en) (26.11.2026), sektorspezifischer Bericht der Aufsicht. Keine Aussage, dass jede Schadenbearbeitung hochriskant ist; konkrete Prozesse und geltendes Recht vor Veröffentlichung gesondert prüfen. Keine Effizienzkennzahlen abgeleitet.
+5. **Agenten evaluieren: Testfälle und Traces** – Relevanz: unbemerkte Fehler in mehrstufigen Abläufen; Interesse hoch bei Entwicklungsteams. [OpenAI: Evaluate agent workflows](https://developers.openai.com/api/docs/guides/agent-evals) (26.11.2026), herstellereigene technische Dokumentation zu Traces und Evaluation. Produktgebunden und kein unabhängiger Wirksamkeitsnachweis; Tests decken nicht alle Fälle ab. Abgrenzung zu `ki-governance-agentops-2026`: konkretes Testset und Auswertung statt Betriebsmodell. Immobilienbewertung zunächst zurückgestellt, da belastbare Fachquelle nicht rechtzeitig zugänglich.
+6. **MCP absichern: Berechtigungen, Token und Freigaben** – Relevanz: Toolzugriffe und potenzielle Seiteneffekte; Interesse hoch bei Automatisierungsteams. [MCP Security Best Practices, Version 2025-11-25](https://modelcontextprotocol.io/docs/2025-11-25/tutorials/security/security_best_practices.md) (26.11.2026), protokolleigene Sicherheitsdokumentation. Maßnahmen sind kein Sicherheitsbeweis; konkrete Implementierung und aktuelle Protokollversion prüfen. Abgrenzung zu `model-context-protocol-mcp-2026`: Sicherheitsbedrohungen statt Einführung und Serverbau; dortige Verbreitungszahlen nicht ungeprüft wiederholen.
+
+## Redaktionelle Leitplanken
+Keine ungeprüften Prozentzahlen, ROI-, Zeit- oder Autonomiebehauptungen übernehmen. Quellen belegen konkrete Methoden und Risiken, nicht pauschale Effekte einzelner Anwendungsfälle. EU-Fristen und Gesetzesstand vor Veröffentlichung erneut anhand amtlicher Quellen prüfen; keine Rechtsberatung. Themenpriorität ist kein Veröffentlichungsplan.
+
+
+## Laufende Themenprüfung und Priorisierung
+Vor jedem regulären Redaktionslauf prüft NEO die Themenreserve erneut auf
+Aktualität, belastbare und weiterhin zugängliche Primärquellen sowie Duplikate
+und thematische Überschneidungen mit bestehenden Artikeln und laufenden Entwürfen.
+Nicht mehr geeignete Themen werden mit Begründung zurückgestellt oder überarbeitet;
+ein Queue-Eintrag ersetzt weder Recherche noch Faktencheck.
+
+NEO darf die Themenpriorität aufgrund neuer Entwicklungen eigenständig ändern.
+Die Queue ist eine veränderliche Themenreserve, kein starrer Veröffentlichungsplan.
+Die Keywords beschreiben die jeweilige Suchintention; sie sind keine gemessenen
+Suchvolumen- oder Rankingzusagen.
+
+Diese redaktionelle Priorisierungsfreiheit schafft keine zusätzlichen
+Veröffentlichungsrechte. Die Freigabegrenzen aus
+[REDAKTIONSBETRIEB.md](REDAKTIONSBETRIEB.md) und
+[NEO-PUBLISHING-GUARDRAILS.md](NEO-PUBLISHING-GUARDRAILS.md) sowie die unabhängigen
+Review-, Hash- und CI-Gates bleiben unverändert. Produktive Zeitplanung, Merge
+und Veröffentlichung bleiben ohne gesonderte ausdrückliche Freigabe deaktiviert.

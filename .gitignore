@@ -16,3 +16,7 @@ Thumbs.db
 # Dependencies
 node_modules/
 package-lock.json
+
+# Isolated CI previews and Python tests
+preview/
+__pycache__/
