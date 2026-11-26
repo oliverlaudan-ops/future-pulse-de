@@ -26,3 +26,23 @@ Alle Quellen am 26.11.2026 live abgerufen. NIST ist freiwillige US-Leitlinie, ke
 
 ## Redaktionelle Leitplanken
 Keine ungeprüften Prozentzahlen, ROI-, Zeit- oder Autonomiebehauptungen übernehmen. Quellen belegen konkrete Methoden und Risiken, nicht pauschale Effekte einzelner Anwendungsfälle. EU-Fristen und Gesetzesstand vor Veröffentlichung erneut anhand amtlicher Quellen prüfen; keine Rechtsberatung. Themenpriorität ist kein Veröffentlichungsplan.
+
+
+## Laufende Themenprüfung und Priorisierung
+Vor jedem regulären Redaktionslauf prüft NEO die Themenreserve erneut auf
+Aktualität, belastbare und weiterhin zugängliche Primärquellen sowie Duplikate
+und thematische Überschneidungen mit bestehenden Artikeln und laufenden Entwürfen.
+Nicht mehr geeignete Themen werden mit Begründung zurückgestellt oder überarbeitet;
+ein Queue-Eintrag ersetzt weder Recherche noch Faktencheck.
+
+NEO darf die Themenpriorität aufgrund neuer Entwicklungen eigenständig ändern.
+Die Queue ist eine veränderliche Themenreserve, kein starrer Veröffentlichungsplan.
+Die Keywords beschreiben die jeweilige Suchintention; sie sind keine gemessenen
+Suchvolumen- oder Rankingzusagen.
+
+Diese redaktionelle Priorisierungsfreiheit schafft keine zusätzlichen
+Veröffentlichungsrechte. Die Freigabegrenzen aus
+[REDAKTIONSBETRIEB.md](REDAKTIONSBETRIEB.md) und
+[NEO-PUBLISHING-GUARDRAILS.md](NEO-PUBLISHING-GUARDRAILS.md) sowie die unabhängigen
+Review-, Hash- und CI-Gates bleiben unverändert. Produktive Zeitplanung, Merge
+und Veröffentlichung bleiben ohne gesonderte ausdrückliche Freigabe deaktiviert.

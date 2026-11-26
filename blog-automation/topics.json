@@ -4,9 +4,9 @@
       "id": "ki-qualitaetskontrolle-pruefkonzept",
       "title": "KI-Qualitätskontrolle: Prüfkonzept statt Null-Fehler-Versprechen",
       "keywords": [
-        "KI-Qualitätskontrolle: Prüfkonzept statt Null-Fehler-Versprechen",
-        "Produktion KI",
-        "KI Risiken"
+        "KI-Qualitätskontrolle prüfen",
+        "Computer Vision Fehlerraten",
+        "Defekterkennung Testdaten"
       ],
       "tags": [
         "Produktion",
@@ -26,9 +26,9 @@
       "id": "ki-it-support-sicherer-pilot",
       "title": "KI im IT-Support: Einen Helpdesk-Piloten sicher begrenzen",
       "keywords": [
-        "KI im IT-Support: Einen Helpdesk-Piloten sicher begrenzen",
-        "IT-Support KI",
-        "KI Risiken"
+        "KI-Helpdesk Pilotprojekt",
+        "Ticketklassifikation evaluieren",
+        "Helpdesk Zugriffsrechte"
       ],
       "tags": [
         "IT-Support",
@@ -48,9 +48,9 @@
       "id": "ki-controlling-forecast-pruefen",
       "title": "KI im Controlling: Forecasts nachvollziehbar prüfen",
       "keywords": [
-        "KI im Controlling: Forecasts nachvollziehbar prüfen",
-        "Controlling KI",
-        "KI Risiken"
+        "KI-Forecasts validieren",
+        "Zeitreihen Kreuzvalidierung",
+        "Prognosegüte Baseline-Vergleich"
       ],
       "tags": [
         "Controlling",
@@ -70,9 +70,9 @@
       "id": "ki-versicherung-schadenpruefung",
       "title": "KI in der Schadenbearbeitung: Assistenz mit menschlicher Prüfung",
       "keywords": [
-        "KI in der Schadenbearbeitung: Assistenz mit menschlicher Prüfung",
-        "Versicherung KI",
-        "KI Risiken"
+        "KI-Schadenbearbeitung Versicherung",
+        "Schadenprüfung menschliche Kontrolle",
+        "Versicherungsdaten Datenschutz"
       ],
       "tags": [
         "Versicherung",
@@ -92,9 +92,9 @@
       "id": "ki-agenten-evaluation-praxis",
       "title": "KI-Agenten evaluieren: Testfälle und Traces statt Demo-Erfolg",
       "keywords": [
-        "KI Agenten Evaluation",
-        "Agent Evals",
-        "Trace Grading"
+        "KI-Agenten evaluieren",
+        "Agenten Testfälle erstellen",
+        "Tool-Aufrufe Trace-Auswertung"
       ],
       "tags": [
         "KI-Agenten",
@@ -114,9 +114,9 @@
       "id": "ki-agenten-absicherung-praxis",
       "title": "MCP absichern: Berechtigungen, Token und Freigaben",
       "keywords": [
-        "MCP Sicherheit",
-        "MCP Autorisierung",
-        "MCP Token-Sicherheit"
+        "MCP-Server absichern",
+        "MCP OAuth Autorisierung",
+        "MCP Token-Passthrough verhindern"
       ],
       "tags": [
         "Automatisierung",
