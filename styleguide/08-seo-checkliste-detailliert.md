@@ -9,10 +9,18 @@
 ### Keyword-Recherche
 
 - [ ] **Hauptkeyword** identifiziert (Google Keyword Planner, Ubersuggest)
-- [ ] **Suchvolumen** geprÃ¼ft (min. 100 Suchanfragen/Monat)
+- [ ] **Suchvolumen** geprüft (Richtwert für reguläre Themen: mindestens 100 Suchanfragen pro Monat; dokumentierte Ausnahme für neue Zukunftstechnologien siehe unten)
 - [ ] **Konkurrenz** analysiert (top 10 Google-Ergebnisse checken)
 - [ ] **Long-Tail Keywords** (3-5 StÃ¼ck) gefunden
 - [ ] **Synonyme & Variationen** notiert
+
+#### Ausnahme für neue Zukunftstechnologien
+
+Future Pulse behandelt Zukunftstechnologien. Ein Thema kann für unsere Zielgruppe relevant sein, bevor ein nennenswertes Suchvolumen messbar ist. Bei neuen Technologien oder neu entstehenden Anwendungsfällen kann das SEO-Gate trotz eines belegten Volumens unter 100 Suchanfragen pro Monat oder ohne belastbaren Volumenwert bestanden werden, wenn die Ausnahme nachvollziehbar begründet und unabhängig geprüft wurde.
+
+- Der Writer dokumentiert das Hauptkeyword, Suchintention, geprüfte Quellen, Abrufdatum und gegebenenfalls Region. Er hält den belegten Wert fest oder kennzeichnet das Monatsvolumen als „nicht verifiziert“. GSC-Impressionen und relative Trendwerte sind ergänzende Signale und dürfen nicht als monatliche Suchanfragen ausgewiesen werden.
+- Der Writer belegt die Aktualität oder den praktischen Nutzen für die Future-Pulse-Zielgruppe mit mindestens einer überprüfbaren Quelle, etwa einer Spezifikation, offiziellen Dokumentation, einem Release oder einem konkreten Anwendungsfall.
+- Der unabhängige Reviewer prüft die Belege und hält im SEO-Befund fest, ob die Ausnahme greift. Bei nachvollziehbar belegter Ausnahme blockiert das fehlende oder geringe Suchvolumen den Entwurf und das SEO-Gate nicht. Die Konkurrenzprüfung und die übrigen Review-Gates gelten weiterhin.
 
 **Tool-Tipps:**
 - Google Keyword Planner (kostenlos)
