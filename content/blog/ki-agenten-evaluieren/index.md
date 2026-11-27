@@ -98,6 +98,16 @@ Ein mögliches, selbst gewähltes Beispiel für einen internen Pilotversuch wär
 
 Diese Werte sind keine allgemeingültige Norm. Bei sensiblen Prozessen können strengere Regeln und zusätzliche Tests nötig sein. Auch null beobachtete Verstöße beweisen nicht, dass außerhalb des Testsets keine auftreten können.
 
+## Testprotokoll für deinen Agenten
+
+Halte pro Versuch die Test-ID, die Modell- und Workflow-Version, den Ausgangszustand, das erwartete Ergebnis und den beobachteten Endzustand fest. Ergänze einen Verweis auf das bereinigte Ablaufprotokoll und markiere, welche Einzelprüfungen erfolgreich waren.
+
+Unterscheide fachliche Fehler von technischen Ausfällen. Wenn deine Testumgebung selbst nicht erreichbar ist, kennzeichne den Versuch als nicht auswertbar und dokumentiere den Grund. Verschweige solche Versuche nicht in der Zusammenfassung: Auch die Zuverlässigkeit der Infrastruktur beeinflusst den späteren Betrieb.
+
+Bei einem Wiederholungstest innerhalb eines einzelnen Szenarios bleibt der Zustand dagegen bewusst erhalten. Nur so kannst du prüfen, ob eine erneut zugestellte Ereignis-ID einen zweiten Entwurf auslöst.
+
+Der Schwerpunkt liegt hier auf reproduzierbaren Prüfaufgaben vor der Freigabe. Unser Beitrag zu [AgentOps](/blog/ki-governance-agentops-2026/) betrachtet dagegen den gesamten betrieblichen Lebenszyklus einschließlich Überwachung und Kostenkontrolle.
+
 ## Praxisbeispiel: Ein Helpdesk-Pilot
 
 Angenommen, du testest zehn Aufgaben jeweils fünfmal. Damit erhältst du 50 Einzelergebnisse. In einem fiktiven Durchlauf werden 46 Aufgaben erfolgreich bearbeitet, drei liefern unvollständige Entwürfe und einmal versucht der Agent einen nicht autorisierten Schreibzugriff.
@@ -120,7 +130,7 @@ Bei Wiederholungen externer Aktionen hilft dir unser Beitrag zur [Idempotenz in 
 
 Ein Testset ist zudem kein Ersatz für die spätere Betriebsüberwachung. Während die Evaluation definierte Aufgaben untersucht, beobachtet die Überwachung reale Abläufe. Beide ergänzen sich, erfüllen aber unterschiedliche Funktionen.
 
-## Fazit: Verlässlichkeit muss überprüfbar sein
+## Fazit: Verlässlichkeit durch Tests
 
 KI-Agenten evaluieren bedeutet, Erwartungen in konkrete Prüfaufgaben zu übersetzen. Du kontrollierst nicht nur die Qualität einer Antwort, sondern auch den tatsächlichen Effekt eines Agentenlaufs und die Einhaltung seiner Grenzen.
 
