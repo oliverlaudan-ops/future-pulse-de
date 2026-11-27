@@ -8,6 +8,11 @@ slug: "ki-agenten-evaluieren"
 tags: ["AI Agents", "Automatisierung", "KI-Tools"]
 keywords: ["KI-Agenten evaluieren", "Agenten Testfälle erstellen", "Tool-Aufrufe Trace-Auswertung"]
 author: "Oliver Laudan"
+cover:
+  image: ""
+  alt: "KI-Agenten evaluieren: Testfälle, Werkzeugaufrufe und Freigabekriterien"
+  caption: "Systematische Evaluation von KI-Agenten"
+  relative: false
 ShowToc: true
 TocOpen: true
 ai_generated: true
@@ -73,8 +78,6 @@ Ein Trace ist ein Protokoll beobachtbarer Schritte eines Agentenlaufs. Er kann b
 Für deinen Helpdesk-Test ist wichtig, ob der Agent die richtige Wissensquelle abfragt, die zulässigen Parameter verwendet und auf einen Werkzeugfehler angemessen reagiert. Prüfe dabei nicht nur erfolgreiche Aufrufe, sondern auch unerlaubte Versuche, selbst wenn die technische Zugriffskontrolle sie abweist.
 
 Du brauchst dafür keine privaten Modellgedanken. Beobachtbare Aktionen und überprüfbare Zustände sind die entscheidenden Anhaltspunkte. Vermeide außerdem, Zugangstoken oder personenbezogene Ticketinhalte ungeschützt in Protokollen abzulegen.
-
-Bei komplexeren Abläufen findest du ergänzende Grundlagen in unserem Beitrag zu [Multi-Agent-Systemen und Orchestrierung](/blog/multi-agent-systeme-orchestrierung-2026/).
 
 ### Ergebnisse und Grenzen bewerten
 
