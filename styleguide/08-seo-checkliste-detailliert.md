@@ -8,11 +8,19 @@
 
 ### Keyword-Recherche
 
-- [ ] **Hauptkeyword** identifiziert (Google Keyword Planner, Ubersuggest)
-- [ ] **Suchvolumen** geprÃ¼ft (min. 100 Suchanfragen/Monat)
-- [ ] **Konkurrenz** analysiert (top 10 Google-Ergebnisse checken)
-- [ ] **Long-Tail Keywords** (3-5 StÃ¼ck) gefunden
-- [ ] **Synonyme & Variationen** notiert
+- [ ] **Hauptkeyword und Suchintention** festgehalten. Für wen löst der Artikel welches Problem und was trägt er gegenüber bestehenden Beiträgen bei?
+- [ ] **Suchvolumen** bei verlässlicher Datenlage erfasst. Rund 100 Suchanfragen pro Monat sind ein Richtwert für die Themenwahl.
+- [ ] **Konkurrenz und Themenüberschneidungen** anhand der verfügbaren Belege geprüft. Die ersten zehn organischen Google-Ergebnisse sind ein Richtwert für den Umfang der Stichprobe.
+- [ ] **Long-Tail-Keywords**, Synonyme und Varianten recherchiert, soweit sie zur Suchintention passen.
+
+#### Bewertung im SEO-Review
+
+Future Pulse behandelt Zukunftstechnologien. Ein Thema kann für die Zielgruppe relevant sein, bevor ein nennenswertes Suchvolumen messbar ist. Geringes oder unbekanntes Volumen und eine kleinere oder nicht abrufbare Google-Stichprobe sind für sich allein keine Ablehnungsgründe. Eine Sonderfreigabe ist dafür nicht erforderlich.
+
+- Der Writer erläutert Suchintention, Zielgruppenrelevanz und den eigenen Beitrag des Artikels. Bei neuen Technologien kann er den praktischen Nutzen beispielsweise mit einer Spezifikation, einem Release oder einem konkreten Anwendungsfall belegen.
+- Der Writer dokumentiert die tatsächlich geprüften Quellen und Ergebnisse sowie wesentliche Datenlücken. Konkrete Volumen- und Rankingangaben brauchen eine nachvollziehbare Quelle und den passenden Abfragekontext. Fehlt ein belastbarer Wert, wird er als „nicht verifiziert“ gekennzeichnet. GSC-Impressionen und relative Trendwerte bleiben als solche ausgewiesen.
+- Bei der Konkurrenzprüfung zählen tatsächlich geprüfte Treffer und vorhandene Future-Pulse-Beiträge. Ist keine Google-Stichprobe verfügbar, hält der Writer die Abrufgrenze fest und nutzt, soweit möglich, andere nachvollziehbare Quellen für den Themenvergleich.
+- Der unabhängige Reviewer prüft, ob der Entwurf die Suchintention erfüllt, sich ausreichend von vorhandenen Beiträgen unterscheidet und seine SEO-Aussagen belegt. Unbelegte Zahlen, irreführende Titel oder erhebliche Themenüberschneidungen können das SEO-Gate weiterhin blockieren.
 
 **Tool-Tipps:**
 - Google Keyword Planner (kostenlos)
