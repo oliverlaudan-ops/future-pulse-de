@@ -8,19 +8,19 @@
 
 ### Keyword-Recherche
 
-- [ ] **Hauptkeyword** identifiziert (Google Keyword Planner, Ubersuggest)
-- [ ] **Suchvolumen** geprüft (Richtwert für reguläre Themen: mindestens 100 Suchanfragen pro Monat; dokumentierte Ausnahme für neue Zukunftstechnologien siehe unten)
-- [ ] **Konkurrenz** analysiert (top 10 Google-Ergebnisse checken)
-- [ ] **Long-Tail Keywords** (3-5 StÃ¼ck) gefunden
-- [ ] **Synonyme & Variationen** notiert
+- [ ] **Hauptkeyword und Suchintention** festgehalten. Für wen löst der Artikel welches Problem und was trägt er gegenüber bestehenden Beiträgen bei?
+- [ ] **Suchvolumen** bei verlässlicher Datenlage erfasst. Rund 100 Suchanfragen pro Monat sind ein Richtwert für die Themenwahl.
+- [ ] **Konkurrenz und Themenüberschneidungen** anhand der verfügbaren Belege geprüft. Die ersten zehn organischen Google-Ergebnisse sind ein Richtwert für den Umfang der Stichprobe.
+- [ ] **Long-Tail-Keywords**, Synonyme und Varianten recherchiert, soweit sie zur Suchintention passen.
 
-#### Ausnahme für neue Zukunftstechnologien
+#### Bewertung im SEO-Review
 
-Future Pulse behandelt Zukunftstechnologien. Ein Thema kann für unsere Zielgruppe relevant sein, bevor ein nennenswertes Suchvolumen messbar ist. Bei neuen Technologien oder neu entstehenden Anwendungsfällen kann das SEO-Gate trotz eines belegten Volumens unter 100 Suchanfragen pro Monat oder ohne belastbaren Volumenwert bestanden werden, wenn die Ausnahme nachvollziehbar begründet und unabhängig geprüft wurde.
+Future Pulse behandelt Zukunftstechnologien. Ein Thema kann für die Zielgruppe relevant sein, bevor ein nennenswertes Suchvolumen messbar ist. Geringes oder unbekanntes Volumen und eine kleinere oder nicht abrufbare Google-Stichprobe sind für sich allein keine Ablehnungsgründe. Eine Sonderfreigabe ist dafür nicht erforderlich.
 
-- Der Writer dokumentiert das Hauptkeyword, Suchintention, geprüfte Quellen, Abrufdatum und gegebenenfalls Region. Er hält den belegten Wert fest oder kennzeichnet das Monatsvolumen als „nicht verifiziert“. GSC-Impressionen und relative Trendwerte sind ergänzende Signale und dürfen nicht als monatliche Suchanfragen ausgewiesen werden.
-- Der Writer belegt die Aktualität oder den praktischen Nutzen für die Future-Pulse-Zielgruppe mit mindestens einer überprüfbaren Quelle, etwa einer Spezifikation, offiziellen Dokumentation, einem Release oder einem konkreten Anwendungsfall.
-- Der unabhängige Reviewer prüft die Belege und hält im SEO-Befund fest, ob die Ausnahme greift. Bei nachvollziehbar belegter Ausnahme blockiert das fehlende oder geringe Suchvolumen den Entwurf und das SEO-Gate nicht. Die Konkurrenzprüfung und die übrigen Review-Gates gelten weiterhin.
+- Der Writer erläutert Suchintention, Zielgruppenrelevanz und den eigenen Beitrag des Artikels. Bei neuen Technologien kann er den praktischen Nutzen beispielsweise mit einer Spezifikation, einem Release oder einem konkreten Anwendungsfall belegen.
+- Der Writer dokumentiert die tatsächlich geprüften Quellen und Ergebnisse sowie wesentliche Datenlücken. Konkrete Volumen- und Rankingangaben brauchen eine nachvollziehbare Quelle und den passenden Abfragekontext. Fehlt ein belastbarer Wert, wird er als „nicht verifiziert“ gekennzeichnet. GSC-Impressionen und relative Trendwerte bleiben als solche ausgewiesen.
+- Bei der Konkurrenzprüfung zählen tatsächlich geprüfte Treffer und vorhandene Future-Pulse-Beiträge. Ist keine Google-Stichprobe verfügbar, hält der Writer die Abrufgrenze fest und nutzt, soweit möglich, andere nachvollziehbare Quellen für den Themenvergleich.
+- Der unabhängige Reviewer prüft, ob der Entwurf die Suchintention erfüllt, sich ausreichend von vorhandenen Beiträgen unterscheidet und seine SEO-Aussagen belegt. Unbelegte Zahlen, irreführende Titel oder erhebliche Themenüberschneidungen können das SEO-Gate weiterhin blockieren.
 
 **Tool-Tipps:**
 - Google Keyword Planner (kostenlos)
