@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "article_path": "content/blog/ki-agenten-evaluieren/index.md",
+  "article_sha256": "8884793f216adde044f2e0a039db6895d7b15de8379e8076e74380086e79f13c",
+  "reviewed_head": "13e47f659f8e5eff84167ee158e949d61da4a020",
+  "status": "failed",
+  "writer": "GPT-6.2",
+  "reviewer": "OpenClaw independent reviewer",
+  "review_date": "2026-11-27",
+  "gates": {
+    "primary_sources": "passed",
+    "factual_accuracy": "passed",
+    "seo": "failed",
+    "duplicate_check": "passed",
+    "internal_links": "passed",
+    "metadata": "failed",
+    "readability": "passed"
+  },
+  "sources": [
+    "https://www.anthropic.com/research/demystifying-evals-for-ai-agents",
+    "https://developers.openai.com/api/docs/guides/agent-evals"
+  ],
+  "findings": "Unabhängiger Draft-Review am exakten PR-Head und Artikel-SHA. Beide Primärquellen antworteten HTTP 200; Anthropic belegt Task/Trial/Grader/Trace/Outcome, OpenAI Trace-Grading und wiederholbare Datasets. Fiktive 46/50 = 92 %, kritischer Verstoß als separates Ausschlusskriterium, kein beobachtetes Resultat als real ausgegeben. Alle 80 bestehenden Artikel anhand des main-Bestands verglichen; engste Themen AgentOps, Idempotenz und Bau-Tutorial inhaltlich abgegrenzt. Vier interne Zielseiten antworteten HTTP 200; Anchors beschreibend. SEO: Titel 42 Zeichen, Description 160, 1211 lexikalische Wörter im Body, sieben H2, drei Tags/Keywords, Keyword früh, Du-Ansprache und Fazit vorhanden. Nicht bestanden: vier statt geforderter zwei bis drei interner Links im Fließtext; Pflicht-Cover-Frontmatter fehlt. Suchvolumen >=100/Monat und Top-10-Konkurrenzanalyse nach detaillierter SEO-Checkliste nicht belegt und hier nicht verifizierbar. Metadatenstatus pending und ai_reviewer leer, daher nach Repo-Validator kein abgeschlossener unabhängiger Review; draft:true ist bewusst und bleibt unverändert. Writer muss SEO-Mängel korrigieren und Recherchebelege liefern; danach neuer Hash und neuer unabhängiger Review. Keine Freigabe, kein Merge oder Publish.",
+  "checks": {
+    "title_chars": 42,
+    "description_chars": 160,
+    "body_words": 1211,
+    "h2_count": 7,
+    "body_internal_links": 4,
+    "related_internal_links": 3,
+    "existing_articles_compared": 80,
+    "internal_targets_http_status": 200,
+    "source_http_status": 200,
+    "illustrative_success_rate": "46/50 = 92%"
+  },
+  "corrections_requested": [
+    "Fließtext auf zwei bis drei relevante interne Links bringen, Weiterführende Artikel mit drei Links erhalten.",
+    "Pflicht-Cover-Frontmatter gemäß SEO-RULES.md und styleguide/00-ARTIKEL-VORLAGE-AKTUELL.md ergänzen.",
+    "Suchvolumen (mindestens 100/Monat) und Top-10-Konkurrenzanalyse für das Hauptkeyword mit überprüfbaren Belegen dokumentieren.",
+    "Nach Writer-Korrektur erneuten unabhängigen Review der neuen Artikelbytes anfordern; Reviewer-Metadaten und Nachweis nur wahrheitsgemäß auf denselben Hash abstimmen."
+  ],
+  "note": "Negativer Review-Nachweis: Der CI-Validator verlangt ausschließlich passed/passed_draft_only sowie sieben bestandene Gates und passende Artikelmetadaten. Dieser fehlgeschlagene Review darf deshalb CI nicht grün machen."
+}
