@@ -18,9 +18,9 @@ TocOpen: true
 ai_generated: true
 ai_model: "openai/gpt-6.2"
 human_reviewer: ""
-ai_reviewer: ""
-ai_review_status: "pending"
-review_date: ""
+ai_reviewer: "openai/gpt-6-sol"
+ai_review_status: "passed_draft_only"
+review_date: 2026-11-27
 ---
 
 Dein KI-Agent hat gerade eine Aufgabe erfolgreich erledigt. Er hat die passenden Informationen gefunden, ein Werkzeug aufgerufen und ein überzeugendes Ergebnis geliefert. Doch funktioniert derselbe Ablauf auch morgen, wenn eine Schnittstelle ausfällt oder eine Anfrage unvollständig ist?

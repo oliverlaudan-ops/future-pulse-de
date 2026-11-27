@@ -1,43 +1,48 @@
 {
   "schema_version": 1,
   "article_path": "content/blog/ki-agenten-evaluieren/index.md",
-  "article_sha256": "8884793f216adde044f2e0a039db6895d7b15de8379e8076e74380086e79f13c",
-  "reviewed_head": "13e47f659f8e5eff84167ee158e949d61da4a020",
-  "status": "failed",
-  "writer": "GPT-6.2",
-  "reviewer": "OpenClaw independent reviewer",
+  "article_sha256": "74092d649c0846c9cb2e2568815828cdd0a4296c71dc582c4ab6123421de9db2",
+  "reviewed_head": "c74e54a46e31abdeb73439d40416ca84cf7b3d1d",
+  "status": "passed_draft_only",
+  "writer": "openai/gpt-6.2",
+  "reviewer": "openai/gpt-6-sol",
+  "reviewer_run_id": "a71a12fa-065e-4539-b752-dad8d48f63aa",
+  "reviewer_session_id": "f83ecf19-dfda-4a25-8b36-3182a8888e2c",
   "review_date": "2026-11-27",
   "gates": {
     "primary_sources": "passed",
     "factual_accuracy": "passed",
-    "seo": "failed",
+    "seo": "passed",
     "duplicate_check": "passed",
     "internal_links": "passed",
-    "metadata": "failed",
+    "metadata": "passed",
     "readability": "passed"
   },
   "sources": [
     "https://www.anthropic.com/research/demystifying-evals-for-ai-agents",
     "https://developers.openai.com/api/docs/guides/agent-evals"
   ],
-  "findings": "Unabhängiger Draft-Review am exakten PR-Head und Artikel-SHA. Beide Primärquellen antworteten HTTP 200; Anthropic belegt Task/Trial/Grader/Trace/Outcome, OpenAI Trace-Grading und wiederholbare Datasets. Fiktive 46/50 = 92 %, kritischer Verstoß als separates Ausschlusskriterium, kein beobachtetes Resultat als real ausgegeben. Alle 80 bestehenden Artikel anhand des main-Bestands verglichen; engste Themen AgentOps, Idempotenz und Bau-Tutorial inhaltlich abgegrenzt. Vier interne Zielseiten antworteten HTTP 200; Anchors beschreibend. SEO: Titel 42 Zeichen, Description 160, 1211 lexikalische Wörter im Body, sieben H2, drei Tags/Keywords, Keyword früh, Du-Ansprache und Fazit vorhanden. Nicht bestanden: vier statt geforderter zwei bis drei interner Links im Fließtext; Pflicht-Cover-Frontmatter fehlt. Suchvolumen >=100/Monat und Top-10-Konkurrenzanalyse nach detaillierter SEO-Checkliste nicht belegt und hier nicht verifizierbar. Metadatenstatus pending und ai_reviewer leer, daher nach Repo-Validator kein abgeschlossener unabhängiger Review; draft:true ist bewusst und bleibt unverändert. Writer muss SEO-Mängel korrigieren und Recherchebelege liefern; danach neuer Hash und neuer unabhängiger Review. Keine Freigabe, kein Merge oder Publish.",
+  "findings": "Unabhängiger erneuter Review des synchronisierten PR-Head c74e54a46e31abdeb73439d40416ca84cf7b3d1d und der exakten hier gehashten Artikelfassung (ausschließlich Review-Metadaten ergänzt). Beide Primärquellen am 27.11.2026 mit HTTP 200 gelesen: Anthropic erläutert Task, Trial, Grader, Trace/Transcript und Outcome sowie wiederholte Versuche; OpenAI erläutert Trace-Grading und wiederholbare Datasets/Eval-Runs. Die Anleitung übersetzt diese Konzepte sachgerecht in ein fiktives Helpdesk-Beispiel. 10 Aufgaben × 5 Versuche = 50, 46/50 = 92 %; Sicherheitsverstoß blockiert trotz Quote. Keine empirische Erfolgsquote behauptet. SEO nach gemergtem PR #23 bewertet: 100/Monat und Google-Top-10 sind Richtwerte, keine harte Schwelle; Suchintention und konkreter Nutzen sind klar, Datenlücken werden hier offengelegt. Der SEO-Hub-GSC-Export vom 27.11. (bis 24.11.) zeigt nur begrenzte Query-Impressionen, kein absolutes Suchvolumen. Google lieferte Consent-Seite; Bing lieferte französisch fehlgedeutete Treffer, keine belastbare SERP-Stichprobe. Alle 81 bestehenden main-Blogartikel (82 Markdown-Dateien inkl. _index und einem Nicht-index-Eintrag) in Titel/Thema gesichtet, die engsten AgentOps-, Agenten-Bau-, Multi-Agent- und Idempotenz-Beiträge zusätzlich strukturell verglichen; keine inhaltliche Duplikation des fokussierten Eval-Testprotokolls. Drei interne Fließtextlinks und drei Weiterführende-Links zu vier eindeutigen Zielen; alle Ziele antworteten HTTP 200. Title 42 Zeichen, Description 160, Slug 21, ca. 1195 lexikalische Wörter, sieben H2, drei Tags und drei Keywords; Cover-Skelett mit bewusst leerem image vorhanden, TOC-Booleans true. Du-Ansprache, Beispiele, Tabelle und Fazit vorhanden. Eine identische Aufzählungszeile bei den Freigabekriterien ist ein nicht-blockierender redaktioneller Schönheitsfehler. Status passed_draft_only gilt ausschließlich für den unveröffentlichten Hugo-Draft, nicht als Publikationsfreigabe; kein Human-Review behauptet.",
   "checks": {
     "title_chars": 42,
     "description_chars": 160,
-    "body_words": 1211,
+    "slug_chars": 21,
+    "body_words_lexical_approx": 1195,
     "h2_count": 7,
-    "body_internal_links": 4,
+    "body_internal_links": 3,
     "related_internal_links": 3,
-    "existing_articles_compared": 80,
+    "unique_internal_targets": 4,
+    "existing_articles_compared": 81,
     "internal_targets_http_status": 200,
     "source_http_status": 200,
-    "illustrative_success_rate": "46/50 = 92%"
+    "illustrative_success_rate": "46/50 = 92%",
+    "seo_hub_export": "/tmp/future-pulse-ops/data-exports/seo-latest.json",
+    "seo_hub_sha256": "9b476e87fedff1ea586535e0dc1b0309ed2713df7b669142bd17a48831698036"
   },
-  "corrections_requested": [
-    "Fließtext auf zwei bis drei relevante interne Links bringen, Weiterführende Artikel mit drei Links erhalten.",
-    "Pflicht-Cover-Frontmatter gemäß SEO-RULES.md und styleguide/00-ARTIKEL-VORLAGE-AKTUELL.md ergänzen.",
-    "Suchvolumen (mindestens 100/Monat) und Top-10-Konkurrenzanalyse für das Hauptkeyword mit überprüfbaren Belegen dokumentieren.",
-    "Nach Writer-Korrektur erneuten unabhängigen Review der neuen Artikelbytes anfordern; Reviewer-Metadaten und Nachweis nur wahrheitsgemäß auf denselben Hash abstimmen."
-  ],
-  "note": "Negativer Review-Nachweis: Der CI-Validator verlangt ausschließlich passed/passed_draft_only sowie sieben bestandene Gates und passende Artikelmetadaten. Dieser fehlgeschlagene Review darf deshalb CI nicht grün machen."
+  "limitations": [
+    "Kein belastbares absolutes Monatsvolumen für das Hauptkeyword.",
+    "Keine verwertbare Google-Top-10-Stichprobe; Google Consent und Bing-Fehlinterpretation dokumentiert.",
+    "SEO-Hub-GSC-Impressionen sind keine Markt-Suchvolumenmessung.",
+    "Doppelte Aufzählungszeile bei Freigabekriterien optional bereinigen; keine Writer-Inhaltsänderung vorgenommen."
+  ]
 }
