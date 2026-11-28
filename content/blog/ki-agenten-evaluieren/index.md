@@ -1,7 +1,7 @@
 ---
 title: "KI-Agenten evaluieren: 5 Schritte zum Test"
 date: 2026-11-27
-draft: true
+draft: false
 description: "KI-Agenten evaluieren: Entwickle in 5 Schritten ein Testset, prüfe Tool-Aufrufe und erkenne Fehler vor dem produktiven Einsatz. Starte deinen Praxistest. [2026]"
 summary: "So entwickelst du nachvollziehbare Tests für KI-Agenten, prüfst ihre Aktionen und erkennst Sicherheitsprobleme vor dem Einsatz."
 slug: "ki-agenten-evaluieren"
@@ -19,8 +19,8 @@ ai_generated: true
 ai_model: "openai/gpt-6.2"
 human_reviewer: ""
 ai_reviewer: "openai/gpt-6-sol"
-ai_review_status: "passed_draft_only"
-review_date: 2026-11-27
+ai_review_status: "passed"
+review_date: 2026-11-28
 ---
 
 Dein KI-Agent hat gerade eine Aufgabe erfolgreich erledigt. Er hat die passenden Informationen gefunden, ein Werkzeug aufgerufen und ein überzeugendes Ergebnis geliefert. Doch funktioniert derselbe Ablauf auch morgen, wenn eine Schnittstelle ausfällt oder eine Anfrage unvollständig ist?
