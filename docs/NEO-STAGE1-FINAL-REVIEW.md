@@ -1,3 +1,5 @@
+> Historischer Befund / Legacy-Guard. Durch die Offline-Runner-Implementierung teilweise superseded; aktueller Stand und verbleibende Produktionsblocker: [NEO-CONTROLLED-RUNNER.md](NEO-CONTROLLED-RUNNER.md). Die damaligen Befunde bleiben als Historie erhalten. Matrix ist kein geplanter Kanal mehr.
+
 # Abschlussprüfung Implementierungsetappe 1 – PR #21
 
 Stand 28.11.2026. Geprüfter Implementierungscommit: `f645d395cc511165f69523aa326e1c56a5702e7f`.

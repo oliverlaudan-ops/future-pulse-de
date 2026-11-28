@@ -1,3 +1,5 @@
+> Historischer Befund / Legacy-Guard. Durch die Offline-Runner-Implementierung teilweise superseded; aktueller Stand und verbleibende Produktionsblocker: [NEO-CONTROLLED-RUNNER.md](NEO-CONTROLLED-RUNNER.md). Die damaligen Befunde bleiben als Historie erhalten. Matrix ist kein geplanter Kanal mehr.
+
 # Future Pulse: technische Cron-Laufzeitsperre (Vorbereitung, nicht produktiv)
 
 `scripts/editorial_run_guard.py` ist ein **fail-closed** Admission-Gate für die geplanten OpenClaw-Läufe. Der vorhandene Cron bleibt deaktiviert. Das Skript wird noch nicht von NEO oder GitHub Actions aufgerufen und erteilt keine Merge- oder Publikationsberechtigung.
