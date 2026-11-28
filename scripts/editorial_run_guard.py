@@ -15,6 +15,7 @@ from pathlib import Path
 from zoneinfo import ZoneInfo
 
 ZONE = ZoneInfo("Europe/Berlin")
+WARNING_AFTER = dt.timedelta(minutes=90)
 SCHEMA = """
 CREATE TABLE IF NOT EXISTS editorial_runs (
  slot TEXT PRIMARY KEY,
@@ -36,9 +37,11 @@ def now_utc():
 
 
 def slot_for(moment):
+    if moment.tzinfo is None or moment.utcoffset() is None:
+        raise ValueError("timezone-aware admission timestamp required")
     local = moment.astimezone(ZONE)
-    if local.weekday() not in (1, 4) or local.hour != 9 or local.minute > 5 or (local.minute == 5 and (local.second or local.microsecond)):
-        raise ValueError("outside authorized Tuesday/Friday 09:00:00–09:05:00 Europe/Berlin window")
+    if local.weekday() not in (1, 4) or local.hour != 9:
+        raise ValueError("outside authorized Tuesday/Friday [09:00:00,10:00:00) Europe/Berlin admission window")
     return local.date().isoformat()
 
 
@@ -90,6 +93,22 @@ def transition(conn, run_id, target, pr_number=None, commit_sha=None, note=None)
     return {"run_id": run_id, "state": target}
 
 
+def runtime_warnings(conn, run_id, moment):
+    """Read-only advisory; never expires a claim or grants continuation authority."""
+    row = conn.execute(
+        "SELECT state,claimed_at FROM editorial_runs WHERE run_id=?", (run_id,)
+    ).fetchone()
+    if row is None:
+        raise ValueError("run not found")
+    elapsed = moment - dt.datetime.fromisoformat(row[1])
+    if row[0] not in ("deployed", "blocked") and elapsed >= WARNING_AFTER:
+        return [{"code": "editorial_runtime_90m", "blocking": False,
+                 "elapsed_seconds": elapsed.total_seconds(),
+                 "message": "Editorial run has reached 90 minutes; observe progress, "
+                            "do not abort or release its reservation solely due to elapsed time."}]
+    return []
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--db", default=os.environ.get("FUTURE_PULSE_RUN_DB", "/root/.openclaw/state/future-pulse-runs.sqlite"))
@@ -115,6 +134,10 @@ def main():
                 result = dict(zip(("slot", "run_id", "state", "claimed_at", "updated_at", "pr_number", "commit_sha", "note"), row))
             else:
                 result = transition(conn, args.run_id, args.to, args.pr_number, args.commit_sha, args.note)
+            warnings = runtime_warnings(conn, result["run_id"], now_utc())
+            result["warnings"] = warnings
+            for warning in warnings:
+                print(json.dumps(warning), file=sys.stderr)
         print(json.dumps(result))
     except (ValueError, sqlite3.Error) as exc:
         print(json.dumps({"allowed": False, "reason": str(exc)}), file=sys.stderr)
