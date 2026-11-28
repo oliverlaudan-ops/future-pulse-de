@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "article_path": "content/blog/ki-agenten-evaluieren/index.md",
+  "article_sha256": "3887a4f5311b8a63c3210c6ec1c38eff539e25895e7dd74e429e6b762506af09",
+  "reviewed_head": "0dc91a8a8c07c1632b1b4fb7d3d3e9272d511c31",
+  "status": "passed",
+  "writer": "openai/gpt-6.2",
+  "reviewer": "openai/gpt-6-sol",
+  "reviewer_run_id": "2290d346-9015-4d06-9511-193a92fb2dcb",
+  "reviewer_session_id": "fe04b4dc-8809-4ae6-9571-9c9abacede59",
+  "review_date": "2026-11-28",
+  "gates": {
+    "primary_sources": "passed",
+    "factual_accuracy": "passed",
+    "seo": "passed",
+    "duplicate_check": "passed",
+    "internal_links": "passed",
+    "metadata": "passed",
+    "readability": "passed"
+  },
+  "sources": [
+    "https://www.anthropic.com/research/demystifying-evals-for-ai-agents",
+    "https://developers.openai.com/api/docs/guides/agent-evals"
+  ],
+  "findings": "Unabhängige finale Prüfung der exakt gehashten, erstmals zur Veröffentlichung vorgesehenen Artikelfassung nach PR #23; Artikelbody gegenüber Head 0dc91a8 unverändert, einzig draft, Status und Prüfdatum aktualisiert. Primärquellen am 28.11.2026 selbst per HTTPS/HTTP 200 gelesen: Anthropic definiert Task, Trial, Grader, Trace und Outcome und empfiehlt wiederholte Versuche; OpenAI erläutert Trace-Grading sowie wiederholbare Datasets/Eval-Runs. Artikel trennt beobachtbare Tool-Aktionen, behaupteten Erfolg und tatsächlichen Endzustand sachgerecht, behandelt Testset, Rücksetzung, Sicherheitsgrenzen und Regression. Helpdesk-Fall und 90-Prozent-Kriterium explizit fiktiv bzw. selbst gewählt; 10×5=50, 46/50=92 %, ein unerlaubter Schreibversuch blockiert die Freigabe trotz Quote. Keine empirische Erfolgsrate vorgetäuscht. SEO: Hauptkeyword und Suchintention für praktische Agenten-Evaluation klar; Titel 42, Description 160 Zeichen mit Zahl/Benefit/CTA/[2026], Slug 21 Zeichen; ca. 1244 lexikalische Body-Wörter, sieben H2, drei Tags/Keywords, Hauptkeyword in Einleitung, TOC-Booleans true, Cover-Skelett mit zulässig leerem image. SEO-Hub-GSC-Export vom 27.11. (Daten bis 24.11., SHA im Check) zeigt Query agent bewertung tutorial mit 3 Impressionen, aber keine absolute Monatsvolumenmessung; weder Volumen- noch Top-10-SERP-Zahl wird behauptet. Nach neuer SEO-Regel aus PR #23 sind diese Datenlücken allein kein Ausschlussgrund. Alle 81 anderen index.md-Artikel auf Titel/Thema gesichtet, die vier engsten zu AgentOps, Agentenbau, Multi-Agent-Orchestrierung und Idempotenz strukturell verglichen: kein Duplikat des auf fünfstufiges Eval-Testprotokoll fokussierten Beitrags. Drei interne Fließtextlinks und drei Weiterführende-Links, vier eindeutige Ziele; lokal vorhanden, alle vier live HTTP 200. Verständliches Deutsch mit durchgängiger Du-Ansprache, erklärtem Trace-Begriff, kurzen Absätzen (höchstens vier Sätze), Liste, Tabelle, Praxisbeispiel und Fazit. KI-/Writer-/Reviewer-Metadaten stimmen mit tatsächlich unabhängigem Reviewer-Receipt überein; human_reviewer bleibt leer. Lokaler Hugo-Build der finalen Metadaten erzeugte die Artikel-HTML-Seite; CI auf exakt dem neuen Commit bleibt zusätzlich abzuwarten.",
+  "checks": {
+    "title_chars": 42,
+    "description_chars": 160,
+    "slug_chars": 21,
+    "body_words_lexical_approx": 1244,
+    "h2_count": 7,
+    "body_internal_links": 3,
+    "related_internal_links": 3,
+    "unique_internal_targets": 4,
+    "existing_articles_compared": 81,
+    "internal_targets_http_status": 200,
+    "source_http_status": 200,
+    "illustrative_success_rate": "46/50 = 92%",
+    "seo_hub_export": "/tmp/future-pulse-ops/data-exports/seo-latest.json",
+    "seo_hub_sha256": "9b476e87fedff1ea586535e0dc1b0309ed2713df7b669142bd17a48831698036"
+  },
+  "limitations": [
+    "Kein belastbares absolutes Monatsvolumen für das Hauptkeyword; GSC-Impressionen sind keine Markt-Suchvolumenmessung.",
+    "Keine belastbare Google-Top-10-SERP-Stichprobe aus den verfügbaren Belegen; keine Rankingbehauptung im Artikel.",
+    "CI verifiziert Berichtskonsistenz, nicht inhaltliche Wahrheit oder kryptografisch die Reviewer-Identität."
+  ]
+}
