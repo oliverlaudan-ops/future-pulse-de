@@ -18,10 +18,48 @@ Quellen sind der installierte lokale Code unter `/usr/lib/node_modules/openclaw/
 
 ## Empfehlungen – nicht angewendet
 
-1. Vor späterer Produktionsfreigabe den **jobspezifischen** 60-Minuten-Konflikt beheben; bevorzugt explizites `payload.timeoutSeconds: 0` für diesen redaktionellen Orchestrator nach gesonderter Freigabe und isoliertem Test des tatsächlichen Runtimepfads. Keine globale Timeout-Aufweitung nötig. Technische Timer-/Providergrenzen bleiben zu berücksichtigen; langlebige Prozesse benötigen persistente, reconciliierbare Fortsetzung.
+1. Vor späterer Produktionsfreigabe den **jobspezifischen** 60-Minuten-Konflikt beheben; festgelegter Zielwert explizit `payload.timeoutSeconds: 14400` (240 Minuten) für diesen redaktionellen Orchestrator nach gesonderter Freigabe und isoliertem Test des tatsächlichen Runtimepfads. Keine globale Timeout-Aufweitung nötig. Technische Timer-/Providergrenzen bleiben zu berücksichtigen; langlebige Prozesse benötigen persistente, reconciliierbare Fortsetzung.
 2. Kindläufe nicht mit kurzen pauschalen Deadlines starten; explizite Overrides prüfen. Lange Recherche/Reviews müssen auch jenseits 90 Minuten möglich sein. Die Betriebswarnung ist kein Kill-Signal.
 3. Einzelne Netzwerkaufrufe weiter begrenzen, begrenzte lesende Wiederholungen zulassen; lange CI-/Deployment-Warteprozesse mit geeignetem Prozesslimit oder persistenter Fortsetzung ausführen. Weder Warte-Timeout noch langsamer Fortschritt rechtfertigen Abbruch oder Ersatzpublikation.
 4. Timeout/Prozessabbruch immer als potenziell unklaren externen Zustand behandeln: Run-ID/PR/Head/Merge/Deployment abgleichen, Sperren halten und nötigenfalls menschliche Reconciliation verlangen. Kein automatisches Freigeben nach TTL.
 5. Vor Aktivierung E2E-Test mit Lauf >90 Minuten, wartendem Subagenten und verzögerter CI, Warnzustellung und simuliertem Crash durchführen. Die Guard-Unit-Tests ersetzen diesen noch offenen Integrationstest nicht.
 
 Keine Produktionsfreigabe, keine Cron-Aktivierung, keine Änderung des gespeicherten Cron-Prompts.
+
+
+## Festgelegter jobspezifischer Zielwert und versionskompatible Anwendung
+
+Zielwert für die spätere Runner-Integration: **14.400 Sekunden (240 Minuten)**,
+nicht unbegrenzt. Die frühere Empfehlung 0 ist damit ersetzt.
+Die nicht blockierende 90-Minuten-Warnung bleibt bestehen.
+
+OpenClaw **2026.11.10** unterstützt den Wert: `openclaw cron edit --help`
+weist `--timeout-seconds <n>` für Agentenjobs als nichtnegative Ganzzahl aus.
+`resolveCronJobTimeoutMs` verwendet den expliziten Jobwert statt des
+60-Minuten-Defaults; der isolierte Agent übernimmt denselben Wert über
+`resolveAgentTimeoutMs({..., overrideSeconds: payload.timeoutSeconds})`.
+Ein rein lokaler Aufruf dieses installierten Agenten-Resolvers mit 14400 ergab
+**14.400.000 ms**. Dies ist ein Konfigurations-/Resolvernachweis, kein vierstündiger E2E-Test.
+
+Nur nach späterer gesonderter Freigabe wäre der vorhandene Job gezielt zu patchen
+(hier **nicht ausgeführt**):
+
+```bash
+openclaw cron edit 1f715abe-0043-4cb2-8297-8bb178803560 --timeout-seconds 14400
+```
+
+Versionskompatibles Tool-Äquivalent (ebenfalls **nicht ausgeführt**):
+`automations` mit `action: "update"`, obiger `jobId` und
+`job: {"payload": {"kind": "agentTurn", "timeoutSeconds": 14400}}`.
+Vorher den Job erneut lesen, Teilpatch verwenden und danach alle unveränderten
+Felder (insbesondere Prompt, Schedule, Tools und `enabled: false`) prüfen.
+`--timeout` ist dagegen die CLI/RPC-Wartezeit in Millisekunden und nicht die
+Redaktionslaufzeit. Keine Änderung an `agents.defaults.timeoutSeconds`,
+Subagenten-Defaults oder anderen Jobs vornehmen.
+
+Ein Erreichen von 240 Minuten ist ein technisches Unterbrechungsereignis:
+Reservierung und exklusive Sperre bleiben bis zur sicheren Reconciliation bestehen;
+keine automatische Terminfreigabe, kein neuer Artikel, kein erneuter Merge.
+Externe Effekte und noch laufende Kindprozesse müssen vor einer Fortsetzung abgeglichen
+werden. Das implementiert der aktuelle Guard nicht vollständig; der spätere Runner
+muss diesen Pfad einschließlich Timeout testen.
